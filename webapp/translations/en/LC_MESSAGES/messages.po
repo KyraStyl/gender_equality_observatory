@@ -1,0 +1,56 @@
+# English translations for PROJECT.
+# Copyright (C) 2021 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2021-05-17 02:22+0300\n"
+"PO-Revision-Date: 2021-05-17 02:23+0300\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: templates/base.html:28
+msgid "Home"
+msgstr "Home"
+
+#: templates/base.html:31
+msgid "Page1"
+msgstr "Page 1"
+
+#: templates/base.html:34
+msgid "Page2"
+msgstr "Page 2"
+
+#: templates/base.html:41
+msgid "Langtogreek"
+msgstr "Change language to Greek"
+
+#: templates/base.html:47
+msgid "Langtoenglish"
+msgstr "Change language to English"
+
+#: templates/base.html:63
+msgid "Footermsg"
+msgstr "Made with ❤ by 1 2 3 4"
+
+#: templates/error.html:9
+msgid "Page not found title"
+msgstr "This page could not be found!"
+
+#: templates/error.html:11
+msgid "Page not found text"
+msgstr "An error occurred! There is no such page!"
+
+#: templates/error.html:14
+msgid "Page not found link"
+msgstr "Go to a safer place."
+

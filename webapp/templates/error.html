@@ -1,0 +1,17 @@
+<head>
+    <title>Page Not Found</title>
+    <link rel="icon" href="../static/images/favicon.ico">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+
+<body>
+    <h1>{{ gettext("Page not found title") }}.</h1>
+    <p>
+        {{ gettext("Page not found text") }}
+    </p>
+    <p>
+        <a href="{{ url_for('home') }}">{{ gettext("Page not found link") }}</a>
+    </p>
+
+</body>
