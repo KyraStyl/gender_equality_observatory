@@ -1,0 +1,3126 @@
+node1,node2
+Steven M. LaValle,James Kuffner
+Steven M. LaValle,Anna Yershova
+Steven M. LaValle,Jingjin Yu
+Steven M. LaValle,seth hutchinson
+Steven M. LaValle,Jason O'Kane
+Steven M. LaValle,Michael Branicky
+Steven M. LaValle,Rafael Murrieta-Cid
+Steven M. LaValle,Lydia E. Kavraki
+Steven M. LaValle,Leonidas Guibas
+Steven M. LaValle,Lawrence H. Erickson
+Steven M. LaValle,Thierry Simeon
+Steven M. LaValle,Hamidreza Chitsaz
+Steven M. LaValle,Leonardo Bobadilla
+Steven M. LaValle,Robert Ghrist
+Steven M. LaValle,Max Katsev
+Steven M. LaValle,Léonard Jaillet
+Steven M. LaValle,Emilio Frazzoli
+Steven M. LaValle,Katherine J. Mimnaugh
+Steven M. LaValle,Dmitry Yershov
+Steven M. LaValle,Luigi Freda
+Timo Ojala,Matti Pietikäinen
+Timo Ojala,Hannu Kukka
+Timo Ojala,Vassilis Kostakos
+Timo Ojala,Marko Jurmu
+Timo Ojala,Tommi Heikkinen
+Timo Ojala,Simo Hosio
+Timo Ojala,Johanna Ylipulli
+Timo Ojala,Teemu Leppänen
+Timo Ojala,Jukka Riekki
+Timo Ojala,Matti Pouke
+Timo Ojala,Erkki Harjula
+Timo Ojala,Paula Alavesa
+Timo Ojala,Mika Ylianttila
+Timo Ojala,Jorge Goncalves
+Timo Ojala,Toni Alatalo
+Timo Ojala,Tapio Seppänen
+Timo Ojala,Minna Pakanen
+Timo Ojala,Timo Koskela
+Timo Ojala,Meirong Liu
+Timo Ojala,Aale Luusua
+Jukka Riekki,Teemu Leppänen
+Jukka Riekki,Xiang Su
+Jukka Riekki,Iván Sánchez Milara
+Jukka Riekki,Susanna Pirttikangas
+Jukka Riekki,Ekaterina Gilman
+Jukka Riekki,Jiehan Zhou
+Jukka Riekki,Mika Ylianttila
+Jukka Riekki,Marko Jurmu
+Jukka Riekki,Simo Hosio
+Jukka Riekki,Mikko Perttunen
+Jukka Riekki,Jaakko Sauvola
+Jukka Riekki,Erkki Harjula
+Jukka Riekki,Hannu Kukka
+Jukka Riekki,Marta Cortés
+Jukka Riekki,Vassilis Kostakos
+Jukka Riekki,Meirong Liu
+Jukka Riekki,Jussi Collin
+Jukka Riekki,Ora Lassila
+Jukka Riekki,Fengyu Cong
+Jukka Riekki,Jaakko Suutala
+Denzil Ferreira,Vassilis Kostakos
+Denzil Ferreira,Jorge Goncalves
+Denzil Ferreira,Anind K. Dey
+Denzil Ferreira,Simo Hosio
+Denzil Ferreira,Niels van Berkel
+Denzil Ferreira,Aku Visuri
+Denzil Ferreira,Sang Won (Grace) Bae
+Denzil Ferreira,Theodoros (Thodoris) Anagnostopoulos
+Denzil Ferreira,Yong liu
+Denzil Ferreira,Huber Flores
+Denzil Ferreira,Simon Klakegg
+Denzil Ferreira,Yuuki Nishiyama
+Denzil Ferreira,Tammy Chung
+Denzil Ferreira,Zhanna Sarsenbayeva
+Denzil Ferreira,Jakob Rogstadius
+Denzil Ferreira,Brian Suffoletto
+Denzil Ferreira,Carissa Low
+Denzil Ferreira,Afsaneh Doryab
+Denzil Ferreira,Hanna-Leena Huttunen
+Denzil Ferreira,Katarzyna Wac
+Georgi V. Georgiev,Yukari Nagai
+Georgi V. Georgiev,Iván Sánchez Milara
+Georgi V. Georgiev,Jukka Riekki
+Georgi V. Georgiev,Danko D. Georgiev
+Georgi V. Georgiev,Hernan Casakin
+Georgi V. Georgiev,Morita Junya
+Georgi V. Georgiev,Denzil Ferreira
+Georgi V. Georgiev,Deny Willy Junaidy
+Georgi V. Georgiev,Amaresh Chakrabarti
+Georgi V. Georgiev,Yazan Barhoush
+Georgi V. Georgiev,Ian Gwilt
+Georgi V. Georgiev,Gaetano Cascini
+Georgi V. Georgiev,Matti Pouke
+Georgi V. Georgiev,Susanna Pirttikangas
+Georgi V. Georgiev,Ekaterina Gilman
+Georgi V. Georgiev,Piiastiina Tikka
+Georgi V. Georgiev,Zhengya Gong
+Georgi V. Georgiev,Teemu Leppänen
+Georgi V. Georgiev,Niels van Berkel
+Georgi V. Georgiev,Vassilis Kostakos
+Simo Hosio,Jorge Goncalves
+Simo Hosio,Vassilis Kostakos
+Simo Hosio,Niels van Berkel
+Simo Hosio,Denzil Ferreira
+Simo Hosio,Hannu Kukka
+Simo Hosio,Timo Ojala
+Simo Hosio,Marko Jurmu
+Simo Hosio,Jukka Riekki
+Simo Hosio,Yong liu
+Simo Hosio,Tommi Heikkinen
+Simo Hosio,Jonas Oppenlaender
+Simo Hosio,Simon Klakegg
+Simo Hosio,Theodoros (Thodoris) Anagnostopoulos
+Simo Hosio,Aku Visuri
+Simo Hosio,Shin'ichi Konomi
+Simo Hosio,Ivan Elhart
+Simo Hosio,Florian Alt
+Simo Hosio,Miguel Bordallo López
+Simo Hosio,Maja Vukovic
+Simo Hosio,Zhanna Sarsenbayeva
+Susanna Pirttikangas,Jukka Riekki
+Susanna Pirttikangas,Kaori Fujinami
+Susanna Pirttikangas,Juha Röning
+Susanna Pirttikangas,Ekaterina Gilman
+Susanna Pirttikangas,Teemu Leppänen
+Susanna Pirttikangas,Tatsuo Nakajima
+Susanna Pirttikangas,Lauri Lovén
+Susanna Pirttikangas,Jaakko Suutala
+Susanna Pirttikangas,Satu Tamminen
+Susanna Pirttikangas,Anja Keskinarkaus
+Susanna Pirttikangas,Fahim Kawsar
+Susanna Pirttikangas,Mikko Perttunen
+Susanna Pirttikangas,Oleksiy Mazhelis
+Susanna Pirttikangas,Jussi Collin
+Susanna Pirttikangas,Yoshito Tobe
+Susanna Pirttikangas,Fengyu Cong
+Susanna Pirttikangas,Tapani Ristaniemi
+Susanna Pirttikangas,Xiang Su
+Susanna Pirttikangas,Shin'ichi Konomi
+Susanna Pirttikangas,Jin Nakazawa
+Teemu Leppänen,Jukka Riekki
+Teemu Leppänen,Erkki Harjula
+Teemu Leppänen,Timo Ojala
+Teemu Leppänen,Mika Ylianttila
+Teemu Leppänen,Lauri Lovén
+Teemu Leppänen,Susanna Pirttikangas
+Teemu Leppänen,Yoshito Tobe
+Teemu Leppänen,Ella Peltonen
+Teemu Leppänen,Kaoru Sezaki
+Teemu Leppänen,Jiehan Zhou
+Teemu Leppänen,Oleksiy Mazhelis
+Teemu Leppänen,Mikko J. Sillanpaa
+Teemu Leppänen,Ekaterina Gilman
+Teemu Leppänen,Giancarlo Fortino
+Teemu Leppänen,Claudio Savaglio
+Teemu Leppänen,Ijaz Ahmad
+Teemu Leppänen,Xiang Su
+Teemu Leppänen,Iván Sánchez Milara
+Teemu Leppänen,Mihai Bâce
+Teemu Leppänen,Abhinay Pandya
+Mika Ylianttila,Andrei Gurtov
+Mika Ylianttila,Erkki Harjula
+Mika Ylianttila,Jiehan Zhou
+Mika Ylianttila,Timo Koskela
+Mika Ylianttila,Kaveh Pahlavan
+Mika Ylianttila,Pardeep kumar
+Mika Ylianttila,Jukka Riekki
+Mika Ylianttila,Zhonghong Ou
+Mika Ylianttila,Teemu Leppänen
+Mika Ylianttila,Meirong Liu
+Mika Ylianttila,Marius Bilasco
+Mika Ylianttila,Rautiainen Mika
+Mika Ylianttila,Kumaripaba Miyurusara Athukorala
+Tarik Taleb,Adlen KSENTINI
+Tarik Taleb,"Nei Kato(IEEE Fellow, IEICE Fellow)"
+Tarik Taleb,Konstantinos Samdanis
+Tarik Taleb,"Abbas Jamalipour, Fellow IEEE, Fellow IEICE, Fellow IEA"
+Tarik Taleb,Min Chen
+Tarik Taleb,Victor C. M. Leung
+Tarik Taleb,Stefan Schmid
+Tarik Taleb,Xiaofei Wang
+Tarik Taleb,Yassine Hadjadj-Aoul
+Tarik Taleb,Nidal Nasser
+Tarik Taleb,Zubair Md. Fadlullah
+Tarik Taleb,Riku Jantti
+Tarik Taleb,Marius Corici
+Tarik Taleb,Khaled B. Letaief
+Tarik Taleb,Farid Nait-Abdesselam
+Tarik Taleb,Essaid Sabir
+Tarik Taleb,Ehssan Sakhaee
+Tarik Taleb,Midou Nafaa
+Tarik Taleb,Juan Carlos Fernandez
+Tarik Taleb,Brahim Bensaou
+Mikko J. Sillanpaa,Elja Arjas
+Mikko J. Sillanpaa,Zitong Li
+Mikko J. Sillanpaa,Esa Mäntysaari
+Mikko J. Sillanpaa,Dario Gasbarra
+Mikko J. Sillanpaa,Bob O'Hara
+Mikko J. Sillanpaa,Madhuchhanda Bhattacharjee
+Mikko J. Sillanpaa,Ismo Stranden
+Mikko J. Sillanpaa,Crispin M. Mutshinda
+Mikko J. Sillanpaa,Makgahlela
+Mikko J. Sillanpaa,Outi Savolainen
+Mikko J. Sillanpaa,ritsert jansen
+Jari Iinatti,Matti Hämäläinen
+Jari Iinatti,Attaphongse Taparugssanagorn
+Jari Iinatti,Carlos Pomalaza-Raez
+Jari Iinatti,Matti Latva-aho
+Jari Iinatti,Dr. (Tech) Juha Petäjäjärvi
+Jari Iinatti,Konstantin Mikhaylov
+Jari Iinatti,Heikki Karvonen
+Jari Iinatti,Markus Berg
+Jari Iinatti,Simone Soderi
+Jari Iinatti,Katz Marcos
+Jari Iinatti,Andrei Gurtov
+Jari Iinatti,Jussi Haapola
+Jari Iinatti,Pardeep kumar
+Jari Iinatti,Alberto Rabbachin
+Jari Iinatti,"Jämsä, Timo"
+Jari Iinatti,Erkki Salonen
+Jari Iinatti,Tapio Seppänen
+Jari Iinatti,Janne Janhunen
+Jari Iinatti,Mika Ylianttila
+Jari Iinatti,Jorma Lilleberg
+Erkki Harjula,Mika Ylianttila
+Erkki Harjula,Teemu Leppänen
+Erkki Harjula,Timo Ojala
+Erkki Harjula,Jukka Riekki
+Erkki Harjula,Ijaz Ahmad
+Erkki Harjula,Tanesh Kumar
+Erkki Harjula,Pawani Porambage
+Erkki Harjula,Jiehan Zhou
+Erkki Harjula,Lauri Lovén
+Erkki Harjula,Jaakko Sauvola
+Erkki Harjula,Andrei Gurtov
+Erkki Harjula,Madhusanka Liyanage
+Erkki Harjula,Ella Peltonen
+Erkki Harjula,Susanna Pirttikangas
+Erkki Harjula,Jussi Haapola
+Erkki Harjula,Bennis Mehdi
+Erkki Harjula,Tarik Taleb
+Erkki Harjula,Jari Iinatti
+Madhusanka Liyanage,Mika Ylianttila
+Madhusanka Liyanage,Andrei Gurtov
+Madhusanka Liyanage,An Braeken
+Madhusanka Liyanage,Pawani Porambage
+Madhusanka Liyanage,Pardeep kumar
+Madhusanka Liyanage,Tharaka Mawanane Hewa
+Madhusanka Liyanage,ANCA  DELIA JURCUT
+Madhusanka Liyanage,Edgardo Montes de Oca
+Madhusanka Liyanage,Dr. Anshuman Kalla
+Madhusanka Liyanage,Yushan Siriwardhana
+Madhusanka Liyanage,Gurkan Gur
+Madhusanka Liyanage,Guillaume Jourjon
+Madhusanka Liyanage,Aruna Seneviratne
+Madhusanka Liyanage,Kanchana Thilakarathna
+Madhusanka Liyanage,salil kanhere
+Madhusanka Liyanage,Pasika Sashmal Ranaweera
+Madhusanka Liyanage,Tarik Taleb
+Madhusanka Liyanage,Matti Latva-aho
+Madhusanka Liyanage,Raaj Anand Mishra
+Madhusanka Liyanage,Erkki Harjula
+Pekka Pirinen,Matti Latva-aho
+Pekka Pirinen,Petri Luoto
+Pekka Pirinen,Le-Nam Tran
+Pekka Pirinen,Bennis Mehdi
+Pekka Pirinen,Sumudu Samarakoon
+Pekka Pirinen,Jari Iinatti
+Pekka Pirinen,Ayotunde Oluwaseun Laiyemo
+Pekka Pirinen,Matti Hämäläinen
+Pekka Pirinen,Vinh Phan
+Pekka Pirinen,Dario Sabella
+Matti Hämäläinen,Jari Iinatti
+Matti Hämäläinen,Attaphongse Taparugssanagorn
+Antti Tölli,Markku Juntti
+Antti Tölli,Matti Latva-aho
+Antti Tölli,Marian Codreanu
+Antti Tölli,Harri Pennanen
+Antti Tölli,Le-Nam Tran
+Antti Tölli,Tommy Svensson
+Antti Tölli,Ganesh Venkatraman
+Antti Tölli,Nandana Rajatheva
+Antti Tölli,MohammadJavad Salehi
+Antti Tölli,Afif Osseiran
+Antti Tölli,Jose F. Monserrat
+Antti Tölli,Praneeth Jayasinghe
+Antti Tölli,Muhammad Fainan Hanif
+Antti Tölli,Michael Honig
+Antti Tölli,Mikko Valkama
+Antti Tölli,Lars Thiele
+Antti Tölli,Babak Khalaj
+Antti Tölli,Emil Björnson
+Antti Tölli,Randall Berry
+Antti Tölli,José Antonio Cortés Arrabal
+Markku Juntti,Antti Tölli
+Markku Juntti,Matti Latva-aho
+Markku Juntti,Le-Nam Tran
+Markku Juntti,Janne Lehtomäki
+Markku Juntti,Marian Codreanu
+Markku Juntti,Joonas Kokkoniemi
+Markku Juntti,Joseph R. Cavallaro
+Markku Juntti,Quang-Doanh Vu
+Markku Juntti,Jiguang He
+Markku Juntti,Olli Silven
+Markku Juntti,Jorma Lilleberg
+Markku Juntti,Markus Leinonen
+Markku Juntti,Janne Janhunen
+Markku Juntti,Shahriar Shahabuddin
+Markku Juntti,mikko Vehkapera
+Markku Juntti,Muhammad Fainan Hanif
+Markku Juntti,Björn Ottersten
+Markku Juntti,Mikko Valkama
+Markku Juntti,Jani Boutellier
+Markku Juntti,Mats Bengtsson
+Hirley Alves,Matti Latva-aho
+Hirley Alves,Richard Demo Souza
+Hirley Alves,Onel Luis Alcaraz López
+Hirley Alves,Pedro H. J. Nardelli
+Hirley Alves,Carlos H. M. de Lima
+Hirley Alves,Evelio M. G. Fernandez
+Hirley Alves,Glauber Brante
+Hirley Alves,Daniel Benevides da Costa
+Hirley Alves,Bennis Mehdi
+Hirley Alves,Merouane Debbah
+Hirley Alves,José Cândido Silveira Santos Filho
+Hirley Alves,Marcelo Eduardo Pellenz
+Hirley Alves,Ari Pouttu
+Hirley Alves,Gustavo Fraidenraich
+Hirley Alves,Paulo Cardieri
+Hirley Alves,Markku Juntti
+Hirley Alves,Walid Saad
+Timo Rahkonen,Juha  Kostamovaara
+Timo Rahkonen,Janne P. Aikio
+Timo Rahkonen,Aarno Pärssinen
+Timo Rahkonen,Christian Schuss
+Timo Rahkonen,Antti Mäntyniemi
+Timo Rahkonen,Olli Kursu
+Timo Rahkonen,Marko Neitola
+Timo Rahkonen,Kimmo Leppänen
+Timo Rahkonen,Tore Leikanger
+Timo Rahkonen,Pietro Andreani
+Timo Rahkonen,Caren Tischendorf
+Timo Rahkonen,Michael Günther
+Timo Rahkonen,Tomohiro Kuroda
+Nandana Rajatheva,Matti Latva-aho
+Nandana Rajatheva,Chintha Tellambura
+Nandana Rajatheva,Prathapasinghe Dharmawansa
+Nandana Rajatheva,Samad Ali
+Nandana Rajatheva,Tachporn Sanguanpuak
+Nandana Rajatheva,Nuwan Ferdinand
+Nandana Rajatheva,Keeth Saliya Jayasinghe
+Nandana Rajatheva,Sanjeewa Herath
+Nandana Rajatheva,Anil Fernando
+Nandana Rajatheva,Antti Tölli
+Nandana Rajatheva,Hlaing Minn
+Nandana Rajatheva,Sudarshan Guruacharya
+Nandana Rajatheva,Saman Atapattu
+Nandana Rajatheva,Slimane Ben Slimane
+Nandana Rajatheva,Walid Saad
+Nandana Rajatheva,Haroon Rasheed
+Nandana Rajatheva,Gabor Fodor
+Nandana Rajatheva,Raza Ali Shah
+Nandana Rajatheva,Yusheng Ji
+Nandana Rajatheva,Praneeth Jayasinghe
+Janne Lehtomäki,Kenta Umebayashi
+Janne Lehtomäki,Markku Juntti
+Janne Lehtomäki,Joonas Kokkoniemi
+Janne Lehtomäki,Zaheer Khan
+Janne Lehtomäki,Miguel López-Benítez
+Janne Lehtomäki,Luiz DaSilva
+Janne Lehtomäki,Matti Latva-aho
+Janne Lehtomäki,Ekram Hossain
+Janne Lehtomäki,Alexandros-Apostolos A. Boulogeorgos
+Janne Lehtomäki,Angeliki Alexiou
+Janne Lehtomäki,Dmitri Moltchanov
+Janne Lehtomäki,Vitaly Petrov
+Janne Lehtomäki,Carlos Pomalaza-Raez
+Janne Lehtomäki,Alan Marshall
+Janne Lehtomäki,IAN  F.  AKYILDIZ
+Janne Lehtomäki,Ahmet Ozan Bicen
+Janne Lehtomäki,Marja Matinmikko-Blue
+Janne Lehtomäki,Ian Oppermann
+Janne Lehtomäki,Marko Höyhtyä
+Marianne Kinnula,Netta Iivari
+Marianne Kinnula,Isomursu Minna
+Marianne Kinnula,Heidi Hartikainen
+Marianne Kinnula,Sari Laari-Salmela
+Marianne Kinnula,Karin Väyrynen
+Marianne Kinnula,Pekka Isomursu
+Marianne Kinnula,Fanny Vainionpää
+Marianne Kinnula,Leena Ventä-Olkkonen
+Marianne Kinnula,Veikko Seppänen
+Marianne Kinnula,Atte Kinnula
+Marianne Kinnula,Behnaz Norouzi
+Marianne Kinnula,Iván Sánchez Milara
+Marianne Kinnula,Sofia Papavlasopoulou
+Marianne Kinnula,Kari Kuutti
+Marianne Kinnula,Dimitra Christidou
+Marianne Kinnula,Iro Voulgari
+Marianne Kinnula,Sumita Sharma
+Marianne Kinnula,Jukka Riekki
+Marianne Kinnula,Claudia Liliana Zúñiga-Cañón
+Marianne Kinnula,Arto Lanamäki
+Jaakko Suutala,Juha Röning
+Jaakko Suutala,Susanna Pirttikangas
+Jaakko Suutala,Dr. (tech) Tuomo Alasalmi
+Jaakko Suutala,Dennis A Roberson
+Jaakko Suutala,Kaori Fujinami
+Jaakko Suutala,Marko Höyhtyä
+Jaakko Suutala,Marja Matinmikko-Blue
+Jaakko Suutala,Jukka Riekki
+Jaakko Suutala,Juha Kalliovaara
+Jaakko Suutala,Heli Koskimäki
+Jaakko Suutala,Andre Bourdoux
+Jaakko Suutala,Rafael Berkvens
+Jaakko Suutala,Carlos H. M. de Lima
+Jaakko Suutala,Maxime Guillaud
+Jaakko Suutala,Tachporn Sanguanpuak
+Jaakko Suutala,"Muhammad Reza Kahar Aziz, PhD"
+Jaakko Suutala,Tommy Svensson
+Jaakko Suutala,Barend van Liempd
+Jaakko Suutala,Hadi Sarieddeen
+Jaakko Suutala,Andre Noll Barreto
+Italo Atzeni,Luis G. Ordóñez
+Italo Atzeni,Javier R. Fonollosa
+Italo Atzeni,Daniel P. Palomar
+Italo Atzeni,Gesualdo Scutari
+Italo Atzeni,Marios Kountouris
+Italo Atzeni,Jesús Arnau
+Italo Atzeni,Antti Tölli
+Italo Atzeni,Marco Maso
+Italo Atzeni,Merouane Debbah
+Italo Atzeni,David Gesbert
+Italo Atzeni,George C. Alexandropoulos
+Italo Atzeni,Stefano Buzzi
+Italo Atzeni,Nandana Rajatheva
+Italo Atzeni,Emil Björnson
+Italo Atzeni,Tommy Svensson
+Italo Atzeni,Josep Miquel Jornet
+Italo Atzeni,Placido Mursia
+Italo Atzeni,Ejder Baştuğ
+Italo Atzeni,Mari Kobayashi
+Italo Atzeni,Laura Cottatellucci
+Guoying Zhao,Matti Pietikäinen
+Guoying Zhao,Xiaopeng HONG (洪晓鹏)
+Guoying Zhao,Jie Chen
+Guoying Zhao,Xiaobai Li
+Guoying Zhao,Timo Ahonen
+Guoying Zhao,Xin Liu 刘鑫
+Guoying Zhao,Vili Kellokumpu
+Guoying Zhao,"Su-Jing Wang, 王甦菁"
+Guoying Zhao,Wenming Zheng
+Guoying Zhao,Ziheng Zhou
+Guoying Zhao,Xilin Chen
+Guoying Zhao,Tomas Pfister
+Guoying Zhao,Wen-Jing Yan
+Guoying Zhao,Stan Z. Li (李子青)
+Guoying Zhao,Wei Peng
+Guoying Zhao,Shiguang Shan
+Guoying Zhao,Jingang Shi
+Guoying Zhao,Stefanos Zafeiriou
+Guoying Zhao,Wen Gao（高文）
+Guoying Zhao,Chu HE
+Jussi Haapola,Carlos Pomalaza-Raez
+Jussi Haapola,Alberto Rabbachin
+Jussi Haapola,Jari Iinatti
+Jussi Haapola,Ian Oppermann
+Jussi Haapola,Matti Hämäläinen
+Jussi Haapola,Ari Pouttu
+Jussi Haapola,"Lucian Stoica, L. Stoica"
+Jussi Haapola,Hamada Almasalma
+Jussi Haapola,Geert Deconinck
+Jussi Haapola,Konstantin Mikhaylov
+Jussi Haapola,Heikki Karvonen
+Jussi Haapola,Jianzhong Wu
+Jussi Haapola,Jesus Alonso-Zarate
+Jussi Haapola,Nandana Rajatheva
+Jussi Haapola,Samad Ali
+Jussi Haapola,Junaid Ansari
+Jussi Haapola,Petri Ahokangas
+Jussi Haapola,Maria Kopsakangas-Savolainen
+Jussi Haapola,Tharaka Samarasinghe
+Jussi Haapola,Janne Riihijärvi
+Onel Luis Alcaraz López,Hirley Alves
+Onel Luis Alcaraz López,Matti Latva-aho
+Onel Luis Alcaraz López,Richard Demo Souza
+Onel Luis Alcaraz López,Evelio M. G. Fernandez
+Onel Luis Alcaraz López,Samuel Montejo Sánchez
+Onel Luis Alcaraz López,Glauber Brante
+Onel Luis Alcaraz López,Arliones Hoeller
+Onel Luis Alcaraz López,Diana Pamela Moya Osorio
+Onel Luis Alcaraz López,Pedro H. J. Nardelli
+Onel Luis Alcaraz López,Mohammad Shehab
+Onel Luis Alcaraz López,Marcelo Eduardo Pellenz
+Onel Luis Alcaraz López,Samuel Baraldi Mafra
+Onel Luis Alcaraz López,Constantinos B. Papadias
+Onel Luis Alcaraz López,Abid Yahya
+Onel Luis Alcaraz López,Leatile  Marata
+Onel Luis Alcaraz López,Mikko A. Uusitalo
+Onel Luis Alcaraz López,Parisa Nouri
+Onel Luis Alcaraz López,Binod Kharel
+Onel Luis Alcaraz López,IRFAN MUHAMMAD
+Onel Luis Alcaraz López,Edgar Eduardo Benítez Olivo
+Sumudu Samarakoon,Bennis Mehdi
+Sumudu Samarakoon,Matti Latva-aho
+Sumudu Samarakoon,Merouane Debbah
+Sumudu Samarakoon,Walid Saad
+Sumudu Samarakoon,Jihong Park
+Sumudu Samarakoon,Petri Luoto
+Sumudu Samarakoon,Pekka Pirinen
+Sumudu Samarakoon,Chen-Feng Liu
+Sumudu Samarakoon,Mohamed K. Abdel-Aziz
+Sumudu Samarakoon,Anis Elgabli
+Sumudu Samarakoon,Hamza Khan
+Sumudu Samarakoon,Cristina Perfecto
+Sumudu Samarakoon,Choong Seon Hong
+Sumudu Samarakoon,Mohammed S. Elbamby
+Sumudu Samarakoon,Xianfu Chen
+Sumudu Samarakoon,Takayuki Nishio
+Sumudu Samarakoon,Hamid Shiri
+Sumudu Samarakoon,S Tamoor-ul-Hassan
+Sumudu Samarakoon,HV Poor
+Sumudu Samarakoon,Nandana Rajatheva
+Olli Silven,Janne Heikkilä
+Olli Silven,Jani Boutellier
+Olli Silven,Jari Hannuksela
+Olli Silven,Matti Pietikäinen
+Olli Silven,Markku Juntti
+Olli Silven,Miguel Bordallo López
+Olli Silven,Janne Janhunen
+Olli Silven,Pekka Sangi
+Olli Silven,Marius Tico
+Olli Silven,Jarmo Takala
+Olli Silven,Osmo Tervonen
+Olli Silven,Teemu Nyländen
+Olli Silven,Shahriar Shahabuddin
+Olli Silven,Shuvra S. Bhattacharyya
+Olli Silven,Amanullah Ghazi
+Olli Silven,Jiguang He
+Olli Silven,Mattavelli Marco
+Olli Silven,Johan Lilius
+Olli Silven,Mickaël Raulet
+Olli Silven,Pekka Jääskeläinen
+Matti Pietikäinen,Guoying Zhao
+Matti Pietikäinen,Abdenour Hadid
+Matti Pietikäinen,Timo Ojala
+Matti Pietikäinen,Timo Ahonen
+Matti Pietikäinen,Jie Chen
+Matti Pietikäinen,Jaakko Sauvola
+Matti Pietikäinen,Xiaopeng HONG (洪晓鹏)
+Matti Pietikäinen,Li Liu
+Matti Pietikäinen,Stan Z. Li (李子青)
+Matti Pietikäinen,Vili Kellokumpu
+Matti Pietikäinen,Jukka Komulainen (né Määttä)
+Matti Pietikäinen,Olli Silven
+Matti Pietikäinen,Xiaobai Li
+Matti Pietikäinen,Paul Fieguth
+Matti Pietikäinen,Tapio Seppänen
+Matti Pietikäinen,Ziheng Zhou
+Matti Pietikäinen,Tomas Pfister
+Matti Pietikäinen,J.Birgitta Martinkauppi
+Matti Pietikäinen,Maricor Soriano
+Matti Pietikäinen,Xilin Chen
+Miguel Bordallo López,Olli Silven
+Miguel Bordallo López,Jari Hannuksela
+Miguel Bordallo López,Elhocine Boutellaa
+Miguel Bordallo López,Simo Hosio
+Miguel Bordallo López,Jani Boutellier
+Miguel Bordallo López,Jorge Goncalves
+Miguel Bordallo López,Jerome Thevenot
+Miguel Bordallo López,Vassilis Kostakos
+Miguel Bordallo López,Marius Tico
+Miguel Bordallo López,Niels van Berkel
+Miguel Bordallo López,Eric Granger
+Miguel Bordallo López,Constantino Álvarez Casado
+Miguel Bordallo López,Jonas Oppenlaender
+Miguel Bordallo López,Andy Alorwu
+Miguel Bordallo López,Wheidima Carneiro de Melo
+Miguel Bordallo López,Juha Ylioinas
+Miguel Bordallo López,Carlos R. del Blanco
+Miguel Bordallo López,Riku Hietaniemi
+Miguel Bordallo López,Matti Pietikäinen
+Miguel Bordallo López,Jukka Holappa
+Jukka Kortelainen,Tapio Seppänen
+Jukka Kortelainen,Hasan Al-Nashash
+Jukka Kortelainen,Angelo H. ALL
+Jukka Kortelainen,Miika Koskinen
+Jukka Kortelainen,Kai Noponen
+Jukka Kortelainen,Ashwati Vipin
+Jukka Kortelainen,Matti Pietikäinen
+Jukka Kortelainen,Xiaobai Li
+Jukka Kortelainen,Osmo Tervonen
+Jukka Kortelainen,"Xiaofeng Jia, MD, MS, PhD, FCCM, Professor"
+Jukka Kortelainen,Janani Manivannan
+Jukka Kortelainen,Seppo J. Laukka
+Jukka Kortelainen,Guoying Zhao
+Jukka Kortelainen,Antti J. Moilanen
+Jukka Kortelainen,Janne Backman
+Jukka Kortelainen,Timo Ojala
+Jukka Kortelainen,Ignacio Delgado-Martinez
+Jukka Kortelainen,Shih-Cheng Yen
+Jukka Kortelainen,Anu Pramila
+Jukka Kortelainen,Nitish Thakor
+Markku Oivo,Jouni Markkula
+Markku Oivo,Pilar Rodríguez
+Markku Oivo,Muhammad Ovais Ahmad
+Markku Oivo,Lucy Ellen Lwakatare
+Markku Oivo,Burak Turhan
+Markku Oivo,Teemu Karvonen
+Markku Oivo,Guenther Ruhe
+Markku Oivo,Davide Fucci
+Markku Oivo,Dietmar Pfahl
+Markku Oivo,Mandic Vladimir (Mandić Vladimir)
+Markku Oivo,Rini van Solingen (@solingen)
+Markku Oivo,Jouni Similä
+Markku Oivo,Jan Bosch
+Markku Oivo,V Basili
+Markku Oivo,Veikko Seppänen
+Jouni Markkula,Muhammad Ovais Ahmad
+Jouni Markkula,Jari Veijalainen
+Jouni Markkula,Kari Liukkunen
+Jouni Markkula,Pilar Rodríguez
+Jouni Markkula,Vagan Terziyan
+Jouni Markkula,Jussi Koskinen
+Jouni Markkula,Oleksiy Mazhelis
+Jouni Markkula,Nebojša Taušan
+Jouni Markkula,Mandic Vladimir (Mandić Vladimir)
+Jouni Markkula,Sandun Dasanayake
+Jouni Markkula,Aphrodite Tsalgatidou
+Jouni Markkula,Marikka Heikkila
+Jouni Markkula,V Basili
+Jouni Markkula,Jouni Similä
+Jouni Markkula,Jukka 'Jups' Heikkilä
+Jouni Markkula,Jeffrey C. Carver
+Jouni Markkula,"Sedef Akinli Kocak, PhD"
+Jouni Markkula,Hadi Ghanbari
+Jouni Markkula,Jarkko Hyysalo
+Jouni Markkula,Juan Garbajosa
+Isomursu Minna,Pekka Isomursu
+Isomursu Minna,Kaisa Still
+Isomursu Minna,Jonna Hakkila
+Isomursu Minna,Marianne Kinnula
+Isomursu Minna,Marja Harjumaa
+Isomursu Minna,Kari Kuutti
+Isomursu Minna,Jani Mäntyjärvi
+Isomursu Minna,Heikki Ailisto
+Isomursu Minna,Maria Karampela
+Isomursu Minna,Karin Väyrynen
+Isomursu Minna,Jukka Huhtamäki
+Isomursu Minna,Jan Blom
+Isomursu Minna,Sofia Ouhbi
+Isomursu Minna,Casandra Grundstrom
+Isomursu Minna,Leena Ventä-Olkkonen
+Isomursu Minna,Vasiliki Mylonopoulou
+Mika Mäntylä,Casper Lassenius
+Mika Mäntylä,Juha Itkonen
+Mika Mäntylä,Miikka Kuutila
+Mika Mäntylä,Vahid Garousi
+Mika Mäntylä,Jari Vanhanen
+Mika Mäntylä,Maëlick Claes
+Mika Mäntylä,Bram Adams
+Mika Mäntylä,Timo O.A. Lehtinen
+Mika Mäntylä,Kai Petersen
+Mika Mäntylä,Michael Felderer
+Mika Mäntylä,Daniel Graziotin
+Mika Mäntylä,Päivi Raulamo-Jurvanen
+Mika Mäntylä,Umar Farooq
+Mika Mäntylä,Marco Zanoni
+Mika Mäntylä,Francesca Arcelli Fontana
+Mika Mäntylä,Emelie Engström
+Mika Mäntylä,Dietmar Pfahl
+Mika Mäntylä,Giuseppe Destefanis
+Mika Mäntylä,Marco Ortu
+Mika Mäntylä,Burak Turhan
+Tero Päivärinta,Pasi Tyrväinen
+Tero Päivärinta,Airi Salminen
+Tero Päivärinta,Kari Smolander
+Tero Päivärinta,Øystein Sæbø
+Tero Päivärinta,Bjørn Erik Munkvold
+Tero Päivärinta,Leif Skiftenes Flak
+Tero Päivärinta,Samuli Pekkola
+Tero Päivärinta,Jon Iden
+Tero Päivärinta,Bjørnar Tessem
+Tero Päivärinta,Ali Padyab
+Tero Päivärinta,Johan Magnusson
+Tero Päivärinta,Carl Erik Moe
+Tero Päivärinta,Maung Sein
+Tero Päivärinta,Qing Hu
+Tero Päivärinta,Juhani Iivari
+Tero Päivärinta,Tom Roar Eikebrokk
+Tero Päivärinta,Jane Elisabeth Frisk
+Tero Päivärinta,Urban Ask
+Tero Päivärinta,Carl-Mikael Lönn
+Tero Päivärinta,Peter Axel Nielsen
+Burak Turhan,Ayşe (Bener) Başar
+Burak Turhan,Tim Menzies
+Burak Turhan,Ayşe Tosun
+Burak Turhan,Natalia Juristo
+Burak Turhan,Davide Fucci
+Burak Turhan,Markku Oivo
+Burak Turhan,Bora Caglayan
+Burak Turhan,Ekrem Kocaguneli
+Burak Turhan,Bojan Cukic
+Burak Turhan,Leandro Minku
+Burak Turhan,Fayola Peters
+Burak Turhan,Rebvar Hosseini
+Burak Turhan,Giuseppe Scanniello
+Burak Turhan,Pilar Rodríguez
+Burak Turhan,Lucas Layman
+Burak Turhan,Forrest Shull
+Burak Turhan,Thomas Zimmermann
+Burak Turhan,Hakan Erdogmus
+Burak Turhan,Davide Falessi
+Burak Turhan,Gregory Gay
+Olli Korhonen,Isomursu Minna
+Olli Korhonen,Karin Väyrynen
+Olli Korhonen,Guido Giunti
+Olli Korhonen,Vasiliki Mylonopoulou
+Olli Korhonen,Marianne Kinnula
+Olli Korhonen,Kari Kuutti
+Olli Korhonen,Romina Poguntke geb. Kettner
+Olli Korhonen,Michael Oduor
+Olli Korhonen,Casandra Grundstrom
+Tapio Fabritius,Yoshiaki Yasuno
+Tapio Fabritius,Shuichi Makita
+Tapio Fabritius,Rafal Sliz
+Tapio Fabritius,Janne Lauri
+Tapio Fabritius,Kimmo Leppänen
+Tapio Fabritius,Timo Rahkonen
+Tapio Fabritius,Christian Schuss
+Tapio Fabritius,Jakub Czajkowski
+Tapio Fabritius,Tuomas Happonen
+Tapio Fabritius,Dr.Bobins Augustine
+Tapio Fabritius,Erkki Alarousu
+Tapio Fabritius,Antti Ilmari Koponen
+Tapio Fabritius,Henrikki Liimatainen
+Tapio Fabritius,Alexander Bykov
+Tapio Fabritius,Alexey Popov
+Tapio Fabritius,Marko Huttula
+Tapio Fabritius,Wei Cao
+Tapio Fabritius,Heli Jantunen
+Tapio Fabritius,ghassan jabbour
+Tapio Fabritius,Juho Antti Sirviö
+Netta Iivari,Janet C Read
+Dorina Rajanen (Marghescu),Mikko Rajanen
+Dorina Rajanen (Marghescu),Peter Sarlin
+Dorina Rajanen (Marghescu),Niklas Ravaja
+Dorina Rajanen (Marghescu),Netta Iivari
+Dorina Rajanen (Marghescu),Mikko Salminen
+Dorina Rajanen (Marghescu),Barbro Back
+Dorina Rajanen (Marghescu),Hanna Suominen
+Dorina Rajanen (Marghescu),Marianne Kinnula
+Dorina Rajanen (Marghescu),Heidi Hartikainen
+Dorina Rajanen (Marghescu),Sampo Pyysalo
+Karin Väyrynen,Marianne Kinnula
+Karin Väyrynen,Arto Lanamäki
+Karin Väyrynen,Sari Laari-Salmela
+Alexander Bykov,Alexey Popov
+Alexander Bykov,Igor Meglinski
+Alexander Bykov,Valery Tuchin
+Alexander Bykov,Matti Kinnunen
+Alexander Bykov,Alexander Doronin
+Alexander Bykov,Mikhail Kirillin
+Alexander Bykov,"Evgeny Zherebtsov, PhD"
+Alexander Bykov,Yuriy A. Ushenko
+Alexander Bykov,Alexander G. Ushenko
+Alexander Bykov,Viktor Dremin
+Alexander Bykov,Małgorzata Szczerska
+Alexander Bykov,Maciej S. Wróbel
+Alexander Bykov,Volodymyr Ushenko
+Alexander Bykov,"Andrey Dunaev, PhD"
+Alexander Bykov,Angelina Zherebtsova
+Alexander Bykov,Janne Lauri
+Alexander Bykov,Seppo Vainio
+Alexander Bykov,Jeroen Kalkman
+Alexander Bykov,Razvigor Ossikovski
+Alexander Bykov,Ton G van Leeuwen
+Esko Alasaarela,Hany Ferdinando
+Esko Alasaarela,Tapio Seppänen
+Esko Alasaarela,Hannu Sorvoja
+Esko Alasaarela,Matti Kinnunen
+Igor Meglinski,Alexander Bykov
+Igor Meglinski,Alexey Popov
+Igor Meglinski,Alexander Doronin
+Igor Meglinski,Valery Tuchin
+Igor Meglinski,"Vyacheslav (Slava) Kalchenko, MD, PhD."
+Igor Meglinski,"Evgeny Zherebtsov, PhD"
+Igor Meglinski,Matti Kinnunen
+Igor Meglinski,Edouard Berrocal
+Igor Meglinski,Callum M. Macdonald
+Igor Meglinski,Sergey Piletsky
+Igor Meglinski,Elina Genina
+Igor Meglinski,"Andrey Dunaev, PhD"
+Igor Meglinski,Mikhail Kirillin
+Igor Meglinski,Mark Linne
+Igor Meglinski,Alexey Bashkatov
+Igor Meglinski,Eccles M
+Igor Meglinski,Dr. Yury Ryabchikov
+Igor Meglinski,David Sedarsky
+Igor Meglinski,Kisung Lee
+Igor Meglinski,Steven Jacques
+Sasu Tarkoma,Eemil Lagerspetz
+Sasu Tarkoma,Pan Hui
+Sasu Tarkoma,Petteri Nurmi
+Sasu Tarkoma,Aaron Yi DING
+Sasu Tarkoma,Mohammad Ashraful Hoque
+Sasu Tarkoma,Matti Siekkinen
+Sasu Tarkoma,Xiang Su
+Sasu Tarkoma,Julien Mineraud
+Sasu Tarkoma,Huber Flores
+Sasu Tarkoma,Yong Li
+Sasu Tarkoma,Antti Ylä-Jääski
+Sasu Tarkoma,Samuli Hemminki
+Sasu Tarkoma,N. Asokan
+Sasu Tarkoma,Jon Crowcroft
+Sasu Tarkoma,Kari Visala
+Sasu Tarkoma,Petri Savolainen
+Sasu Tarkoma,Kai Zhao
+Sasu Tarkoma,Miika Komu
+Sasu Tarkoma,Andrey Lukyanenko
+Sasu Tarkoma,Mikko Särelä
+Anna Yershova,Steven M. LaValle
+Anna Yershova,Thierry Simeon
+Anna Yershova,Léonard Jaillet
+Anna Yershova,Max Katsev
+Anna Yershova,Robert Ghrist
+Anna Yershova,Swati Jain
+Anna Yershova,Jason O'Kane
+Anna Yershova,Chittaranjan Tripathy
+Anna Yershova,Bruce Donald
+Anna Yershova,Pei Zhou
+Heli Koskimäki,Pekka Siirtola
+Heli Koskimäki,Eija Ferreira (Haapalainen)
+Hannu-Pekka Komsa,Krasheninnikov Arkady
+Hannu-Pekka Komsa,Tapio T Rantala
+Hannu-Pekka Komsa,Ossi Lehtinen
+Hannu-Pekka Komsa,Risto Nieminen
+Hannu-Pekka Komsa,Jani Kotakoski
+Hannu-Pekka Komsa,Torbjörn Björkman
+savo glisic,Beatriz Lorenzo
+savo glisic,Katz Marcos
+savo glisic,"Yuguang ""Michael"" Fang"
+savo glisic,Jari Iinatti
+savo glisic,Markku Juntti
+savo glisic,Vinh Phan
+savo glisic,Xiaoxia Huang
+savo glisic,Ari Pouttu
+savo glisic,Le-Nam Tran
+savo glisic,Luiz DaSilva
+savo glisic,Nenad Milosevic
+savo glisic,Miao Pan
+savo glisic,Muhammad Fainan Hanif
+savo glisic,Ebrahim Karami
+savo glisic,Branka Vucetic
+savo glisic,Pekka Pirinen
+savo glisic,Ming Li
+savo glisic,Jordi Perez-Romero
+savo glisic,Allen MacKenzie
+savo glisic,Ekram Hossain
+Marian Codreanu,Matti Latva-aho
+Marian Codreanu,Markku Juntti
+Marian Codreanu,Antti Tölli
+Marian Codreanu,Anthony Ephremides
+Marian Codreanu,Markus Leinonen
+Marian Codreanu,Pradeep Chathuranga Weeraddana
+Marian Codreanu,Satya Joshi
+Marian Codreanu,Mohammad Moltafet
+Marian Codreanu,Uditha Wijewardhana
+Marian Codreanu,Maice Costa
+Marian Codreanu,Nandana Rajatheva
+Marian Codreanu,Carlo Fischione
+Marian Codreanu,Nikolaos Pappas
+Marian Codreanu,Jeongho Jeon
+Marian Codreanu,Evgeny Belyaev
+Marian Codreanu,Janne Lehtomäki
+Marian Codreanu,Luiz DaSilva
+Marian Codreanu,Alhussein Abouzeid
+Marian Codreanu,Gerhard Kramer
+Marian Codreanu,Emmanouil  Fountoulakis
+Li Liu,Paul Fieguth
+Li Liu,Matti Pietikäinen
+Li Liu,Guoying Zhao
+Li Liu,Yulan Guo
+Li Liu,Xiaogang Wang
+Li Liu,Xinwang Liu
+Li Liu,Wanli Ouyang (欧阳万里)
+Li Liu,Yu Liu
+Li Liu,David Clausi
+Li Liu,Jiwen Lu (鲁继文)
+Li Liu,Mohammad Tavakolian
+Li Liu,Liang Wang
+Thorsten Berger,Krzysztof Czarnecki
+Thorsten Berger,Andrzej Wąsowski
+Thorsten Berger,Steven She
+Thorsten Berger,Rafael Lotufo
+Thorsten Berger,Steffen Dienst
+Thorsten Berger,Jacob Krüger
+Thorsten Berger,Ahmed E. Hassan
+Thorsten Berger,Mukelabai Mukelabai
+Thorsten Berger,Meiyappan Nagappan
+Thorsten Berger,Bram Adams
+Thorsten Berger,Patrizio Pelliccione
+Thorsten Berger,Sarah Nadi
+Thorsten Berger,Christian Kästner
+Thorsten Berger,Ștefan Stănciulescu
+Thorsten Berger,Daniel Strüber
+Thorsten Berger,Markus Völter
+Thorsten Berger,Julia Rubin
+Thorsten Berger,Claudio Menghi
+Thorsten Berger,Sven Apel
+Thorsten Berger,Joanne M. Atlee
+Tim Güneysu,Christof Paar
+Tim Güneysu,Tobias Oder
+Tim Güneysu,Amir Moradi
+Tim Güneysu,Pascal Sasdrich
+Tim Güneysu,Francesco Regazzoni
+Tim Güneysu,Tobias Schneider
+Tim Güneysu,Ingo von Maurich
+Tim Güneysu,Gregor Leander
+Tim Güneysu,Thomas Eisenbarth
+Tim Güneysu,Elif Bilge Kavun
+Tim Güneysu,Christian Rechberger
+Tim Güneysu,Lars Ramkilde Knudsen
+Tim Güneysu,Anne Canteaut
+Tim Güneysu,Paul Duplys
+Tim Güneysu,Christopher Huth
+Tim Güneysu,Alexander Wild
+Tim Güneysu,Peter Schwabe
+Tim Güneysu,Tolga Yalcin
+Tim Güneysu,Stefan Gehrer
+Tim Güneysu,Miroslav Knezevic
+Martin Saraceno (Hoffmann),Thomas Südmeyer
+Martin Saraceno (Hoffmann),Ursula Keller
+Martin Saraceno (Hoffmann),Matthias Golling
+Martin Saraceno (Hoffmann),Clara Saraceno
+Martin Saraceno (Hoffmann),Valentin J. Wittwer
+Martin Saraceno (Hoffmann),Oliver Sieber
+Martin Saraceno (Hoffmann),Yohan Barbarin
+Martin Saraceno (Hoffmann),Mario Mangold
+Martin Saraceno (Hoffmann),Deran J. H. C. Maas
+Martin Saraceno (Hoffmann),Florian Emaury
+Martin Saraceno (Hoffmann),Oliver H. Heckl
+Martin Saraceno (Hoffmann),Bauke Tilma
+Martin Saraceno (Hoffmann),Andreas Diebold
+Martin Saraceno (Hoffmann),Yicheng Wang
+Martin Saraceno (Hoffmann),Bojan Resan
+Martin Saraceno (Hoffmann),Sargis Hakobyan
+Martin Saraceno (Hoffmann),Schilt Stephane
+Martin Saraceno (Hoffmann),Mohammad Shafiei
+Martin Saraceno (Hoffmann),Garrett D. Cole
+Martin Saraceno (Hoffmann),Dr. Sandro Michael Link
+Dorothea Kolossa,Ahmed Hussen Abdelaziz
+Dorothea Kolossa,Martin Heckmann
+Dorothea Kolossa,Thorsten Holz
+Dorothea Kolossa,Hendrik Meutzner
+Dorothea Kolossa,Rahim Saeidi
+Dorothea Kolossa,Katharina Kohls
+Dorothea Kolossa,Ning Ma
+Dorothea Kolossa,Alberto Abad
+Dorothea Kolossa,Pejman Mowlaee
+Dorothea Kolossa,Shinji Watanabe
+Dorothea Kolossa,Reinhold Haeb-Umbach
+Dorothea Kolossa,Markus Bär
+Dorothea Kolossa,Jike Chong
+Dorothea Kolossa,Sebastian Gergen
+Dorothea Kolossa,Armin Kohlrausch
+Dorothea Kolossa,John Hershey
+Dorothea Kolossa,Emmanuel Vincent
+Dorothea Kolossa,Marc Delcroix
+Dorothea Kolossa,Tomohiro Nakatani
+Dorothea Kolossa,Sarmad Malik
+Rainer Martin,Peter Vary
+Rainer Martin,Timo Gerkmann
+Rainer Martin,Anil Nagathil
+Rainer Martin,Gerald Enzner
+Rainer Martin,Sebastian Gergen
+Rainer Martin,Christiane Antweiler
+Rainer Martin,Pejman Mowlaee
+Rainer Martin,Dorothea Kolossa
+Rainer Martin,Rahim Saeidi
+Rainer Martin,Mehdi Zohourian
+Thomas Mussenbrock,Julian Schulze
+Thomas Mussenbrock,Zoltan Donko
+Thomas Mussenbrock,Jan Trieschmann
+Thomas Mussenbrock,Denis Eremin
+Thomas Mussenbrock,Peter Awakowicz
+Thomas Mussenbrock,Torben Hemke
+Thomas Mussenbrock,Martin Lapke
+Thomas Mussenbrock,Ihor Korolov
+Thomas Mussenbrock,Edmund Schuengel
+Thomas Mussenbrock,Ilona Rolfes
+Thomas Mussenbrock,Peter Hartmann
+Thomas Mussenbrock,Sven Dirkmann
+Thomas Mussenbrock,Alexander Wollny
+Thomas Mussenbrock,Marc Böke
+Thomas Mussenbrock,Timo Gans
+Thomas Mussenbrock,Hermann Kohlstedt
+Thomas Mussenbrock,Martin Ziegler
+Thomas Mussenbrock,Miles M Turner
+Thomas Mussenbrock,Mohammed Shihab
+Thomas Mussenbrock,W Hitchon
+Jürgen Oehm,Stefan van Waasen
+Jürgen Oehm,Andre Hanke
+Jürgen Oehm,Dominic A. Funke
+Jürgen Oehm,Abhishek Sharma
+Jürgen Oehm,Norman Packard
+Jürgen Oehm,steen rasmussen
+Jürgen Oehm,Amir Moradi
+Jürgen Oehm,Christof Paar
+Jürgen Oehm,Nils Pohl
+Jürgen Oehm,Itamar Willner
+Jürgen Oehm,Peter R Wills
+Jürgen Oehm,Frantisek Stepanek
+Jürgen Oehm,Andreas Herrmann
+Jürgen Oehm,Diana Goehringer
+Jürgen Oehm,Philipp Hillger
+Nils Pohl,Timo Jaeschke
+Nils Pohl,Simon Kueppers
+Nils Pohl,Reinhold Herschel
+Nils Pohl,Sven Thomas
+Nils Pohl,Ilona Rolfes
+Nils Pohl,Dr. Christoph Baer
+Nils Pohl,Josef Hausner
+Nils Pohl,Marcel van Delden
+Nils Pohl,Stephan Palm
+Nils Pohl,Thomas Zwick
+Nils Pohl,Dr. Benedikt Welp
+Nils Pohl,Alex Shoykhetbrod
+Nils Pohl,Mario Pauli
+Nils Pohl,Lukas Piotrowsky
+Nils Pohl,Harun Cetinkaya
+Nils Pohl,Uwe Stilla
+Nils Pohl,Alexander Hommes
+Nils Pohl,Tai Fei
+Nils Pohl,Yuliang Sun
+Nils Pohl,Bianca Will
+Georg Schmitz,Martin P Mienkina
+Georg Schmitz,Michiel Postema
+Georg Schmitz,Fabian Kiessling
+Georg Schmitz,Martin F. Schiffner
+Georg Schmitz,Nils C. Gerhardt
+Georg Schmitz,Tim Kranemann
+Georg Schmitz,Nico de Jong (peer reviewed)
+Georg Schmitz,Thomas Ersepke
+Georg Schmitz,Stanley Fokong
+Georg Schmitz,Twan Lammers
+Georg Schmitz,Waldemar Zylka
+Georg Schmitz,Leili Salehi
+Georg Schmitz,Thorsten M. Buzug
+Georg Schmitz,Ulrich Simon
+Georg Schmitz,Nily Dan
+Georg Schmitz,P Laugier
+Georg Schmitz,Alfons Schnitzler
+Georg Schmitz,Folkert Ten Cate
+Georg Schmitz,Ayache Bouakaz
+Georg Schmitz,Volker Rasche
+Jörg Schwenk,Meiko Jensen
+Jörg Schwenk,Juraj Somorovsky
+Jörg Schwenk,Christian Mainka
+Jörg Schwenk,Tibor Jager
+Jörg Schwenk,Sven Schäge
+Jörg Schwenk,Albrecht Beutelspacher
+Jörg Schwenk,Mark Manulis
+Jörg Schwenk,Nils Gruschka
+Jörg Schwenk,Christopher Meyer
+Jörg Schwenk,Marcus Niemietz
+Jörg Schwenk,Mario Heiderich
+Jörg Schwenk,Thorsten Holz
+Jörg Schwenk,Tilman Frosch
+Jörg Schwenk,Paul Rösler
+Jörg Schwenk,Martin Grothe
+Jörg Schwenk,Ashar Javed
+Jörg Schwenk,Olivier Pereira
+Jörg Schwenk,Douglas Stebila
+Jörg Schwenk,Benjamin Dowling
+Jörg Schwenk,Erik Tews
+Aydin Sezgin,Anas Chaaban
+Aydin Sezgin,Eduard Jorswieck
+Aydin Sezgin,Soheil Gherekhloo
+Aydin Sezgin,Jaber Kakar
+Aydin Sezgin,Holger Boche
+Aydin Sezgin,Salman Avestimehr
+Aydin Sezgin,Prof. Mohamed-Slim Alouini
+Aydin Sezgin,Tobias J. Oechtering
+Aydin Sezgin,Aya Mostafa Ahmed
+Aydin Sezgin,Dr. Hayssam Dahrouj
+Aydin Sezgin,O. Ozan Koyluoglu
+Aydin Sezgin,Babak Hassibi
+Aydin Sezgin,Amin khajehnejad
+Aydin Sezgin,David Tse
+Aydin Sezgin,Stefano Tomasin
+Aydin Sezgin,Bernd Bandemer
+Aydin Sezgin,Volker Jungnickel
+Aydin Sezgin,Björn Ottersten
+Aydin Sezgin,Volker Kühn
+Aydin Sezgin,Dirk Wübben
+Andrew R. Gibson,Timo Gans
+Andrew R. Gibson,Deborah O'Connell
+Andrew R. Gibson,James Dedrick
+Andrew R. Gibson,Sandra Schröter
+Andrew R. Gibson,Jean-Paul Booth
+Andrew R. Gibson,Mark J. Kushner
+Andrew R. Gibson,Arthur Greb
+Andrew R. Gibson,Scott J Doyle
+Andrew R. Gibson,Erik Wagenaars
+Andrew R. Gibson,Zoltan Donko
+Andrew R. Gibson,Julian Schulze
+Andrew R. Gibson,Bastien Bruneau
+Andrew R. Gibson,Erik Johnson
+Andrew R. Gibson,christine charles
+Andrew R. Gibson,Ihor Korolov
+Andrew R. Gibson,Peter Hartmann
+Andrew R. Gibson,Helen O McCarthy
+Andrew R. Gibson,Pascaline Grondein
+Andrew R. Gibson,Andrew Hurlbatt
+Andrew R. Gibson,Trevor Lafleur
+Nils C. Gerhardt,Markus Lindemann
+Nils C. Gerhardt,Andreas Dirk Wieck
+Nils C. Gerhardt,Nektarios Koukourakis
+Nils C. Gerhardt,Henning Höpfner
+Nils C. Gerhardt,Markus Finkeldey
+Nils C. Gerhardt,Arne Ludwig
+Nils C. Gerhardt,Volker Jaedicke
+Nils C. Gerhardt,Sangam Chatterjee
+Nils C. Gerhardt,Falk Schellenberg
+Nils C. Gerhardt,Eoin O'Reilly
+Nils C. Gerhardt,Jan C. Balzer
+Julian Schulze,Zoltan Donko
+Julian Schulze,Ihor Korolov
+Julian Schulze,Thomas Mussenbrock
+Julian Schulze,Timo Gans
+Julian Schulze,Peter Hartmann
+Julian Schulze,Jan Trieschmann
+Julian Schulze,Peter Awakowicz
+Julian Schulze,Denis Eremin
+Julian Schulze,Erik Johnson
+Julian Schulze,Bastien Bruneau
+Julian Schulze,Miles M Turner
+Julian Schulze,Masaharu Shiratani
+Julian Schulze,James Franek
+Julian Schulze,Paola Diomede
+Julian Schulze,Mohammed Shihab
+Julian Schulze,Savino Longo
+Julian Schulze,Mark J. Kushner
+Julian Schulze,Quanfa Zhang
+Julian Schulze,Yue Wang (王玉娥)
+Julian Schulze,Prof. Qinyu Zhang
+Peter Mark,Mark Alexander Ahrens
+Peter Mark,Peter Heek
+Peter Mark,Patrick Forman
+Peter Mark,David Sanio
+Peter Mark,Jens Löschmann
+Peter Mark,Günther Meschke
+Peter Mark,Katharina Look
+Peter Mark,Markus König
+Peter Mark,Oliver Fischer
+Peter Mark,Toni Arangelovski
+Peter Mark,Darko Nakov
+Peter Mark,Georgios Gaganelis
+Peter Mark,Arash Alimardani Lavasan
+Peter Mark,Tom Schanz
+Peter Mark,Chenyang Zhao
+Peter Mark,Steffen Freitag
+Peter Mark,Konrad Bergmeister
+Peter Mark,Marcel Neuhausen
+Peter Mark,Alfred Strauss
+Peter Mark,Steffen Mueller
+Klaus Hackl,Philipp Junker
+Klaus Hackl,Carsten Carstensen
+Klaus Hackl,Dennis Kochmann
+Klaus Hackl,Mielke Alexander
+Klaus Hackl,Alexander H.-D. Cheng
+Klaus Hackl,Gunther Eggeler
+Klaus Hackl,Johanna Waimann
+Klaus Hackl,H. Nguyen-Xuan
+Klaus Hackl,Jörg Schröder
+Klaus Hackl,Martin Franz-Xaver Wagner
+Klaus Hackl,Sanjay Govindjee
+Klaus Hackl,Wolfgang Schmahl
+Klaus Hackl,Yiqian He
+Klaus Hackl,Sergio Conti
+Klaus Hackl,Stephane Avril
+Klaus Hackl,Michael Chajes
+Klaus Hackl,Timon Rabczuk
+Klaus Hackl,Günther Meschke
+Klaus Hackl,Jafar Khalil-Allafi
+Klaus Hackl,Antonio Orlando
+M. Angela Sasse FREng,Jens Riegelsberger
+M. Angela Sasse FREng,Anne Adams
+M. Angela Sasse FREng,Simon Parkin
+M. Angela Sasse FREng,Hendrik Knoche
+M. Angela Sasse FREng,Kat Krol
+M. Angela Sasse FREng,Mark Handley
+M. Angela Sasse FREng,Iacovos Kirlappos
+M. Angela Sasse FREng,Ivan Flechais
+M. Angela Sasse FREng,Miguel Malheiros
+M. Angela Sasse FREng,Ingolf Becker
+M. Angela Sasse FREng,Charlene Jennett
+M. Angela Sasse FREng,Philip Bonhard
+M. Angela Sasse FREng,Ruba Abu-Salma
+M. Angela Sasse FREng,Mel Slater
+M. Angela Sasse FREng,David W Chadwick
+M. Angela Sasse FREng,"Sven Laqua, PhD"
+M. Angela Sasse FREng,Gianluca Stringhini
+M. Angela Sasse FREng,Ian Brown
+M. Angela Sasse FREng,Anthony Steed
+M. Angela Sasse FREng,Ian Wakeman
+Tamara Nestrovic,Dragutin Lj. Debeljkovic
+Tamara Nestrovic,Dr. Ivan Buzurovic
+Tamara Nestrovic,Nebojsa Dimitrijevic
+Tamara Nestrovic,Gurudutt Chandrashekar
+Tamara Nestrovic,Maria Datcheva
+Ana Mendonça,Aurelio Campilho
+Ana Mendonça,Pedro Quelhas
+Ana Mendonça,Behdad Dashtbozorg
+Ana Mendonça,Adrian Galdran
+Ana Mendonça,Pedro Costa
+Ana Mendonça,Maria Ines Meyer
+Ana Mendonça,Teresa Araújo
+Ana Mendonça,Jorge Novo Buján
+António P. Martins,Adriano Carvalho
+António P. Martins,Joao Luiz Afonso
+José António Araújo Gonçalves,Paulo Simeão Carvalho
+José António Araújo Gonçalves,Rosa Doran
+Manuel António Moreira Alves,Paulo Jorge Pimentel de Oliveira
+Manuel António Moreira Alves,Alexandre Afonso
+Manuel António Moreira Alves,R J Poole
+Manuel António Moreira Alves,F.J. Galindo-Rosales
+Manuel António Moreira Alves,Gareth McKinley
+Manuel António Moreira Alves,Laura Campo Deaño
+Manuel António Moreira Alves,J. Miguel Nóbrega
+Manuel António Moreira Alves,Anke Lindner
+Manuel António Moreira Alves,Cassio M. Oishi
+Manuel António Moreira Alves,murilo tome
+Manuel António Moreira Alves,Amy Shen
+Manuel António Moreira Alves,Renato Sousa
+Manuel António Moreira Alves,Aditya Jaishankar
+Manuel António Moreira Alves,Antonio Castelo Filho
+Manuel António Moreira Alves,Denis Bartolo
+Manuel António Moreira Alves,Manoel Silvino Batalha de Araujo
+Manuel António Moreira Alves,Alirio E. Rodrigues
+Manuel António Moreira Alves,Christian Wagner
+Manuel António Moreira Alves,Fridolin Okkels
+Manuel António Moreira Alves,Kristian Jensen
+Armando Jorge Miranda de Sousa,Luis Paulo Reis
+Armando Jorge Miranda de Sousa,Antonio Moreira
+Armando Jorge Miranda de Sousa,Paulo Costa
+Armando Jorge Miranda de Sousa,Germano Veiga
+Armando Jorge Miranda de Sousa,Filipe Neves Dos Santos
+Armando Jorge Miranda de Sousa,Valter Costa
+Armando Jorge Miranda de Sousa,Carlos Miguel Correia da Costa
+Armando Jorge Miranda de Sousa,André Silva Aguiar
+Cláudio Monteiro,Ricardo Bessa
+Cláudio Monteiro,Jianhui Wang
+Cláudio Monteiro,Audun Botterud
+Cláudio Monteiro,João PS Catalão
+Cláudio Monteiro,Rodolfo Dufo-López
+Cláudio Monteiro,Gerald B Sheble
+Cláudio Monteiro,Tatjana Konjić
+Cláudio Monteiro,Pedro Fonte
+Cláudio Monteiro,Carlos Veiga Rodrigues
+Cláudio Monteiro,Pedro M A Miranda
+Cláudio Monteiro,João Tomé Saraiva
+Cláudio Monteiro,Nikos Hatziargyriou
+Fernando ACC Fontes,Dalila Benedita Machado Martins Fontes
+Fernando ACC Fontes,Sofia Lopes
+Fernando ACC Fontes,Maria do Rosário de Pinho
+Fernando ACC Fontes,Luís Tiago Paiva
+Fernando ACC Fontes,Luis Roque
+Fernando ACC Fontes,Rui M. S. Pereira
+Fernando ACC Fontes,Magni Lalo
+Fernando ACC Fontes,Fernando Lobo Pereira
+Fernando ACC Fontes,Richard Vinter 
+Fernando ACC Fontes,A. Manuela Gonçalves
+Fernando ACC Fontes,A. Pedro Aguiar
+Fernando ACC Fontes,Sorin Olaru
+Fernando ACC Fontes,Ionela Prodan
+Fernando ACC Fontes,Silviu-Iulian NICULESCU
+Fernando ACC Fontes,Cristina Stoica Maniu
+Fernando ACC Fontes,Ilya Kolmanovsky
+Fernando ACC Fontes,Antonio Moreira
+Fernando ACC Fontes,Andre Gustavo Scolari Conceicao
+Fernando ACC Fontes,Tiago Nascimento
+Fernando ACC Fontes,Helene Frankowska
+Fernando Lobo Pereira,Geraldo Nunes Silva
+Fernando Lobo Pereira,Eduardo Silva
+Fernando Lobo Pereira,Nuno Cruz
+Fernando Lobo Pereira,José Pinto
+Fernando Lobo Pereira,Eduardo R. B. Marques
+Fernando Lobo Pereira,Valeriano Antunes de Oliveira
+Fernando Lobo Pereira,P. B. Sujit
+Fernando Lobo Pereira,Ricardo Carelli
+Fernando Lobo Pereira,Fernando ACC Fontes
+Fernando Lobo Pereira,Fernando A. Auat Cheein
+Fernando Lobo Pereira,Fernando di Sciascio
+Fernando Lobo Pereira,Ricardo Martins
+Fernando Lobo Pereira,Maria do Rosário de Pinho
+Fernando Lobo Pereira,"Isabel Ribeiro, M. Isabel Ribeiro, I. Ribeiro"
+Fernando Lobo Pereira,Elvira Rafikova
+Fernando Lobo Pereira,Paulo Roberto Gardel Kurka
+Fernando Lobo Pereira,Marat Rafikov
+Helder Leite,Ismael Miranda
+Helder Leite,Adriano Carvalho
+Helder Leite,Ataollah Mokhberdoran
+Helder Leite,Dirk Van Hertem
+Helder Leite,Janaka Ekanayake
+Helder Leite,Roberto Moreira
+Helder Leite,Nuno Silva
+Henrique M. Salgado,Luís Pessoa
+Henrique M. Salgado,"Orlando Frazão, PhD"
+Henrique M. Salgado,Jorge C. Sousa e Castro
+Henrique M. Salgado,Qi Luo
+Henrique M. Salgado,Izzat Darwazeh
+Henrique M. Salgado,Antonio Teixeira
+Henrique M. Salgado,Paulo André
+Henrique M. Salgado,José Figueiredo
+Henrique M. Salgado,Bruno Romeira
+Henrique M. Salgado,Miguel Rodrigues
+Jaime Cardoso,Helder P. Oliveira
+Jaime Cardoso,Inês Domingues
+Jaime Cardoso,Kelwin Fernandes
+Jaime Cardoso,Ricardo Gamelas Sousa
+Jaime Cardoso,Carlos Guedes
+Jaime Cardoso,Luís Côrte-Real
+Jaime Cardoso,Luis F. Teixeira
+Jaime Cardoso,Ana Sequeira
+Jaime Cardoso,João Carlos Monteiro
+Jaime Cardoso,Andre Marcal
+Jaime Cardoso,Eduardo M. Pereira
+Jaime Cardoso,Inês C. Moreira
+Jaime Cardoso,Guilherme A. Barreto
+Jaime Cardoso,Samaneh Khoshrou
+Jaime Cardoso,Ana Rebelo
+João Barros,Muriel Medard
+João Barros,Matthieu Bloch
+João Barros,Steven W. McLaughlin
+João Barros,Luisa Lima
+João Barros,Miguel Rodrigues
+João Barros,Mate Boban
+João Barros,João P. Vilela
+João Barros,Tiago T. V. Vinhoza
+João Barros,Rui A. Costa
+João Barros,Daniel E. Lucani
+João Barros,Pedro Pinto
+João Barros,Michael Mitzenmacher
+João Barros,Devavrat Shah
+João Barros,Michel Ferreira
+João Barros,Paulo F. Oliveira
+João Barros,Alberto Lopez Toledo
+João Barros,Sérgio Crisóstomo
+João Barros,Steluta Gheorghiu
+João Barros,Willie Harrison
+João Barros,Francisco Martins
+João Canas Ferreira,João M. P. Cardoso
+João Canas Ferreira,Jose S. Matos
+João Canas Ferreira,João Bispo
+João Canas Ferreira,Miguel V. Correia
+João Canas Ferreira,André Catarino
+João Canas Ferreira,Juergen Becker
+João Canas Ferreira,Wayne Luk
+João Canas Ferreira,Vlad-Mihai Sima
+João Canas Ferreira,George Constantinides
+João Canas Ferreira,Razvan Nane
+João Canas Ferreira,Koen Bertels
+João Canas Ferreira,Jose Gabriel de Figueiredo Coutinho
+João Canas Ferreira,José F. Oliveira
+João Canas Ferreira,Henrique M. Salgado
+João Canas Ferreira,Luís Pessoa
+João Canas Ferreira,Pedro M. Santos
+João Canas Ferreira,Tiago Carvalho
+João Canas Ferreira,Ali Azarian
+João Canas Ferreira,José Soeiro Ferreira
+João Canas Ferreira,Subhashish Bhattacharya
+João Paulo Cunha,Jose Maria Fernandes
+João Paulo Cunha,Christian Vollmar
+João Paulo Cunha,Miguel Coimbra
+João Paulo Cunha,Hugo Miguel P. Choupina
+João Paulo Cunha,Ana Patrícia Rocha
+João Paulo Cunha,André Zúquete
+João Paulo Cunha,João Barros
+João Paulo Cunha,António J. S. Teixeira
+João Paulo Cunha,Liliana Ferreira
+João Paulo Cunha,Pedro Guedes de Oliveira
+João Paulo Cunha,Bernardo Cunha
+João Paulo Cunha,Pedro Dias
+João Paulo Cunha,João Guilherme Pereira Rodrigues
+Luís Côrte-Real,Jaime Cardoso
+Luís Côrte-Real,Luis F. Teixeira
+Luís Côrte-Real,Jorge C. S. Cardoso
+Luís Côrte-Real,Jose Manuel Torres
+Luis Almeida,Paulo Pedreiras
+Luis Almeida,Julian Proenza
+Luis Almeida,Frederico Miguel Santos
+Luis Almeida,Thomas Nolte
+Luis Almeida,Joaquim Ferreira
+Luis Almeida,Pedro Fonseca
+Luis Almeida,Rui Santos
+Luis Almeida,Mohammad Ashjaei
+Luis Almeida,Luís Oliveira
+Luis Almeida,Guillermo Rodriguez-Navas
+Luis Almeida,Tullio Facchinetti
+Luis Almeida,Giorgio Buttazzo
+Luis Almeida,"PhD, Luis Ramos Pinto"
+Luis Almeida,Nuno Lau
+Luis Almeida,Bernardo Cunha
+Luis Almeida,Marga Marcos
+Luis Almeida,Eduardo Tovar
+Luis Almeida,Pablo Basanta Val
+Luis Almeida,Iria Estévez-Ayres
+Luis Almeida,Marisol García Valls
+Cândido Duarte,Pedro Guedes de Oliveira
+Cândido Duarte,Pedro Barquinha
+Teresa Leão,Julian Perelman
+Teresa Leão,Mirte A.G. Kuipers
+Teresa Leão,Matthias Richter
+Teresa Leão,vincent lorant
+Teresa Leão,Michael Schreuders
+Teresa Leão,Jose Luis Sandoval
+Teresa Leão,Pirjo Lindfors
+Teresa Leão,Ines Campos-Matos
+Teresa Leão,Giuliano Russo
+Teresa Leão,Clare Bambra
+Teresa Leão,Prof Luke Clancy
+maria teresa andrade,Abayomi Otebolaku
+maria teresa andrade,Pedro Carvalho
+maria teresa andrade,Safak Dogan
+maria teresa andrade,Jaime Delgado
+maria teresa andrade,Hemantha Kodikara Arachchi
+maria teresa andrade,Paula Viana
+maria teresa andrade,Nicola Blefari Melazzi
+maria teresa andrade,Christian Timmerer
+maria teresa andrade,Prof. Dr. Artur Lugmayr
+maria teresa andrade,Fernando Almeida
+maria teresa andrade,Dimitra I. Kaklamani
+maria teresa andrade,Mattavelli Marco
+maria teresa andrade,Abdellatif Benjelloun Touimi
+maria teresa andrade,Angelo Difino
+maria teresa andrade,Ahmed Mehaoua
+maria teresa andrade,Heinrich Hussmann
+maria teresa andrade,Joao Magalhaes
+Nuno Cruz,Aníbal CC Matos
+Nuno Cruz,Bruno Mateus Ferreira
+Nuno Cruz,Alfredo Martins
+Nuno Cruz,Jose Almeida
+Nuno Cruz,Eduardo Silva
+Nuno Cruz,Nuno Abreu
+Nuno Cruz,Patrícia Ramos
+Nuno Cruz,Rui Campos
+Nuno Cruz,Vítor Hugo Pinto
+Nuno Cruz,Andre Dias
+Nuno Cruz,Antonio Moreira
+Nuno Cruz,Victor Lobo
+Nuno Cruz,Chiara Petrioli
+Nuno Cruz,Daniele Spaccini
+Nuno Cruz,Roberto Petroccia
+Nuno Cruz,Jerome Jouffroy
+Nuno Cruz,Mário Marques
+Nuno Cruz,Luis Madureira
+Nuno Cruz,Leonardo de Mello Honorio
+Nuno Cruz,Geert De Cubber
+Paulo Lopes dos Santos,Teresa Paula Azevedo Perdicoulis
+Paulo Lopes dos Santos,Daniel E. Rivera
+Paulo Lopes dos Santos,Catarina J. M. Delgado
+Paulo Lopes dos Santos,Rodrigo Alvite Romano
+Paulo Lopes dos Santos,Carlo Novara
+Paulo Lopes dos Santos,Felipe Pait
+Paulo Lopes dos Santos,Marco Lovera
+Paulo Lopes dos Santos,Ahmed Alenany
+Paulo Lopes dos Santos,Eric Hekler
+Paulo Lopes dos Santos,Cesar A. Martin
+Paulo Lopes dos Santos,Mohammad T. Freigoun
+Paulo Lopes dos Santos,Erik Verriest
+Paulo Portugal,Francisco Vasques
+Paulo Portugal,Luiz Affonso Guedes
+Paulo Portugal,Daniel G. Costa
+Paulo Portugal,Carlos Montez
+Paulo Portugal,Ivanovitch Medeiros Dantas da Silva
+Paulo Portugal,Adriano Carvalho
+Paulo Portugal,Alex Roschildt Pinto
+Paulo Portugal,Odilson Tadeu Valle
+Paulo Portugal,Luis Almeida
+Paulo Portugal,Ricardo Custódio
+Paulo Portugal,Rômulo Silva de Oliveira
+Paulo Portugal,Pedro Silva
+Paulo Portugal,Mario Dantas
+Paulo Portugal,Valério Rosset
+Paulo Portugal,Mário Alves
+Paulo Portugal,Eduardo Tovar
+Paulo Portugal,Julian Proenza
+Rui Esteves Araújo,Ricardo de Castro
+Rui Esteves Araújo,Jorge Varela Barreras
+Rui Esteves Araújo,Diogo Varajão
+Rui Esteves Araújo,Sergio Matteo Savaresi
+Rui Esteves Araújo,Mara Tanelli
+Rui Esteves Araújo,Erik schaltz
+Rui Esteves Araújo,Martin Walker
+Rui Esteves Araújo,Yiannis Papadopoulos
+Rui Esteves Araújo,Paulo G. Pereirinha
+Rui Esteves Araújo,João Pedro Trovão
+António Porto,Luís Moniz Pereira
+António Porto,Paolo Ciancarini
+Fernando Silva,Pedro Ribeiro
+Fernando Silva,Vítor Santos Costa
+Fernando Silva,Ricardo Rocha
+Fernando Silva,Nuno A Fonseca
+Fernando Silva,David Aparicio
+Fernando Silva,Vasco T. Vasconcelos
+Fernando Silva,Rolando da Silva Martins
+Fernando Silva,Manuel Eduardo Correia
+Fernando Silva,José Paulo Leal
+Fernando Silva,Hervé Paulino
+Fernando Silva,Eduardo R. B. Marques
+Fernando Silva,Jorge Silva
+Fernando Silva,Priya Narasimhan
+Fernando Silva,Marcus Kaiser
+Fernando Silva,Claudio Geyer
+Fernando Silva,Joao Gama
+Fernando Silva,Alvaro Figueira
+Fernando Silva,Miguel E. P. Silva
+Fernando Silva,Utsav Drolia
+Fernando Silva,Ines Dutra
+Alípio Jorge,Carlos Soares
+Alípio Jorge,Ricardo Campos
+Alípio Jorge,Joao Gama
+Alípio Jorge,Paulo J. Azevedo
+Alípio Jorge,Gaël Dias
+Alípio Jorge,João Vinagre
+Alípio Jorge,Adam Jatowt
+Alípio Jorge,João Mendes-Moreira
+Alípio Jorge,Jorge Freire de Sousa
+Alípio Jorge,Célia Nunes
+Alípio Jorge,Marcos Domingues
+Alípio Jorge,Pavel Brazdil
+Alípio Jorge,Arian Pasquali
+Alípio Jorge,Vitor Mangaravite
+Alípio Jorge,José Paulo Leal
+Alípio Jorge,Solange Oliveira Rezende
+Alípio Jorge,Elsa Ferreira Gomes
+Alípio Jorge,Luís Torgo
+Alípio Jorge,Cláudio Rebelo de Sá
+Alípio Jorge,Daniel Loureiro
+Joao Pedro Pedroso,Ana Viana
+Joao Pedro Pedroso,Joao Gama
+Joao Pedro Pedroso,Pedro Pereira Rodrigues
+Joao Pedro Pedroso,Filipe Brandão
+Joao Pedro Pedroso,Margarida Carvalho
+Joao Pedro Pedroso,Nicolau Santos
+Joao Pedro Pedroso,Noboru Murata
+Joao Pedro Pedroso,Simão Melo de Sousa
+Joao Pedro Pedroso,Rogerio Reis
+Manuel Barbosa,José Bacelar Almeida
+Manuel Barbosa,Pooya Farshim
+Manuel Barbosa,François Dupressoir
+Manuel Barbosa,Bernardo Portela
+Manuel Barbosa,Pierre-Yves Strub
+Manuel Barbosa,Dan Page
+Manuel Barbosa,Jorge Sousa Pinto
+Manuel Barbosa,Bogdan Warinschi
+Manuel Barbosa,Barbara Vieira
+Manuel Barbosa,Ahmad-Reza Sadeghi
+Manuel Barbosa,Hugo Pacheco
+Manuel Barbosa,Dario Fiore
+Manuel Barbosa,Guillaume Scerri
+Manuel Barbosa,Tiago Oliveira
+Manuel Barbosa,Andrew Moss
+Manuel Barbosa,Stephan Krenn
+Manuel Barbosa,Dario Catalano
+Manuel Barbosa,Michael Emmi
+Manuel Barbosa,Frederik Vercauteren
+Manuel Barbosa,Paulo F. Silva
+Manuel Eduardo Correia,Alexandre B. Augusto
+Manuel Eduardo Correia,Mario Antunes
+Manuel Eduardo Correia,Ricardo João Cruz-Correia
+Manuel Eduardo Correia,Fernando Silva
+Manuel Eduardo Correia,Vítor Santos Costa
+Manuel Eduardo Correia,Luís Antunes
+Manuel Eduardo Correia,Cátia Santos-Pereira
+Manuel Eduardo Correia,Rolando da Silva Martins
+Manuel Eduardo Correia,Rui A. Martins
+Manuel Eduardo Correia,Pedro Brandão
+Manuel Eduardo Correia,Claudio Geyer
+Manuel Eduardo Correia,Ana Ferreira
+Manuel Eduardo Correia,Francis N. Nwebonyi
+Manuel Eduardo Correia,Ricardo Ferreira
+Manuel Eduardo Correia,Catarina Silva
+Manuel Eduardo Correia,Bernardete Ribeiro
+Manuel Eduardo Correia,Patricia Kayser Vargas Mangan
+Manuel Eduardo Correia,Francisco Nuno Rocha-Gonçalves
+Manuel Eduardo Correia,Gabriele Lenzini
+Manuel Eduardo Correia,Ricardo Santos
+Mário Florido,Jorge Coelho
+Mário Florido,Kevin Hammond
+Mário Florido,Simão Melo de Sousa
+Mário Florido,Vítor Santos Costa
+Mário Florido,Benny Åkesson
+Mário Florido,Joao Pedro Pedroso
+Mário Florido,Patrik Jansson
+Mário Florido,Mircea Marin
+Miguel Coimbra,B. V. K. Vijaya Kumar
+Miguel Coimbra,Pedro Tiago Gomes
+Miguel Coimbra,Ana Castro
+Miguel Coimbra,Daniel Pereira
+Miguel Coimbra,Ricardo João Cruz-Correia
+Miguel Coimbra,mike davies
+Miguel Coimbra,Ines Dutra
+Miguel Coimbra,Tiago T. V. Vinhoza
+Miguel Coimbra,Mark D. Plumbley
+Miguel Coimbra,Nuno Marques
+Miguel Coimbra,André Correia Sousa
+Miguel Coimbra,Hugo Proença
+Miguel Coimbra,Gonçalo Espregueira Themudo
+Miguel Coimbra,Ricardo Gamelas Sousa
+Miguel Coimbra,João C. Neves
+Miguel Coimbra,Michal Mackiewicz
+Miguel Coimbra,Pedro Ferreira
+Miguel Coimbra,Prof. Sergio A Velastin FIET SMIEE
+Miguel Coimbra,P Carvalho
+Miguel Coimbra,Susana Brás
+Nelma Moreira,Rogerio Reis
+Nelma Moreira,Marco Almeida
+Nelma Moreira,David Pereira
+Nelma Moreira,Eva Maia
+Nelma Moreira,Eugenio Oliveira
+Nelma Moreira,Simão Melo de Sousa
+Nelma Moreira,Stavros Konstantinidis
+Nelma Moreira,José Paulo Leal
+Nelma Moreira,Ruy de Queiroz
+Nelma Moreira,José Bacelar Almeida
+Nelma Moreira,Luis Sarmento
+Nelma Moreira,Jason P. Bell
+Nelma Moreira,Sergio Balari
+Nelma Moreira,Giovanni Pighizzini
+Nelma Moreira,Joao Pedro Pedroso
+Nelma Moreira,Bruno Loff
+Ricardo Rocha,Vítor Santos Costa
+Ricardo Rocha,Fernando Silva
+Ricardo Rocha,Angelika Kimmig
+Ricardo Rocha,Nuno A Fonseca
+Ricardo Rocha,Michel Ferreira
+Ricardo Rocha,Luc De Raedt
+Ricardo Rocha,bart demoen
+Ricardo Rocha,Flávio Cruz
+Ricardo Rocha,Ines Dutra
+Ricardo Rocha,Luisa Pereira
+Ricardo Rocha,Joana Côrte-Real
+Ricardo Rocha,Seth Copen Goldstein
+Ricardo Rocha,Gerda Janssens
+Ricardo Rocha,David C. Samuels
+Ricardo Rocha,Paulo Moura
+Ricardo Rocha,Manuel Hermenegildo
+Ricardo Rocha,Manuel Carro
+Ricardo Rocha,Frank Pfenning
+Ricardo Rocha,Rolando da Silva Martins
+Ricardo Rocha,Sara C. Madeira
+Vítor Santos Costa,Fernando Silva
+Vítor Santos Costa,Ricardo Rocha
+Vítor Santos Costa,Ines Dutra
+Vítor Santos Costa,Jesse Davis
+Vítor Santos Costa,Nuno A Fonseca
+Vítor Santos Costa,gerson zaverucha
+Vítor Santos Costa,Gopal Gupta
+Vítor Santos Costa,"Elizabeth Burnside M.D., MPH, M.S."
+Vítor Santos Costa,bart demoen
+Alvaro Figueira,Luciana Oliveira
+Alvaro Figueira,José Devezas
+Alvaro Figueira,Nuno Cravino
+Alvaro Figueira,Fernando Silva
+Alvaro Figueira,Vasco T. Vasconcelos
+Alvaro Figueira,Miguel Sandim
+Alvaro Figueira,Óscar Mealha
+Alvaro Figueira,Hugo Gonçalo Oliveira
+Alvaro Figueira,Ana Cristina Oliveira Alves
+Alvaro Figueira,Hervé Paulino
+Bruno Loff,José Félix Costa
+Bruno Loff,Harry Buhrman
+Bruno Loff,Sagnik Mukhopadhyay
+Bruno Loff,Edwin Beggs
+Bruno Loff,Michal Koucky
+Bruno Loff,Arkadev Chattopadhyay
+Bruno Loff,Florian Speelman
+Bruno Loff,Lance Fortnow
+Bruno Loff,Richard Cleve
+Bruno Loff,Joshua Brody
+Bruno Loff,Eric Allender
+Bruno Loff,Leen Torenvliet
+Bruno Loff,Igor Carboni Oliveira
+Bruno Loff,John Hitchcock
+Bruno Loff,Amir Ben-Amram
+Bruno Loff,Rogerio Reis
+Bruno Loff,Nelma Moreira
+Hugo Pacheco,Alcino Cunha
+Hugo Pacheco,Zhenjiang Hu
+Hugo Pacheco,Nuno Macedo
+Hugo Pacheco,José Bacelar Almeida
+Hugo Pacheco,Manuel Barbosa
+Hugo Pacheco,Jácome Cunha
+Hugo Pacheco,João Saraiva
+Hugo Pacheco,Jorge Mendes
+Hugo Pacheco,João Paulo Fernandes
+Hugo Pacheco,Tiago Oliveira
+Hugo Pacheco,Benedikt Schmidt
+Hugo Pacheco,Pierre-Yves Strub
+Hugo Pacheco,Joost Visser
+Hugo Pacheco,Bernardo Portela
+Hugo Pacheco,Jose N. Oliveira
+Hugo Pacheco,Janis Voigtländer
+Hugo Pacheco,Ricardo Bessa
+Hugo Pacheco,Rui Couto
+Hugo Pacheco,Jose Proenca
+Hugo Pacheco,Vitor Pereira
+Ines Dutra,Vítor Santos Costa
+Ines Dutra,"Elizabeth Burnside M.D., MPH, M.S."
+Ines Dutra,Jude Shavlik
+Ines Dutra,Claudio Geyer
+Ines Dutra,Ricardo Rocha
+Ines Dutra,Jesse Davis
+Ines Dutra,Pedro Ferreira
+Ines Dutra,Patricia Kayser Vargas Mangan
+Ines Dutra,Joana Côrte-Real
+Ines Dutra,Rogerio Salvini
+Ines Dutra,Ricardo João Cruz-Correia
+Ines Dutra,Nuno A Fonseca
+Ines Dutra,Raghu Ramakrishnan
+Ines Dutra,Houssam Nassif
+Ines Dutra,Miguel Coimbra
+Ines Dutra,Raymond Mooney
+Ines Dutra,Prem Melville
+Ines Dutra,Finn Kuusisto
+Ines Dutra,Daniel Pereira
+Ines Dutra,Diego Carvalho
+João P. Vilela,João Barros
+João P. Vilela,Marco Gomes
+João P. Vilela,Willie Harrison
+João P. Vilela,Luisa Lima
+João P. Vilela,Ricardo Mendes
+João P. Vilela,Bruno Lopes Dalmazo
+João P. Vilela,Marilia Curado
+João P. Vilela,Steven W. McLaughlin
+João P. Vilela,Matthieu Bloch
+João P. Vilela,Muriel Medard
+João P. Vilela,Pedro Pinto
+João P. Vilela,Alberto Lopez Toledo
+João P. Vilela,Edmundo Monteiro
+João P. Vilela,Mate Boban
+João P. Vilela,Saulo Queiroz
+João P. Vilela,Thyago Monteiro Sá Pinto
+João P. Vilela,Daniel Castanheira
+João P. Vilela,Adão silva
+João P. Vilela,Bengi Aygun
+João P. Vilela,Susana Sargento
+José Paulo Leal,Ricardo Queiros
+José Paulo Leal,José Carlos Paiva
+José Paulo Leal,Alípio Jorge
+José Paulo Leal,Marcos Domingues
+José Paulo Leal,Fernando Silva
+José Paulo Leal,Carlos Soares
+José Paulo Leal,Fabien Gouyon
+José Paulo Leal,João Vinagre
+José Paulo Leal,Mohamed Sordo
+José Paulo Leal,Duarte Ferreira
+José Paulo Leal,Lino Oliveira
+José Paulo Leal,Elena Verdu
+Michel Ferreira,Ricardo Fernandes
+Michel Ferreira,Luis Moreira-Matias
+Michel Ferreira,Joao Gama
+Michel Ferreira,Pedro M. d'Orey
+Michel Ferreira,Hugo Conceição
+Michel Ferreira,João Mendes-Moreira
+Michel Ferreira,Pedro Gomes
+Michel Ferreira,João Barros
+Michel Ferreira,Fausto Vieira
+Michel Ferreira,Ricardo Rocha
+Michel Ferreira,wantanee viriyasitavat
+Michel Ferreira,Peter Steenkiste
+Michel Ferreira,Tiago T. V. Vinhoza
+Michel Ferreira,Mate Boban
+Michel Ferreira,Michelle Krüger Silvéria
+Michel Ferreira,Vítor Santos Costa
+Michel Ferreira,Rosaldo J. F. Rossetti
+Michel Ferreira,João Manuel R. S. Tavares
+Michel Ferreira,Pedro Ribeiro
+Michel Ferreira,Rui Meireles
+Pedro Brandão,Rui Prior
+Pedro Brandão,Susana Sargento
+Pedro Brandão,Sérgio Crisóstomo
+Pedro Brandão,Ana Aguiar
+Pedro Brandão,Manuel Eduardo Correia
+Pedro Brandão,Antonio Skarmeta
+Pedro Brandão,Vítor Santos Costa
+Pedro Brandão,Ines Dutra
+Pedro Brandão,Carlos Pereira
+Pedro G. Ferreira,Roderic Guigo
+Pedro G. Ferreira,"Emmanouil Dermitzakis, Manolis Dermitzakis"
+Pedro G. Ferreira,Paulo J. Azevedo
+Pedro G. Ferreira,Michael Sammeth
+Pedro G. Ferreira,Dmitri Pervouchine
+Pedro G. Ferreira,Jean Monlong
+Pedro G. Ferreira,Tuuli Lappalainen
+Pedro G. Ferreira,Marta Melé
+Pedro G. Ferreira,Sarah Djebali
+Pedro G. Ferreira,Rory Johnson
+Pedro G. Ferreira,Ronnie Alves
+Pedro G. Ferreira,Orlando Belo
+Pedro G. Ferreira,Rui M M Brito
+Pedro G. Ferreira,Seirian Sumner
+Pedro G. Ferreira,Joel Ribeiro
+Pedro Ribeiro,Fernando Silva
+Pedro Ribeiro,David Aparicio
+Pedro Ribeiro,Pedro Paredes
+Pedro Ribeiro,Christos Faloutsos
+Pedro Ribeiro,Miguel Araujo
+Pedro Ribeiro,Marcus Kaiser
+Pedro Ribeiro,Pedro Guerreiro
+Pedro Ribeiro,Miguel E. P. Silva
+Pedro Ribeiro,Sylwia Bugla
+Pedro Ribeiro,Tijana Milenkovic
+Pedro Ribeiro,Srinivasan Parthasarathy
+Pedro Ribeiro,Michel Ferreira
+Pedro Ribeiro,José Pinto
+Pedro Ribeiro,Luciano Grácio
+Pedro Ribeiro,L Filipe C Castro
+Pedro Ribeiro,Ahmad Eddin
+Pedro Ribeiro,Jorge Silva
+Pedro Ribeiro,Henrique Branquinho
+Pedro Ribeiro,Maria Eduarda Silva
+Pedro Ribeiro,Miguel Martins
+Rita P. Ribeiro,Luís Torgo
+Rita P. Ribeiro,Joao Gama
+Rita P. Ribeiro,Bernhard Pfahringer
+Rita P. Ribeiro,Orlando Ohashi
+Rita P. Ribeiro,Vânia Gomes de Almeida
+Rita P. Ribeiro,Paula Branco
+Rogerio Reis,Marco Almeida
+Rogerio Reis,Eva Maia
+Rogerio Reis,Vítor Santos Costa
+Rogerio Reis,Stavros Konstantinidis
+Rogerio Reis,Emanuele Rodaro
+Rogerio Reis,Jason P. Bell
+Rogerio Reis,Joao Pedro Pedroso
+Rogerio Reis,Giovanni Pighizzini
+Rogerio Reis,Simão Melo de Sousa
+Rogerio Reis,Jorge Sousa Pinto
+Rogerio Reis,José Paulo Leal
+Rolando da Silva Martins,Priya Narasimhan
+Rolando da Silva Martins,Fernando Silva
+Rolando da Silva Martins,Utsav Drolia
+Rolando da Silva Martins,Luís Antunes
+Rolando da Silva Martins,Jiaqi Tan
+Rolando da Silva Martins,Patrícia R. Sousa
+Rolando da Silva Martins,João S. Resende
+Rolando da Silva Martins,Manuel Eduardo Correia
+Rolando da Silva Martins,Kunal Mankodiya
+Rolando da Silva Martins,Pedro Pinto da Silva
+Rolando da Silva Martins,Ricardo Rocha
+Rolando da Silva Martins,Jonathan Francis
+Rolando da Silva Martins,António Casimiro
+Rolando da Silva Martins,Paulo Esteves-Verissimo
+Rolando da Silva Martins,Diego Kreutz
+Rolando da Silva Martins,Miguel Coimbra
+Rolando da Silva Martins,Soila Kavulya
+Sérgio Crisóstomo,Susana Sargento
+Sérgio Crisóstomo,Rui Prior
+Sérgio Crisóstomo,Pedro Brandão
+Sérgio Crisóstomo,João Barros
+Sérgio Crisóstomo,Christian Bettstetter
+Sérgio Crisóstomo,Marek Natkaniec
+Sérgio Crisóstomo,Udo Schilcher
+Sérgio Crisóstomo,Andrzej Glowacz
+Sérgio Crisóstomo,Manuel Ricardo
+Sérgio Crisóstomo,João Paulo Barraca
+Sérgio Crisóstomo,tania calcada
+Sérgio Crisóstomo,Daniel E. Lucani
+Sérgio Crisóstomo,Traian Emanuel Abrudan (ATE)
+Sérgio Crisóstomo,"PhD, Luis Ramos Pinto"
+Sérgio Crisóstomo,Andreas Kassler
+Verónica Orvalho,Pedro Brandão
+Toufik Ahmed,Djamal-Eddine MEDDOUR
+Toufik Ahmed,Raouf Boutaba
+Toufik Ahmed,Tinku Rasheed
+Toufik Ahmed,Abbas BRADAI
+Toufik Ahmed,Mubashar Mushtaq
+Toufik Ahmed,Samir Medjiah
+Toufik Ahmed,Adel Ismail Djama
+Toufik Ahmed,Ramon Ferrus
+Toufik Ahmed,"Roberto Riggio, PhD"
+Toufik Ahmed,Hamid Asgari
+Toufik Ahmed,F. Krief
+Toufik Ahmed,Midou Nafaa
+Toufik Ahmed,Oriol Sallent
+Toufik Ahmed,Dr. Ubaid abbasi
+Toufik Ahmed,Eugen Borcoci
+Toufik Ahmed,Georgios Kormentzas
+Toufik Ahmed,Harilaos Koumaras
+Toufik Ahmed,DEMIGHA Oualid
+Toufik Ahmed,Kamal Singh
+Toufik Ahmed,Youssef Iraqi
+David Auber,Romain Bourqui
+David Auber,Daniel Archambault
+David Auber,Guy Melançon
+David Auber,Antoine Lambert
+David Auber,Tamara Munzner
+David Auber,Fabien Jourdan
+David Auber,Paolo Simonetto
+David Auber,Domenger Jean-Philippe
+David Auber,Benjamin Renoust
+David Auber,Bruno Pinaud
+David Auber,Alexandre Perrot
+David Auber,Alex Telea
+David Auber,Laurence Nigay
+David Auber,Joris Sansen
+David Auber,Gilles Bailly
+David Auber,Arnaud Sallaberry
+David Auber,nicolas hanusse
+David Auber,Patricia Thebault
+David Auber,Antoine Hinge
+David Auber,Céline Rozenblat
+Denis Barthou,Patrick Carribault
+Denis Barthou,Stephane Louise
+Denis Barthou,Sylvain HENRY
+Denis Barthou,David Padua
+Denis Barthou,Brice Goglin
+Denis Barthou,Bertrand Putigny
+Denis Barthou,Romain Dolbeau
+Denis Barthou,Seznec Andre
+Jenny Benois-Pineau,Rémi Mégret
+Jenny Benois-Pineau,Svebor Karaman
+Jenny Benois-Pineau,Julien Pinquier
+Jenny Benois-Pineau,Baudouin Denis de Senneville
+Jenny Benois-Pineau,Riccardo Leonardi
+Jenny Benois-Pineau,Alexandre Benoit
+Jenny Benois-Pineau,Matthieu Cord
+Jenny Benois-Pineau,Chrit Moonen
+Jenny Benois-Pineau,Alan Hanjalic
+Jenny Benois-Pineau,Sébastien Roujol
+Jenny Benois-Pineau,Hervé Jégou
+Jenny Benois-Pineau,Ebroul Izquierdo
+Xavier Blanc,Jean-Rémy Falleri
+Xavier Blanc,Cedric Teyton
+Xavier Blanc,Marcos Aurélio Almeida da Silva
+Xavier Blanc,Floréal Morandat
+Xavier Blanc,Marc Palyart
+Xavier Blanc,Matthieu Foucault
+Xavier Blanc,Laurence Duchien
+Xavier Blanc,Carlos Parra (ORCID:0000-0002-9695-3775)
+Xavier Blanc,Tom Mens
+Xavier Blanc,Jean-Marc Jezequel
+Xavier Blanc,Martin Monperrus
+Xavier Blanc,Matias Martinez
+Xavier Blanc,Alexis Muller
+Xavier Blanc,Anthony Cleve
+Xavier Blanc,Jacques Robin
+Xavier Blanc,Gail Murphy
+Xavier Blanc,Romain Rouvoy
+Xavier Blanc,Anne Etien
+Xavier Blanc,Mohamed A. Oumaziz
+Xavier Blanc,Jean Bezivin
+Guillaume Blin,Stéphane Vialette
+Guillaume Blin,Guillaume Fertin
+Guillaume Blin,Romeo Rizzi
+Guillaume Blin,Florian Sikora
+Guillaume Blin,Olivier Curé
+Guillaume Blin,Cedric Chauve
+Guillaume Blin,Helene Touzet
+Guillaume Blin,Maxime Crochemore
+Guillaume Blin,Mathieu Blanchette
+Guillaume Blin,Pierre Guillon
+Guillaume Blin,Annie Chateau
+Guillaume Blin,Hayssam Soueidan
+Guillaume Blin,Alexandru Popa
+Guillaume Blin,Jens Stoye
+Guillaume Blin,Laurent Bulteau
+Guillaume Blin,Xiao Yang
+Guillaume Blin,Srinivas Aluru
+Guillaume Blin,Danny Hermelin
+Charles Consel,Gilles Muller
+Charles Consel,Renaud Marlet
+Charles Consel,Julia L. Lawall
+Charles Consel,Calton Pu
+Charles Consel,Emilie Balland
+Charles Consel,Laurent Réveillère
+Charles Consel,Olivier Danvy
+Charles Consel,Luke Hornof
+Charles Consel,Ulrik Schultz
+Charles Consel,Lucile Dupuy
+Charles Consel,Damien Cassou
+Charles Consel,Nicolas Palix
+Charles Consel,Ashvin Goel
+Charles Consel,Milan Kabáč
+Charles Consel,Loïc Caroux
+Charles Consel,Kadionik
+Charles Consel,Walid Taha
+Charles Consel,Perry Wagle
+Charles Consel,Frédéric Jouault
+Charles Consel,Jean Bezivin
+Bruno Courcelle,Joost Engelfriet
+Bruno Courcelle,Grzegorz Rozenberg
+Bruno Courcelle,Johann (Janos) A. Makowsky
+Bruno Courcelle,Irène Durand
+Bruno Courcelle,Andy Twigg
+Bruno Courcelle,Mohamed Mosbah
+Bruno Courcelle,Stephan Olariu
+Bruno Courcelle,Cyril Gavoille
+Bruno Courcelle,Sang-il Oum
+Bruno Courcelle,Igor Walukiewicz
+Bruno Courcelle,Jens Lagergren
+Bruno Courcelle,Andreas Podelski
+Cyril Gavoille,Pierre Fraigniaud
+Cyril Gavoille,David Peleg
+Cyril Gavoille,nicolas hanusse
+Cyril Gavoille,Ittai Abraham
+Cyril Gavoille,Nicolas Bonichon
+Cyril Gavoille,stephane perennes
+Cyril Gavoille,Stephen Alstrup
+Cyril Gavoille,Laurent Viennot
+Cyril Gavoille,Adrian Kosowski
+Cyril Gavoille,Tamar Eilam
+Cyril Gavoille,Andrzej Pelc
+Cyril Gavoille,Mikkel Thorup
+Cyril Gavoille,Noam Nisan
+Cyril Gavoille,Ran Raz
+Cyril Gavoille,Bruno Courcelle
+Cyril Gavoille,Ljubomir Perković
+Cyril Gavoille,Christian Glacet
+Cyril Gavoille,Andy Twigg
+Cyril Gavoille,Gilles Schaeffer
+Cyril Gavoille,Bernard Mans
+Colette Johnen,Ajoy K Datta
+Colette Johnen,Sebastien Tixeuil
+Colette Johnen,Stéphane Devismes
+Colette Johnen,Arnaud Casteigts
+Colette Johnen,Veronique Veque
+Colette Johnen,Yessin M. NEGGAZ
+Colette Johnen,Florent Kaisser
+Colette Johnen,Alessia Milani
+Colette Johnen,Laure Petrucci
+Colette Johnen,DAVID DE FRUTOS ESCRIG
+Colette Johnen,Alain Finkel
+Colette Johnen,Karine Altisen
+Colette Johnen,Anthony Busson
+Colette Johnen,Ted Herman
+Colette Johnen,Anaïs Durand
+Colette Johnen,Mohammed Haddad
+Colette Johnen,Sven Köhler
+Colette Johnen,nicolas hanusse
+Colette Johnen,Christian Glacet
+Colette Johnen,Franck Petit
+Damien Magoni,Pansiot Jean-Jacques
+Damien Magoni,John Murphy
+Damien Magoni,Tayeb LEMLOUMA
+Damien Magoni,A. Omar Portillo-Dominguez
+Damien Magoni,Fatiha Djemili Tolba
+Damien Magoni,Philip Perry
+Damien Magoni,Soufiene Djahel
+Damien Magoni,Dr. Cristian Olariu
+Damien Magoni,Hyunseok Chang
+Damien Magoni,Yérom-David Bromberg
+Damien Magoni,Jean-Loup Guillaume
+Damien Magoni,Matthieu Latapy
+Damien Magoni,Liam Murphy
+Damien Magoni,Adriana Hava
+Damien Magoni,Nicolas Herbaut
+Damien Magoni,Nick Mitchell
+Damien Magoni,Tegawendé F. Bissyandé
+Damien Magoni,Wessam Ajib
+Damien Magoni,Peter F Sweeney
+Damien Magoni,Erik Altman
+Guy Melançon,Ivan Herman
+Guy Melançon,Bruno Pinaud
+Guy Melançon,David Auber
+Guy Melançon,Benjamin Renoust
+Guy Melançon,Fabien Jourdan
+Guy Melançon,Céline Rozenblat
+Guy Melançon,Faraz Zaidi
+Guy Melançon,Jason Vallet
+Guy Melançon,Antoine Lambert
+Guy Melançon,Romain Bourqui
+Guy Melançon,Daniel Archambault
+Guy Melançon,Arnaud Sallaberry
+Guy Melançon,Gennady Andrienko
+Guy Melançon,Daniel Keim
+Guy Melançon,Jean-Daniel Fekete
+Guy Melançon,Jörn Kohlhammer
+Guy Melançon,Domenger Jean-Philippe
+Guy Melançon,Oana Andrei
+Guy Melançon,Maribel Fernandez
+Guy Melançon,Antoine Laumond
+Mohamed Mosbah,Abdelfettah BELGHITH
+Mohamed Mosbah,Mohamed Tounsi
+Mohamed Mosbah,Mauro Conti
+Mohamed Mosbah,Mohamed Jmaiel
+Mohamed Mosbah,Claudio E. Palazzi
+Mohamed Mosbah,Stefan Gruner
+Mohamed Mosbah,Bruno Courcelle
+Mohamed Mosbah,Toshimitsu Masuzawa
+Mohamed Mosbah,Thomas Morsellino
+Anca Muscholl,Thomas Schwentick
+Anca Muscholl,Doron A. Peled
+Anca Muscholl,Igor Walukiewicz
+Anca Muscholl,Gabriele Puppis
+Anca Muscholl,Helmut Seidl
+Anca Muscholl,Mikołaj Bojańczyk
+Anca Muscholl,Javier Esparza
+Anca Muscholl,Jerome Leroux
+Anca Muscholl,Yves Métivier
+Anca Muscholl,Ahmed Bouajjani
+Anca Muscholl,Peter Habermehl
+Anca Muscholl,Hugo Gimbert
+Anca Muscholl,Serge Abiteboul
+Laurent Réveillère,Tegawendé F. Bissyandé
+Laurent Réveillère,Gilles Muller
+Laurent Réveillère,Yérom-David Bromberg
+Laurent Réveillère,David Lo
+Laurent Réveillère,Julia L. Lawall
+Laurent Réveillère,Lingxiao JIANG
+Laurent Réveillère,Renaud Marlet
+Laurent Réveillère,Nicolas Palix
+Laurent Réveillère,Jean-Rémy Falleri
+Laurent Réveillère,Daniel NEGRU
+Laurent Réveillère,Paul Grace
+Laurent Réveillère,Etienne Rivière
+Laurent Réveillère,Gordon Blair
+Laurent Réveillère,Floréal Morandat
+Laurent Réveillère,Gaël Thomas
+Laurent Simon,Gilles Audemard
+Laurent Simon,Daniel Le Berre
+Laurent Simon,François Goasdoué
+Laurent Simon,Marie-Christine Rousset
+Laurent Simon,George Katsirelos
+Laurent Simon,Jean-Marie Lagniez
+Laurent Simon,Armando Tacchella
+Laurent Simon,Chu Min Li
+Laurent Simon,Edward A. Hirsch
+Laurent Simon,Alvaro del Val
+Eric Sopena,André Raspaud
+Eric Sopena,Alexandr Kostochka
+Eric Sopena,Jaroslav Nešetřil
+Eric Sopena,oleg borodin
+Eric Sopena,Olivier Baudon
+Eric Sopena,Yves Métivier
+Eric Sopena,Alexandre Pinlou
+Eric Sopena,Hervé Hocquard
+Eric Sopena,Paul Dorbec
+Eric Sopena,Mariusz Wozniak
+Eric Sopena,Pascal Ochem
+Eric Sopena,Amanda Montejano
+Eric Sopena,Brahim BENMEDJDOUB
+Eric Sopena,Robert  CORI
+Eric Sopena,Julien Moncel
+Eric Sopena,Christopher Duffy
+Eric Sopena,Ingo Schiermeyer
+Eric Sopena,Cyril Gavoille
+Eric Sopena,David Peleg
+Eric Sopena,Gabor Simonyi
+Anita Catapano,Marco Montemurro
+Anita Catapano,Julien Jumel
+Anita Catapano,Paolo Vannucci
+Anita Catapano,Gaetano Giunta
+Anita Catapano,Salim Belouettar
+Anita Catapano,"Daniele Fanteria, PhD"
+Anita Catapano,ERIC MARTIN
+Michel Mesnard,António Ramos
+Michel Mesnard,julien morlier
+Michel Mesnard,Alex BALLU
+Michel Mesnard,carlos relvas
+Michel Mesnard,Antonio Completo
+Michel Mesnard,Frédéric Puel
+Michel Mesnard,Pedro Talaia
+Michel Mesnard,Nicolas PERRY
+Michel Mesnard,Виктор МоисеевичТверье (Victor M. Tverier)
+Michel Mesnard,Jean Carlos Cardozo da Silva
+Michel Mesnard,Lidia Carvalho
+Michel Mesnard,Rogerio Nogueira
+Michel Mesnard,Hypolito José Kalinowski
+Michel Mesnard,yann ledoux
+Michel Mesnard,"Ríos-Zapata, David"
+Michel Mesnard,Ricardo Mejía-Gutiérrez
+Michel Mesnard,Pedro Infante-Cossio
+Michel Mesnard,"Oleksii Onyshko (Олексій Онишко, Алексей Онышко)"
+Michel Mesnard,Marco P. Soares dos Santos
+Michel Mesnard,"Олександр Гачкевич (Oleksandr Hachkevych, Aleksandr Gachkevich)"
+Nicolas PERRY,A BERNARD
+Nicolas PERRY,Bertrand Laratte
+Nicolas PERRY,Guilhem Grimaud
+Nicolas PERRY,Julien LE DUIGOU
+Nicolas PERRY,Yaoyao Fiona Zhao
+Nicolas PERRY,Guido Sonnemann
+Nicolas PERRY,Alexandre Candlot
+Nicolas PERRY,Greg Zacharewicz
+Nicolas PERRY,Mehdi EL AMINE
+Nicolas PERRY,Rachel Arduin
+Nicolas PERRY,Florent Laroche
+Nicolas PERRY,Ali Siadat
+Nicolas PERRY,Youssef BENAMA
+Nicolas PERRY,Cyril Aymonier
+Nicolas PERRY,Régis POMMIER
+Nicolas PERRY,Ribault judicaël
+Nicolas PERRY,MARYA
+Nicolas PERRY,pascal mognol
+Nicolas PERRY,Prof Esther T. Akinlabi
+Nicolas PERRY,Xingwang Xu
+Nadine Rouillon Couture,Laurence Nigay
+Nadine Rouillon Couture,Jeremy Legardeur
+Nadine Rouillon Couture,Xavier Granier
+Nadine Rouillon Couture,Nicolas Mellado
+Nadine Rouillon Couture,Brett Ridel
+Nadine Rouillon Couture,Sébastien Kubicki
+Nadine Rouillon Couture,Christophe Kolski
+Nadine Rouillon Couture,Julien Castet
+Nadine Rouillon Couture,Sophie Lepreux
+Nadine Rouillon Couture,Guy Melançon
+Nadine Rouillon Couture,Jean-Claude Martin
+Nadine Rouillon Couture,Matthieu Courgeon
+Nadine Rouillon Couture,Belloir Nicolas
+Nadine Rouillon Couture,Pierre Joyot
+Nadine Rouillon Couture,Yvonne Jansen
+Domenger Jean-Philippe,David Auber
+Domenger Jean-Philippe,Benoit Recur
+Domenger Jean-Philippe,Guy Melançon
+Domenger Jean-Philippe,luc Brun
+Domenger Jean-Philippe,Fanny Chevalier
+Domenger Jean-Philippe,Mounaix patrick
+Domenger Jean-Philippe,Lionel Canioni
+Domenger Jean-Philippe,Inka Manek-Hönninger
+Domenger Jean-Philippe,Jean-Paul Guillet
+Domenger Jean-Philippe,Tamara Munzner
+Domenger Jean-Philippe,Guillaume Damiand
+Domenger Jean-Philippe,Bruno Courcelle
+Domenger Jean-Philippe,RAMEL jean-Yves
+Domenger Jean-Philippe,Mohamed Mosbah
+Yves Métivier,Akka ZEMMARI
+Yves Métivier,Mohamed Mosbah
+Yves Métivier,Eric Sopena
+Yves Métivier,Arnaud Casteigts
+Yves Métivier,Mohamed Jmaiel
+Yves Métivier,Bruno Courcelle
+Yves Métivier,Stefan Gruner
+Yves Métivier,Thomas Morsellino
+Marco Montemurro,Anita Catapano
+Marco Montemurro,Paolo Vannucci
+Marco Montemurro,Angela Vincenti
+Marco Montemurro,"Daniele Fanteria, PhD"
+Marco Montemurro,dau
+Marco Montemurro,Yao Koutsawa
+Marco Montemurro,Alfonso Pagani
+Marco Montemurro,Salim Belouettar
+Marco Montemurro,Julien Jumel
+Marco Montemurro,Ahmed Makradi
+Marco Montemurro,Francisco (Paco) Chinesta
+Adam Niewiadomski,Krzysztof Renkas
+Adam Niewiadomski,Marcin Kacprowicz
+Adam Niewiadomski,Bartłomiej Stasiak
+Adam Niewiadomski,Janusz Kacprzyk
+Piotr Napieralski,Krzysztof Komeza
+Piotr Napieralski,Dominik Szajerman
+Piotr Napieralski,Adam Wojciechowski
+Piotr Napieralski,Adam Wojciechowski(3)
+Piotr Napieralski,Adam Wojciechowski(2)
+Mariusz Postół,Krzysztof Pietrusewicz
+Radosław Bednarski,Adam Wojciechowski
+Marcin Kacprowicz,Adam Niewiadomski
+Laurent Babout,eric maire
+Laurent Babout,Philip John Withers
+Laurent Babout,Krzysztof Grudzien
+Laurent Babout,selam waktola
+Laurent Babout,Muhammad Awais Sattar
+Anna Fabijańska,Tomasz Węgliński
+Anna Fabijańska,Alfredo Morales Pinzon
+Anna Fabijańska,Marcela Hernandez Hoyos
+Anna Fabijańska,Maciej Orkisz
+Anna Fabijańska,Leonardo Flórez-Valencia
+Krzysztof Grudzien,Romanowski Andrzej
+Krzysztof Grudzien,Zbigniew Chaniecki
+Krzysztof Grudzien,Volodymyr Mosorov
+Krzysztof Grudzien,Paweł W. Woźniak
+Krzysztof Grudzien,Banasiak Robert
+Krzysztof Grudzien,Radosław Wajman
+Romanowski Andrzej,Krzysztof Grudzien
+Romanowski Andrzej,Zbigniew Chaniecki
+Romanowski Andrzej,Paweł W. Woźniak
+Romanowski Andrzej,Banasiak Robert
+Romanowski Andrzej,Richard Andrew Williams
+Romanowski Andrzej,Tomasz Jaworski
+Romanowski Andrzej,Lidia Jackowska-Strumillo
+Romanowski Andrzej,Mikołaj Woźniak
+Romanowski Andrzej,Przemysław Kucharski
+Romanowski Andrzej,Mohammad Obaid
+Romanowski Andrzej,Morten Fjeld
+Romanowski Andrzej,Robert G Aykroyd
+Romanowski Andrzej,Lars Lischke
+Romanowski Andrzej,Adam Nowak
+Romanowski Andrzej,Piotr Łuczak
+Romanowski Andrzej,Sven Mayer
+Romanowski Andrzej,Shengdong Zhao
+Romanowski Andrzej,Marco Jose da Silva
+Romanowski Andrzej,Julia Dominiak
+Romanowski Andrzej,Magdalena Wróbel-Lachowska
+Radosław Wajman,Banasiak Robert
+Radosław Wajman,Paweł Fiderek
+Radosław Wajman,Tomasz Jaworski
+Radosław Wajman,Manuchehr Soleimani
+Radosław Wajman,Romanowski Andrzej
+Radosław Wajman,Cathryn Mitchell
+Radosław Wajman,Andy Adler
+Radosław Wajman,Dieter Mewes
+Radosław Wajman,Krzysztof Grudzien
+Tomasz Jaworski,Paweł Fiderek
+Tomasz Jaworski,Banasiak Robert
+Tomasz Jaworski,Romanowski Andrzej
+Tomasz Jaworski,Paweł W. Woźniak
+Tomasz Jaworski,Piotr Duch
+Tomasz Jaworski,Robert Nowotniak
+Tomasz Jaworski,Radosław Wajman
+Magdalena Wróbel-Lachowska,Aleksandra Polak-Sopinska
+Magdalena Wróbel-Lachowska,Zbigniew Wisniewski
+Magdalena Wróbel-Lachowska,Romanowski Andrzej
+Magdalena Wróbel-Lachowska,Mikołaj Woźniak
+Adam Pelikant,Dorota Kamińska
+Adam Pelikant,Krzysztof Komeza
+Zbigniew Gmyrek,Michal Strzelecki
+Dorota Kamińska,Gholamreza Anbarjafari (Shahab)
+Dorota Kamińska,Adam Pelikant
+Dorota Kamińska,Fatemeh Noroozi
+Dorota Kamińska,Egils Avots
+Dorota Kamińska,Sergio Escalera
+Dorota Kamińska,Sławomir Wiak
+Dorota Kamińska,Cagri Ozcinar
+Dorota Kamińska,Ciprian Corneanu
+Dorota Kamińska,Lidija Petkovska
+Dorota Kamińska,Anna Firych-Nowacka
+Dorota Kamińska,Maie Bachmann
+Dorota Kamińska,Pejman Rasti
+Dorota Kamińska,Artur Gmerek
+Łukasz Pietrzak,Jeremiasz K. Jeszka
+Łukasz Pietrzak,Ewa Piorkowska
+Łukasz Pietrzak,A Galeski
+Łukasz Pietrzak,Konrad Szaciłowski
+Łukasz Pietrzak,Krzysztof Smółka
+Łukasz Pietrzak,Łukasz Wąs
+Łukasz Pietrzak,Sławomir Dutkiewicz
+Łukasz Pietrzak,Anna Firych-Nowacka
+Łukasz Pietrzak,Piotr Milczarski
+Łukasz Pietrzak,Krzysztof Moraczewski
+Krzysztof Smółka,Sławomir Wiak
+Krzysztof Smółka,Anna Firych-Nowacka
+Krzysztof Smółka,Zbigniew Gmyrek
+Krzysztof Smółka,Krzysztof Komeza
+Krzysztof Smółka,Łukasz Pietrzak
+Krzysztof Smółka,Marta Gmurek
+Krzysztof Smółka,Lucyna Bilińska
+Krzysztof Smółka,Renata Zylla
+Krzysztof Smółka,Paweł Drzymała
+Krzysztof Smółka,Dorota Kamińska
+Krzysztof Smółka,Gholamreza Anbarjafari (Shahab)
+Krzysztof Smółka,Grzegorz Zwoliński
+Marcin Kwapisz,Konrad Laber
+Marcin Kwapisz,Bartosz Koczurkiewicz
+Marcin Kwapisz,Andrij Milenin
+Marcin Kwapisz,Dariusz Rydz
+Lidia Jackowska-Strumillo,Romanowski Andrzej
+Lidia Jackowska-Strumillo,Krzysztof Grudzien
+Lidia Jackowska-Strumillo,Zochowski A*
+Lidia Jackowska-Strumillo,Anna Fabijańska
+Lidia Jackowska-Strumillo,Pawel Strumillo
+Lidia Jackowska-Strumillo,Banasiak Robert
+Lidia Jackowska-Strumillo,Paweł W. Woźniak
+Joanna Sekulska-Nalewajko,Szymon Tamborski
+Joanna Sekulska-Nalewajko,Edyta Kiedrzyńska
+Artur Sierszen,Łukasz Sturgulewski
+Artur Sierszen,Dariusz Czerwinski
+Artur Sierszen,Radosław Adamus
+Artur Sierszen,Lidia Jackowska-Strumillo
+Rafał Wojciechowski,Wojciech Cellary
+Rafał Wojciechowski,Krzysztof Walczak
+Rafał Wojciechowski,Martin White
+Rafał Wojciechowski,Jacek Chmielewski
+Rafał Wojciechowski,Fotis Liarokapis
+Rafał Wojciechowski,Panagiotis Petridis
+Rafał Wojciechowski,Adam Wójtowicz
+Rafał Wojciechowski,Katerina Mania
+Rafał Wojciechowski,Willy Picard
+Rafał Wojciechowski,Zbigniew Paszkiewicz
+Rafał Wojciechowski,Dariusz Rumiński
+Rafał Wojciechowski,Daniel Wilusz
+Rafał Wojciechowski,Wojciech Wiza
+Lefteris (Eleftherios) Angelis,IOANNIS STAMELOS
+Lefteris (Eleftherios) Angelis,Nikolaos Mittas
+Lefteris (Eleftherios) Angelis,Athena Vakali
+Lefteris (Eleftherios) Angelis,Panagiotis Sfetsos
+Lefteris (Eleftherios) Angelis,Claes Wohlin
+Lefteris (Eleftherios) Angelis,THEODOSIOS THEODOSIOU
+Lefteris (Eleftherios) Angelis,Robert Feldt
+Lefteris (Eleftherios) Angelis,Dr. Sulayman K. Sowe
+Lefteris (Eleftherios) Angelis,Ignatios Deligiannis
+Lefteris (Eleftherios) Angelis,Georgios Spanos
+Lefteris (Eleftherios) Angelis,Panagiota Chatzipetrou
+Lefteris (Eleftherios) Angelis,Makrina Viola Kosti
+Lefteris (Eleftherios) Angelis,Mahdi Bohlouli
+Lefteris (Eleftherios) Angelis,Panagiotis Katsaros
+Lefteris (Eleftherios) Angelis,Ioannis Vlahavas
+Lefteris (Eleftherios) Angelis,Tony Gorschek
+Lefteris (Eleftherios) Angelis,George Kakarontzas
+Lefteris (Eleftherios) Angelis,Ioannis Samoladas
+Lefteris (Eleftherios) Angelis,Grigorios Tsoumakas
+Lefteris (Eleftherios) Angelis,George Pallis
+Nick Bassiliades,Ioannis Vlahavas
+Nick Bassiliades,Efstratios Kontopoulos
+Nick Bassiliades,Dimitris Vrakas
+Nick Bassiliades,Georgios Meditskos
+Nick Bassiliades,Kalliopi Kravari
+Nick Bassiliades,Grigoris Antoniou
+Nick Bassiliades,Grigorios Tsoumakas
+Nick Bassiliades,Emmanouil S. Rigas
+Nick Bassiliades,Sarvapali D. (Gopal) Ramchurn
+Nick Bassiliades,Ourania Hatzi (aka Ourania Chatzi Morosan)
+Nick Bassiliades,Antonis Bikakis
+Nick Bassiliades,Fotis Kokkoras
+Nick Bassiliades,Guido Governatori
+Nick Bassiliades,Athanasios Tsadiras
+Nick Bassiliades,Thanos G. Stavropoulos
+Nick Bassiliades,Christos Berberidis
+Nick Bassiliades,Ioannis Katakis
+Nick Bassiliades,Ahmed Elmagarmid
+Nick Bassiliades,Theologos Dergiades
+Nick Bassiliades,Mara Nikolaidou
+Stavros Demetriadis,Anastasios Karakostas
+Stavros Demetriadis,"Pantelis M. Papadopoulos, Ph.D"
+Stavros Demetriadis,Thrasyvoulos Tsiatsos
+Stavros Demetriadis,Stergios Tegos
+Stavros Demetriadis,IOANNIS STAMELOS
+Stavros Demetriadis,IOANNIS MAGNISALIS
+Stavros Demetriadis,Theodosios Sapounidis
+Stavros Demetriadis,Atmatzidou K. Soumela
+Stavros Demetriadis,Dr. George Palaigeorgiou
+Christos Katsanos,Nikolaos Tselios
+Christos Katsanos,Michalis Xenos
+Christos Katsanos,Nikolaos Avouris
+Christos Katsanos,Nikos Karousos
+Christos Katsanos,Alexandros Liapis
+Christos Katsanos,George Adamides
+Christos Katsanos,Thanasis Hadzilacos
+Christos Katsanos,Georgios Christou
+Christos Katsanos,Dimitris G. Sotiropoulos
+Christos Katsanos,Yael Edan
+Christos Katsanos,Panagiota Altanopoulou
+Christos Katsanos,Eleftherios Papachristos
+Christos Katsanos,Yisrael Parmet
+Christos Katsanos,Stavros Demetriadis
+Christos Katsanos,Konstantinos Moustakas
+Christos Katsanos,Ioannis Constantinou
+Christos Katsanos,stavros koubias
+Christos Katsanos,Papadavid George
+Christos Katsanos,Vassilis Kostakos
+Christos Katsanos,Jorge Goncalves
+Panagiotis Katsaros,Stylianos (Stelios) Basagiannis
+Panagiotis Katsaros,Dimitris A. Gritzalis
+Panagiotis Katsaros,Anakreontas Mentis
+Panagiotis Katsaros,Emmanouela Stachtiari
+Panagiotis Katsaros,Scott  A. Smolka
+Panagiotis Katsaros,Lefteris (Eleftherios) Angelis
+Panagiotis Katsaros,Anastasios Gounaris
+Panagiotis Katsaros,Athanasios Naskos
+Panagiotis Katsaros,Yannis Soupionis
+Panagiotis Katsaros,IOANNIS STAMELOS
+Panagiotis Katsaros,George Stergiopoulos
+Panagiotis Katsaros,George Kakarontzas
+Panagiotis Katsaros,Vasilios Katos
+Panagiotis Katsaros,George Chatzieleftheriou
+Panagiotis Katsaros,Tushar Deshpande
+Panagiotis Katsaros,Saddek Bensalem
+Panagiotis Katsaros,Ezio Bartocci
+Panagiotis Katsaros,Alexios Lekidis
+Panagiotis Katsaros,Ioannis Psaroudakis
+Panagiotis Katsaros,Joseph Sifakis
+Georgios Keramidas,Stefanos Kaxiras
+Georgios Keramidas,Nikolaos S. Voros
+Georgios Keramidas,Vasileios Spiliopoulos
+Georgios Keramidas,Pavlos Petoumenos
+Georgios Keramidas,Christos P. Antonopoulos
+Georgios Keramidas,Diana Goehringer
+Georgios Keramidas,Michail Mavropoulos
+Georgios Keramidas,Dimitris Nikolos
+Georgios Keramidas,Dimitrios Serpanos
+Georgios Keramidas,Polychronis Xekalakis
+Georgios Keramidas,Erik Hagersten
+Georgios Keramidas,Vangelis Karkaletsis
+Georgios Keramidas,Stasinos Konstantopoulos
+Georgios Keramidas,Luigi Carro
+Georgios Keramidas,Stephan Wong
+Georgios Keramidas,Roberto Giorgi
+Georgios Keramidas,Sally A. McKee
+Georgios Keramidas,Apostolos Fournaris
+Georgios Keramidas,Fakhar Anjam
+Georgios Keramidas,Magnus Själander
+Nikos Konofaos,Evangelou E
+Nikos Konofaos,Stergios Logothetidis
+Nikos Konofaos,Agis Iliadis
+Nikos Konofaos,Dimitris Davazoglou
+Nikos Konofaos,Maria Vasilopoulou
+Nikos Konofaos,Giorgos Papadimitropoulos
+Nikos Konofaos,Panagiotis Argitis
+Nikos Konofaos,Nikos Petrellis
+Nikos Konofaos,Dimitrios Balobas
+Nikos Konofaos,KENNOU STELLA
+Nikos Konofaos,George  P. Alexiou
+Nikos Konofaos,Dimitra G. Georgiadou
+Nikos Konofaos,Leonidas Palilis
+Nikos Konofaos,Ulf Helmersson
+Nikos Konofaos,Babis Dimitriadis
+Nikos Konofaos,Konstantinos Prousalis
+Nikos Konofaos,L. Sygellou
+Nikos Konofaos,MARIA GIOTI
+Nikos Konofaos,Panos Patsalas
+Nikos Konofaos,Nikolaos A. Stathopoulos
+Constantine Kotropoulos,I. Pitas
+Constantine Kotropoulos,Dimitrios Ververidis
+Constantine Kotropoulos,Yannis Panagakis
+Constantine Kotropoulos,Anastasios Tefas
+Constantine Kotropoulos,M Kotti
+Constantine Kotropoulos,Emmanouil Benetos
+Constantine Kotropoulos,Nikoletta Bassiou
+Constantine Kotropoulos,George Almpanidis
+Constantine Kotropoulos,Gonzalo Arce
+Constantine Kotropoulos,Mihaela-Laura Gordan
+Constantine Kotropoulos,Konstantinos Pliakos
+Constantine Kotropoulos,Cernekova
+Constantine Kotropoulos,Nikos Nikolaidis
+Constantine Kotropoulos,Alexandros Xafopoulos
+Constantine Kotropoulos,Michael G. Strintzis
+Constantine Kotropoulos,Moncef Gabbouj
+Constantine Kotropoulos,Eleftherios Kofidis
+Constantine Kotropoulos,Sergios Theodoridis
+Constantine Kotropoulos,Tsekeridou
+Constantine Kotropoulos,Jean-luc Dugelay
+Nikos Nikolaidis,I. Pitas
+Nikos Nikolaidis,Anastasios Tefas
+Nikos Nikolaidis,Vassilios Solachidis
+Nikos Nikolaidis,Ioannis Mademlis
+Nikos Nikolaidis,Tsekeridou
+Nikos Nikolaidis,Athanasios Nikolaidis
+Nikos Nikolaidis,Stylianos (Stelios) Asteriadis
+Nikos Nikolaidis,Alexandros Iosifidis
+Nikos Nikolaidis,Kapsouras Ioannis
+Nikos Nikolaidis,Nicholas Vretos
+Nikos Nikolaidis,Constantine Kotropoulos
+Nikos Nikolaidis,Vasileios Mygdalis
+Nikos Nikolaidis,Adrian Hilton
+Nikos Nikolaidis,Ioannis Marras
+Nikos Nikolaidis,Hansung Kim
+Nikos Nikolaidis,Cernekova
+Nikos Nikolaidis,George Voyatzis
+Nikos Nikolaidis,ALEXIA GIANNOULA
+Nikos Nikolaidis,gkalelis nikolaos
+Nikos Nikolaidis,Efstratios Kakaletsis
+Christos Ouzounis,Anton Enright
+Christos Ouzounis,Sophia Tsoka
+Christos Ouzounis,Chris Sander
+Christos Ouzounis,Nikos C Kyrpides
+Christos Ouzounis,Alfonso Valencia
+Christos Ouzounis,Ioannis Iliopoulos
+Christos Ouzounis,Nikos Darzentas
+Christos Ouzounis,Vasilis J. Promponas
+Christos Ouzounis,Peter D. Karp
+Christos Ouzounis,Benjamin Audit
+Christos Ouzounis,Peer Bork
+Christos Ouzounis,Miguel Andrade
+Christos Ouzounis,Javier Tamames
+Christos Ouzounis,Nuria Lopez-Bigas
+Christos Ouzounis,Reinhard Schneider
+Christos Ouzounis,pereira-leal j
+Christos Ouzounis,Paul Jaak Janssen
+Christos Ouzounis,Dag Ahren
+Christos Ouzounis,Ildefonso Cases (ORCID:0000-0002-8784-5174)
+Christos Ouzounis,Benjamin J. Blencowe
+Apostolos N. Papadopoulos,Yannis Manolopoulos
+Apostolos N. Papadopoulos,Kostas Tsichlas
+Apostolos N. Papadopoulos,Eleftherios N. Tiakas
+Apostolos N. Papadopoulos,Anastasios Gounaris
+Apostolos N. Papadopoulos,Yannis Theodoridis
+Apostolos N. Papadopoulos,Panagiotis Symeonidis
+Apostolos N. Papadopoulos,Dragan Stojanovic
+Apostolos N. Papadopoulos,Ioannis Karydis
+Apostolos N. Papadopoulos,Slobodanka Djordjevic-Kajan
+Apostolos N. Papadopoulos,George Valkanas
+Apostolos N. Papadopoulos,Tatjana Welzer
+Apostolos N. Papadopoulos,Dimitrios Gunopulos
+Apostolos N. Papadopoulos,Fragkiskos D. Malliaros
+Apostolos N. Papadopoulos,Timos Sellis
+Apostolos N. Papadopoulos,Michalis Vazirgiannis
+Apostolos N. Papadopoulos,Theodoros Toliopoulos
+Apostolos N. Papadopoulos,Spyros Sioutas
+Apostolos N. Papadopoulos,Pavlos Kefalas
+Apostolos N. Papadopoulos,Dimitrios Katsaros
+Apostolos N. Papadopoulos,Sanja Brdar
+Nikos Pleros,Hercules Avramopoulos
+Nikos Pleros,Konstantinos Vyrsokinos
+Nikos Pleros,George T. Kanellos
+Nikos Pleros,Chris Vagionas
+Nikos Pleros,Amalia Miliou
+Nikos Pleros,Dimitris Tsiokos
+Nikos Pleros,Dimitrios Apostolopoulos
+Nikos Pleros,Theoni Alexoudi
+Nikos Pleros,George Kalfas
+Nikos Pleros,Alain Dereux
+Nikos Pleros,Sotirios Papaioannou
+Nikos Pleros,Jean-Claude Weeber
+Nikos Pleros,Miltiadis Moralis-Pegios
+Nikos Pleros,George Dabos
+Nikos Pleros,George Mourgias-Alexandris
+Nikos Pleros,Stelios Pitris
+Nikos Pleros,Tolga Tekin
+Nikos Pleros,Dimitrios Fitsios
+Nikos Pleros,Nikolaos Terzenidis
+Nikos Pleros,Giannis Giannoulis
+Anastasios Tefas,I. Pitas
+Anastasios Tefas,Alexandros Iosifidis
+Anastasios Tefas,Nikolaos Passalis
+Anastasios Tefas,Nikos Nikolaidis
+Anastasios Tefas,Moncef Gabbouj
+Anastasios Tefas,Stefanos Zafeiriou
+Anastasios Tefas,Constantine Kotropoulos
+Anastasios Tefas,Maria Tzelepi
+Anastasios Tefas,Vassilios Solachidis
+Anastasios Tefas,Tsekeridou
+Anastasios Tefas,Athanasios Nikolaidis
+Anastasios Tefas,Juho Kanniainen
+Anastasios Tefas,Ioannis Mademlis
+Anastasios Tefas,Vasileios Mygdalis
+Anastasios Tefas,Avraam Tsantekidis
+Anastasios Tefas,Nikos Pleros
+Anastasios Tefas,Paraskevi Nousi
+Anastasios Tefas,George Mourgias-Alexandris
+Anastasios Tefas,Danai Triantafyllidou
+Anastasios Tefas,Symeon Nikitidis
+Thrasyvoulos Tsiatsos,Christos J. Bouras
+Thrasyvoulos Tsiatsos,Stavros Demetriadis
+Thrasyvoulos Tsiatsos,Theodouli Terzidou
+Thrasyvoulos Tsiatsos,Vaggelis Kapoulas
+Thrasyvoulos Tsiatsos,Apostolos Gkamas
+Thrasyvoulos Tsiatsos,Anastasios Karakostas
+Thrasyvoulos Tsiatsos,Vassilis Triantafillou
+Thrasyvoulos Tsiatsos,"Pantelis M. Papadopoulos, Ph.D"
+Thrasyvoulos Tsiatsos,Christos T. Panagiotakopoulos
+Thrasyvoulos Tsiatsos,Lazaros Ioannidis
+Thrasyvoulos Tsiatsos,Karagiannidis Charalampos
+Thrasyvoulos Tsiatsos,Alexandros Panagopoulos
+Thrasyvoulos Tsiatsos,Michael Paraskevas
+Thrasyvoulos Tsiatsos,Yogesh K. Dwivedi
+Thrasyvoulos Tsiatsos,Theodoros G. Karounos
+Nikolaos L. Tsitsas,Constantinos Valagiannopoulos
+Nikolaos L. Tsitsas,George Fikioris
+Nikolaos L. Tsitsas,Dimitri Frantzeskakis
+Nikolaos L. Tsitsas,Dimitra I. Kaklamani
+Nikolaos L. Tsitsas,Nikolaos Uzunoglu
+Nikolaos L. Tsitsas,Hristos T. Anastassiu
+Nikolaos L. Tsitsas,Panayotis Kevrekidis
+Nikolaos L. Tsitsas,Akhlesh Lakhtakia
+Nikolaos L. Tsitsas,Ari Sihvola
+Nikolaos L. Tsitsas,Raj Mittra
+Nikolaos L. Tsitsas,Ioannis Kourakis
+Nikolaos L. Tsitsas,Chiara Pelletti
+Nikolaos L. Tsitsas,Grigorios Zouros
+Nikolaos L. Tsitsas,Paul A. Martin
+Nikolaos L. Tsitsas,Alexander I. Nosich
+Nikolaos L. Tsitsas,Theodoros Horikis
+Nikolaos L. Tsitsas,Panagiotis Papakanellos
+Nikolaos L. Tsitsas,Giacomo Bianconi
+Nikolaos L. Tsitsas,Arnold Burger
+Nikolaos L. Tsitsas,Prof. Theodoros D. Tsiboukis
+Grigorios Tsoumakas,Ioannis Vlahavas
+Grigorios Tsoumakas,Ioannis Katakis
+Grigorios Tsoumakas,Eleftherios Spyromitros-Xioufis
+Grigorios Tsoumakas,Nick Bassiliades
+Grigorios Tsoumakas,Ioannis Partalas
+Grigorios Tsoumakas,Yannis Papanikolaou
+Grigorios Tsoumakas,Konstantinos Trochidis
+Grigorios Tsoumakas,George Kalliris
+Grigorios Tsoumakas,Dimitris Vrakas
+Grigorios Tsoumakas,Ioannis (Yiannis) Kompatsiaris
+Grigorios Tsoumakas,Eirini Papagiannopoulou
+Grigorios Tsoumakas,Athanasios Lagopoulos
+Grigorios Tsoumakas,Lefteris (Eleftherios) Angelis
+Grigorios Tsoumakas,Anestis Fachantidis
+Grigorios Tsoumakas,Maria-Carolina Monard
+Grigorios Tsoumakas,Ioannis Mollas
+Grigorios Tsoumakas,Abbas Kouzani
+Grigorios Tsoumakas,Bin Liu
+Grigorios Tsoumakas,Vasileios Mezaris
+Grigorios Tsoumakas,Newton Spolaôr
+Ioannis Vlahavas,Grigorios Tsoumakas
+Ioannis Vlahavas,Nick Bassiliades
+Ioannis Vlahavas,Ioannis Katakis
+Ioannis Vlahavas,Eleftherios Spyromitros-Xioufis
+Ioannis Vlahavas,Ioannis Partalas
+Ioannis Vlahavas,George Tzanis
+Ioannis Vlahavas,Christos Berberidis
+Ioannis Vlahavas,Fotis Kokkoras
+Ioannis Vlahavas,Ourania Hatzi (aka Ourania Chatzi Morosan)
+Ioannis Vlahavas,"Nicos Maglaveras, FEAMBES"
+Ioannis Vlahavas,Thanos G. Stavropoulos
+Ioannis Vlahavas,Efstratios Kontopoulos
+Ioannis Vlahavas,Ioannis (Yiannis) Kompatsiaris
+Ioannis Vlahavas,Ioanna Chouvarda
+Ioannis Vlahavas,Grigoris Antoniou
+Ioannis Vlahavas,Lefteris (Eleftherios) Angelis
+Ioannis Vlahavas,Matthew E. Taylor
+Ioannis Vlahavas,Konstantinos Sechidis
+Ioannis Vlahavas,Walid G. Aref
+Ioannis Vlahavas,Pericles A. Mitkas
+Dimitris Vrakas,Ioannis Vlahavas
+Dimitris Vrakas,Nick Bassiliades
+Dimitris Vrakas,Thanos G. Stavropoulos
+Dimitris Vrakas,Ourania Hatzi (aka Ourania Chatzi Morosan)
+Dimitris Vrakas,Christoforos Nalmpantis
+Dimitris Vrakas,Grigorios Tsoumakas
+Dimitris Vrakas,Efstratios Kontopoulos
+Dimitris Vrakas,Fotis Kokkoras
+Dimitris Vrakas,Georgios Meditskos
+Dimitris Vrakas,Mara Nikolaidou
+Dimitris Vrakas,Antonis Bikakis
+Dimitris Vrakas,Athanasios Lentzas
+Dimitris Vrakas,George Koutitas
+Dimitris Vrakas,Ioannis Refanidis
+Dimitris Vrakas,Demos C. ANGELIDES
+Dimitris Vrakas,Vasilios Katos
+Dimitris Vrakas,Panagiotis Katsaros
+Dimitris Vrakas,Ioannis Partalas
+Dimitris Vrakas,Georgios Petasis
+Dimitris Vrakas,Christos Tjortjis
+D Kugiumtzis,Angeliki Papana
+D Kugiumtzis,Tsimpiris Alkiviadis
+D Kugiumtzis,Pål G. Larsson
+D Kugiumtzis,Cees Diks
+D Kugiumtzis,Luca Faes
+D Kugiumtzis,Georgios P. Pavlos
+D Kugiumtzis,Ole-Christian Lingjærde
+D Kugiumtzis,Astero Provata
+D Kugiumtzis,Daniele Marinazzo
+D Kugiumtzis,Philippe Ryvlin
+D Kugiumtzis,Nikos E Kouvaris
+D Kugiumtzis,Niki Pandria
+D Kugiumtzis,Prodromos Tsinaslanidis
+D Kugiumtzis,Alexandros G. Rigas
+D Kugiumtzis,Nikos Laskaris
+D Kugiumtzis,Alkinoos Athanasiou
+D Kugiumtzis,Moses A. Boudourides
+D Kugiumtzis,"Tsakalis, K."
+D Kugiumtzis,Balu Krishnan
+D Kugiumtzis,Ralph Gregor Andrzejak
+Pericles A. Mitkas,Andreas L. Symeonidis
+Pericles A. Mitkas,Ioannis N. Athanasiadis
+Pericles A. Mitkas,Fotis Psomopoulos
+Pericles A. Mitkas,Kyriakos Chatzidimitriou
+Pericles A. Mitkas,Konstantinos N. Vavliakis
+Pericles A. Mitkas,Dionysios (Dionisis) Kehagias
+Pericles A. Mitkas,Fred Beyette
+Pericles A. Mitkas,Fani Tzima
+Pericles A. Mitkas,Anthony Chrysopoulos
+Pericles A. Mitkas,Longbing Cao
+Pericles A. Mitkas,Emmanouil Tsardoulias
+Pericles A. Mitkas,Kostas Karatzas
+Pericles A. Mitkas,Athanassios M. Kintsakis
+Pericles A. Mitkas,Manos Schinas
+Pericles A. Mitkas,Symeon Papadopoulos
+Pericles A. Mitkas,Ioannis (Yiannis) Kompatsiaris
+Pericles A. Mitkas,Christos Diou
+Pericles A. Mitkas,Ioannis Vlahavas
+Pericles A. Mitkas,Georgios Banos
+Pericles A. Mitkas,Vassilis Kaburlasos
+Anastasios Delopoulos,Christos Diou
+Anastasios Delopoulos,Vasileios Papapanagiotou
+Anastasios Delopoulos,Stefanos Kollias
+Anastasios Delopoulos,Konstantinos Kyritsis
+Anastasios Delopoulos,Monica Mars
+Anastasios Delopoulos,Georgios  B. Giannakis
+Anastasios Delopoulos,"Nicos Maglaveras, FEAMBES"
+Anastasios Delopoulos,Ioannis Sarafis
+Anastasios Delopoulos,Janet H.W. van den Boer
+Anastasios Delopoulos,Nikolaos Dimitriou
+Anastasios Delopoulos,MARIA RANGOUSSI
+Anastasios Delopoulos,Theodora Tsikrika
+Anastasios Delopoulos,Arjen P. de Vries
+Anastasios Delopoulos,Pericles A. Mitkas
+Anastasios Delopoulos,Alexandros Papadopoulos
+Anastasios Delopoulos,Yannis Avrithis
+Anastasios Delopoulos,K Ray Chaudhuri
+Anastasios Delopoulos,alexandros lambropoulos
+Anastasios Delopoulos,Evangelia Charmandari
+Anastasios Delopoulos,Vassilis Koutkias
+Ioannis Papaefstathiou,Harry Manifavas
+Ioannis Papaefstathiou,Apostolos Dollas
+Ioannis Papaefstathiou,Dionisios Pnevmatikatos
+Ioannis Papaefstathiou,Georgios Kornaros
+Ioannis Papaefstathiou,Ioannis Askoxylakis
+Ioannis Papaefstathiou,Nelly Leligou
+Ioannis Papaefstathiou,Theofanis Orphanoudakis
+Ioannis Papaefstathiou,Vassilis Papaefstathiou
+Ioannis Papaefstathiou,Theodore Zahariadis
+Ioannis Papaefstathiou,Euripides Sotiriades
+Ioannis Papaefstathiou,Panagiotis A. Karkazis
+Ioannis Papaefstathiou,Manolis G.H. Katevenis
+Ioannis Papaefstathiou,Nikolaos Chrysos
+Ioannis Papaefstathiou,Panagiotis Trakadas
+Ioannis Papaefstathiou,Kyriakos Vlachos
+Nikos P. Pitsianis,David J Brady
+Nikos P. Pitsianis,Edwin Franklin Barry
+Nikos P. Pitsianis,Michael Gehm
+Nikos P. Pitsianis,Charles Van Loan
+Nikos P. Pitsianis,Mahmut Kandemir
+Nikos P. Pitsianis,Chaitali Chakrabarti
+Nikos P. Pitsianis,Lanping Deng
+Nikos P. Pitsianis,Jingfang Huang
+Nikos P. Pitsianis,Ashwin Wagadarikar
+Nikos P. Pitsianis,Bo Zhang
+Nikos P. Pitsianis,Robert Plemmons
+Nikos P. Pitsianis,Vijaykrishnan Narayanan
+Nikos P. Pitsianis,Dennis W. Prather
+Nikos P. Pitsianis,Prasanth Mangalagiri
+Nikos P. Pitsianis,Rebecca Willett
+Nikos P. Pitsianis,Dimitris Floros
+Nikos P. Pitsianis,Marco Jacobs
+Nikos P. Pitsianis,Y F Zhang
+Nikos P. Pitsianis,James Carriere
+Nikos P. Pitsianis,Timothy Schulz
+Leonidas Pitsoulis,Panos Pardalos
+Leonidas Pitsoulis,Mauricio G. C. Resende
+Leonidas Pitsoulis,"Migdalas, Athanasios (Sakis)"
+Leonidas Pitsoulis,Gautam Appa
+Leonidas Pitsoulis,Rainer E. Burkard
+Leonidas Pitsoulis,RA Murphey
+Leonidas Pitsoulis,Paola Festa
+Leonidas Pitsoulis,Mariá C. V. Nascimento
+Leonidas Pitsoulis,Donald Hearn
+Leonidas Pitsoulis,Athanasios Kehagias
+Leonidas Pitsoulis,D. Magos
+Leonidas Pitsoulis,Yiannis Mourtos
+Leonidas Pitsoulis,Eduardo L Pasiliao Jr
+Andreas L. Symeonidis,Pericles A. Mitkas
+Andreas L. Symeonidis,Themistoklis Diamantopoulos
+Andreas L. Symeonidis,Kyriakos Chatzidimitriou
+Andreas L. Symeonidis,Emmanouil Tsardoulias
+Andreas L. Symeonidis,Dionysios (Dionisis) Kehagias
+Andreas L. Symeonidis,Michail Papamichail
+Andreas L. Symeonidis,Konstantinos N. Vavliakis
+Andreas L. Symeonidis,Ioannis N. Athanasiadis
+Andreas L. Symeonidis,Christos Diou
+Andreas L. Symeonidis,Anthony Chrysopoulos
+Andreas L. Symeonidis,Konstantinos Panayiotou
+Andreas L. Symeonidis,Longbing Cao
+Andreas L. Symeonidis,Fotis Psomopoulos
+Andreas L. Symeonidis,Themistoklis Mavridis
+Andreas L. Symeonidis,Philip S. Yu
+Andreas L. Symeonidis,Athanassios M. Kintsakis
+Andreas L. Symeonidis,Cezary Zielinski
+Andreas L. Symeonidis,Zafeiris Abas
+Andreas L. Symeonidis,Georgios Banos
+Andreas L. Symeonidis,Charalampos Dimoulas
+Dimitris Geneiatakis,Georgios Kambourakis
+Dimitris Geneiatakis,Costas Lambrinoudakis
+Dimitris Geneiatakis,Professor Tasos Dagiuklas
+Dimitris Geneiatakis,Igor Nai Fovino
+Dimitris Geneiatakis,Ioannis Kounelis
+Dimitris Geneiatakis,Gary Steri
+Dimitris Geneiatakis,Nikos Vrakas
+Dimitris Geneiatakis,Zisis Tsiatsikas
+Dimitris Geneiatakis,Angelos D. Keromytis
+Dimitris Geneiatakis,Georgios Portokalidis
+Dimitris Geneiatakis,Nikolaos Pitropakis
+Dimitris Geneiatakis,Vasileios P. Kemerlis
+Dimitris Geneiatakis,Dimitrios Papamartzivanos
+Dimitris Geneiatakis,Dr. Prokopios Drogkaris
+Dimitris Geneiatakis,Riccardo Satta
+Dimitris Geneiatakis,Dimitris A. Gritzalis
+Dimitris Geneiatakis,Intesab Hussain
+Dimitris Geneiatakis,Farid Nait-Abdesselam
+Dimitris Geneiatakis,Jan Loeschner
+Konstantinos Papalamprou,Leonidas Pitsoulis
+Konstantinos Papalamprou,Gautam Appa
+Konstantinos Papalamprou,Christos T. Maravelias
+George K. Karagiannidis,Panagiotis D. Diamantoulakis
+George K. Karagiannidis,Stavros Kotsopoulos
+George K. Karagiannidis,Koralia Pappi
+George K. Karagiannidis,Haijun Zhang
+George K. Karagiannidis,Vasilis K. Papanikolaou
+George K. Karagiannidis,Yansha Deng
+George K. Karagiannidis,Stylianos E. Trevlakis
+Emmanouil Kriezis,Odysseas Tsilipakos
+Emmanouil Kriezis,Dimitrios Zografopoulos
+Emmanouil Kriezis,Alexandros Pitilakis
+Emmanouil Kriezis,Romeo Beccherelli
+Emmanouil Kriezis,Traianos Yioultsis
+Emmanouil Kriezis,Alain Dereux
+Emmanouil Kriezis,Jean-Claude Weeber
+Emmanouil Kriezis,Thomas Christopoulos
+Emmanouil Kriezis,Karim HASSAN
+Emmanouil Kriezis,Sergey I. Bozhevolnyi
+Emmanouil Kriezis,Georgios Sinatkas
+Emmanouil Kriezis,Carl Brown
+Emmanouil Kriezis,Anna Tasolamprou
+Emmanouil Kriezis,George K. Karagiannidis
+Emmanouil Kriezis,Nestor Chatzidiamantis
+Emmanouil Kriezis,Dimitrios Chatzidimitriou
+Emmanouil Kriezis,Peter Munro
+Emmanouil Kriezis,Peter Török
+Emmanouil Kriezis,Diomidis S. Michalopoulos
+Emmanouil Kriezis,Robert Schober
+Ioannis T. Rekanos,Leontios J. Hadjileontiadis
+Ioannis T. Rekanos,Traianos Yioultsis
+Ioannis T. Rekanos,Constantinos S. Hilas
+Ioannis T. Rekanos,Sotirios K. Goudos
+Ioannis T. Rekanos,Abbas Semnani
+Ioannis T. Rekanos,PARIS MASTOROCOSTAS
+Ioannis T. Rekanos,Hassan El-Sallabi
+Ioannis T. Rekanos,Dimitra Kampitaki
+Ioannis T. Rekanos,Zaharias Zaharis
+Ioannis T. Rekanos,John Sahalos
+Ioannis T. Rekanos,Theodoros Theodoulidis
+Ioannis T. Rekanos,Kosmas Deligkaris
+Ioannis T. Rekanos,Henry L Bertoni
+Ioannis T. Rekanos,Alexandros I. Dimitriadis
+Ioannis T. Rekanos,Spyros Kazarlis
+Ioannis T. Rekanos,Theodoros Zygiridis
+Ioannis T. Rekanos,Stamatios (Akis) Amanatiadis
+Ioannis T. Rekanos,Mahta Moghaddam
+Ioannis T. Rekanos,Emmanouil Kriezis
+Ioannis T. Rekanos,Stylianos D. Assimonis
+Leontios J. Hadjileontiadis,Vasileios S. Charisis
+Leontios J. Hadjileontiadis,Stelios Hadjidimitriou
+Leontios J. Hadjileontiadis,Sofia Balula Dias
+Leontios J. Hadjileontiadis,José Alves Diniz
+Leontios J. Hadjileontiadis,Panagiotis C. Petrantonakis
+Leontios J. Hadjileontiadis,Sofia J. Hadjileontiadou
+Leontios J. Hadjileontiadis,Vasiliki Kosmidou
+Leontios J. Hadjileontiadis,Chrysa Papadaniil
+Leontios J. Hadjileontiadis,Ioannis (Yiannis) Kompatsiaris
+Leontios J. Hadjileontiadis,João Barroso
+Nestor Chatzidiamantis,George K. Karagiannidis
+Nestor Chatzidiamantis,Michail (Michalis) Matthaiou
+Nestor Chatzidiamantis,Harilaos G. Sandalidis
+Nestor Chatzidiamantis,Diomidis S. Michalopoulos
+Nestor Chatzidiamantis,Leonidas Georgiadis
+Nestor Chatzidiamantis,Emmanouil Kriezis
+Nestor Chatzidiamantis,Athanasios Lioumpas
+Nestor Chatzidiamantis,Shlomi Arnon
+Nestor Chatzidiamantis,Stavros Kotsopoulos
+Nestor Chatzidiamantis,Iordanis Koutsopoulos
+Nestor Chatzidiamantis,Leandros Tassiulas
+Nestor Chatzidiamantis,Koralia Pappi
+Nestor Chatzidiamantis,Theodoros Tsiftsis
+Anastasios Bakirtzis,Pandelis Biskas
+Anastasios Bakirtzis,Christos Simoglou
+Anastasios Bakirtzis,João PS Catalão
+Anastasios Bakirtzis,Nikolaos Paterakis
+Anastasios Bakirtzis,Ozan ERDİNÇ
+Anastasios Bakirtzis,Stylianos Vagropoulos
+Anastasios Bakirtzis,Dimitris I. Chatzigiannis
+Anastasios Bakirtzis,Evangelos Kardakos
+Anastasios Bakirtzis,Emmanouil Bakirtzis
+Anastasios Bakirtzis,Spyros Kazarlis
+Dimitrios P. Lampridis (Dimitris P. Labridis),Aggelos Bouhouras
+Dimitrios P. Lampridis (Dimitris P. Labridis),G.T. Andreou
+Dimitrios P. Lampridis (Dimitris P. Labridis),Dimitrios I. Doukas
+Dimitrios P. Lampridis (Dimitris P. Labridis),Milioudis N. Apostolos
+Dimitrios P. Lampridis (Dimitris P. Labridis),Grigoris  K. Papagiannis
+Dimitrios P. Lampridis (Dimitris P. Labridis),Georgios Christoforidis
+Dimitrios P. Lampridis (Dimitris P. Labridis),Kallisthenis I. Sgouras
+Dimitrios P. Lampridis (Dimitris P. Labridis),Paschalis Gkaidatzis
+Dimitrios P. Lampridis (Dimitris P. Labridis),Antonios Marinopoulos
+Dimitrios P. Lampridis (Dimitris P. Labridis),Theofilos Papadopoulos
+Dimitrios P. Lampridis (Dimitris P. Labridis),Charis Demoulias
+Dimitrios P. Lampridis (Dimitris P. Labridis),Anastasios Bakirtzis
+Dimitrios P. Lampridis (Dimitris P. Labridis),Ioannis Baxevanos
+Dimitrios P. Lampridis (Dimitris P. Labridis),Dimitrios Tsiamitros
+Dimitrios P. Lampridis (Dimitris P. Labridis),Minas Alexiadis
+Dimitrios P. Lampridis (Dimitris P. Labridis),Dimitrios G. Triantafyllidis
+Dimitrios P. Lampridis (Dimitris P. Labridis),Vasilis Chatziathanasiou
+Dimitrios P. Lampridis (Dimitris P. Labridis),Pandelis Biskas
+Dimitrios P. Lampridis (Dimitris P. Labridis),Emmanouil Bakirtzis
+Dimitrios P. Lampridis (Dimitris P. Labridis),Kostas Gouramanis
+George Litsardakis,Ioannis Manolakis
+George Litsardakis,Athanasios Salifoglou
+George Litsardakis,Niarchos D
+George Litsardakis,Ioannis Panagiotopoulos
+George Litsardakis,Tatiana Giannakopoulou
+George Litsardakis,Margarit Gjoka
+George Litsardakis,D. Bikiaris
+George Litsardakis,George Z Papageorgiou
+Pantelis N. Mikropoulos,Thomas E. Tsovilis
+Pantelis N. Mikropoulos,Zacharias G. Datsios
+Pantelis N. Mikropoulos,Vasileios N. Zagkanas
+Pantelis N. Mikropoulos,Kiriakos Siderakis
+Pantelis N. Mikropoulos,Sotiria Koutoula
+Grigoris  K. Papagiannis,Theofilos Papadopoulos
+Grigoris  K. Papagiannis,Georgios Christoforidis
+Grigoris  K. Papagiannis,Dimitrios P. Lampridis (Dimitris P. Labridis)
+Grigoris  K. Papagiannis,George E. Georghiou
+Grigoris  K. Papagiannis,Athanasios Dagoumas
+Grigoris  K. Papagiannis,Paul Crolla
+Grigoris  K. Papagiannis,Andrew J Roscoe
+Grigoris  K. Papagiannis,Antonios Marinopoulos
+Grigoris  K. Papagiannis,Dimitrios G. Triantafyllidis
+Grigoris  K. Papagiannis,Aggelos Bouhouras
+Grigoris  K. Papagiannis,G.T. Andreou
+Grigoris  K. Papagiannis,Christos Simoglou
+Pandelis Biskas,Anastasios Bakirtzis
+Pandelis Biskas,Christos Simoglou
+Pandelis Biskas,Emmanouil Bakirtzis
+Pandelis Biskas,Stylianos Vagropoulos
+Pandelis Biskas,George Liberopoulos
+Pandelis Biskas,Dimitrios P. Lampridis (Dimitris P. Labridis)
+Pandelis Biskas,Vasilis Chatziathanasiou
+Pandelis Biskas,Costas G. Baslis
+Thomas E. Tsovilis,Pantelis N. Mikropoulos
+Thomas E. Tsovilis,Zacharias G. Datsios
+Thomas E. Tsovilis,Alexios I. Ioannidis
+Thomas E. Tsovilis,Miguel Martinez-Lozano
+Thomas E. Tsovilis,Sotiria Koutoula
+Thomas E. Tsovilis,E. C. Pyrgioti
+Thomas E. Tsovilis,Ioannis Gonos
+Thomas E. Tsovilis,Georgios Peppas
+Thomas E. Tsovilis,Theofilos Papadopoulos
+Thomas E. Tsovilis,Dan Doru Micu
+Nikos Laskaris,Stavros I.Dimitriadis
+Nikos Laskaris,Spiros Fotopoulos
+Nikos Laskaris,George Economou
+Nikos Laskaris,Anastasios Bezerianos
+Nikos Laskaris,Dimitrios A. Adamos
+Nikos Laskaris,Christos Theoharatos 
+Nikos Laskaris,Ioannis (Yiannis) Kompatsiaris
+Nikos Laskaris,Spiros Nikolopoulos
+Nikos Laskaris,Kostas Georgiadis
+Nikos Laskaris,Magda Tsolaki
+Nikos Laskaris,Yolanda del Río
+Nikos Laskaris,Fotis Kalaganis
+Nikos Laskaris,Panagiotis Alexopoulos
+Nikos Laskaris,Robert Perneczky
+Nikos Laskaris,George Kostopoulos
+Nikos Laskaris,Vahe Poghosyan
+Nikos Laskaris,Yu SUN
+Nikos Laskaris,Lefteris (Eleftherios) Angelis
+Nikos Laskaris,Jack M Fletcher
+Nikos Laskaris,Nitish Thakor
+Petros Nicopolitidis,Georgios Papadimitriou
+Petros Nicopolitidis,"Mohammad S. Obaidat, Fellow of IEEE & SCS, Past President of SCS, Dean of CCI and Professor"
+Petros Nicopolitidis,Panagiotis Sarigiannidis
+Petros Nicopolitidis,Emmanouel (Manos) Varvarigos
+Petros Nicopolitidis,Malamati Louta
+Petros Nicopolitidis,Constantine Kyriakopoulos
+Petros Nicopolitidis,Thomas Lagkas
+Petros Nicopolitidis,Christos K Liaskos
+Petros Nicopolitidis,Georgia Α. Beletsioti
+Petros Nicopolitidis,Stathis B Mavridopoulos
+Petros Nicopolitidis,Sophia Petridou
+Petros Nicopolitidis,Athanasios Salifoglou
+Petros Nicopolitidis,Olga Tsave
+Petros Nicopolitidis,"Sanjay Kumar Dhurandher, Senior Member IEEE"
+Petros Nicopolitidis,Damianos Gavalas
+Petros Nicopolitidis,Christos Goumopoulos
+Petros Nicopolitidis,Ioannis Vlahavas
+Petros Nicopolitidis,Ioannis Kavakiotis
+Petros Nicopolitidis,Vitsas Vasileios
+Petros Nicopolitidis,Panagiotis Bamidis
+IOANNIS STAMELOS,Lefteris (Eleftherios) Angelis
+IOANNIS STAMELOS,Apostolos Ampatzoglou
+IOANNIS STAMELOS,Stamatia Bibi
+IOANNIS STAMELOS,Panagiotis Sfetsos
+IOANNIS STAMELOS,George Kakarontzas
+IOANNIS STAMELOS,Ioannis Samoladas
+IOANNIS STAMELOS,Ignatios Deligiannis
+IOANNIS STAMELOS,Alexander Chatzigeorgiou
+IOANNIS STAMELOS,"Pantelis M. Papadopoulos, Ph.D"
+IOANNIS STAMELOS,Stavros Demetriadis
+IOANNIS STAMELOS,maurizio morisio
+Athena Vakali,George Pallis
+Athena Vakali,Ioannis (Yiannis) Kompatsiaris
+Athena Vakali,Despoina Chatzakou
+Athena Vakali,Symeon Papadopoulos
+Athena Vakali,Dimitrios Katsaros
+Athena Vakali,Maria Giatsoglou
+Athena Vakali,Yannis Manolopoulos
+Athena Vakali,Leonidas Anthopoulos
+Athena Vakali,Lefteris (Eleftherios) Angelis
+Athena Vakali,Christos Zigkolis
+Athena Vakali,Evimaria Terzi
+Athena Vakali,Eirini Giannakidou
+Athena Vakali,Marios D. Dikaiakos
+Athena Vakali,Rajkumar Buyya
+Athena Vakali,Pankaj Mehra
+Athena Vakali,Jaroslav Pokorny
+Athena Vakali,Barbara Catania
+Athena Vakali,Lefteris Moussiades
+Athena Vakali,Antonis Sidiropoulos
+Athena Vakali,Sophia Petridou
+Athanasios Kehagias,Sanjiv Singh
+Athanasios Kehagias,Geoffrey Hollinger
+Athanasios Kehagias,Vassilis Kaburlasos
+Athanasios Kehagias,Pavlina Fragkou
+Athanasios Kehagias,Anastasios Bakirtzis
+Athanasios Kehagias,Pawel Pralat
+Athanasios Kehagias,Hans R. Kuensch
+Athanasios Kehagias,Hafzullah Aksoy
+Athanasios Kehagias,Grigoris Antoniou
+Athanasios Kehagias,Leonidas Pitsoulis
+Athanasios Kehagias,Graziella Bertocchi
+Athanasios Kehagias,Anastasios A. Economides
+Athanasios Kehagias,Siddhartha Srinivasa
+Athanasios Kehagias,Dave Ferguson
+Athanasios Kehagias,Vincent Fortin
+Charis Demoulias,Konstantinos Oureilidis
+Charis Demoulias,Georgios C. Kryonidis
+Charis Demoulias,Grigoris  K. Papagiannis
+Charis Demoulias,Dimitrios P. Lampridis (Dimitris P. Labridis)
+Charis Demoulias,Eleftherios O. Kontis
+Charis Demoulias,Andreas I. Chrysochos
+Charis Demoulias,Minas Alexiadis
+Charis Demoulias,Juan Manuel Mauricio
+Charis Demoulias,Emmanouil Bakirtzis
+Charis Demoulias,Aggelos Bouhouras
+Charis Demoulias,Antonios Marinopoulos
+Charis Demoulias,Angelina Bintoudi
+Charis Demoulias,Bart Meersman
+Charis Demoulias,Dimitar Bozalakov
+Charis Demoulias,Lieven Vandevelde
+Charis Demoulias,Jose Luis Martinez Ramos
+Charis Demoulias,Milos Cvetkovic
+Vasilis Chatziathanasiou,Dimitrios P. Lampridis (Dimitris P. Labridis)
