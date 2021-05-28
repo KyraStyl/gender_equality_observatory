@@ -50,5 +50,6 @@ Stages:
  - Stage 9: Removing authors from coauthors
  - Stage 10: Requerying all authors to retrieve citations and interests
  - Stage 11: Making the initial graph data
+ - Stage 12: Adding coauthor-to-coauthor edges in the edges csv, removing duplicate edges and filtering self coauthorship
 
 *Each stage produces some data. Data from previous stages are passed on to the next ones.
