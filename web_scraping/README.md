@@ -33,8 +33,8 @@ __*Coauthor csv structure*__:
 + num_publications: int
 
 __*Edges csv structure*__:
-- node1: string (author full name)
-- node2: string (coauthor full name)
+- node1: string (full name)
+- node2: string (full name)
 
 ------
 
