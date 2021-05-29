@@ -9,6 +9,7 @@ __*Author csv structure*__:
 - id: int (Scholar id)
 - gender: M/F
 - role: string (role in affiliation)
+- department: string (department in affiliation)
 - affiliation: string
 - citedby: int
 - citedby5y: int
@@ -51,5 +52,6 @@ Stages:
  - Stage 10: Requerying all authors to retrieve citations and interests
  - Stage 11: Making the initial graph data
  - Stage 12: Adding coauthor-to-coauthor edges in the edges csv, removing duplicate edges and filtering self coauthorship
+ - Stage 13: Adding department property to authors
 
 *Each stage produces some data. Data from previous stages are passed on to the next ones.
