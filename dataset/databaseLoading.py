@@ -115,10 +115,10 @@ def storeCoauthorInNeo4j(tx, coauthor):
 
 # Create the edges between the Professors and their coauthors
 def connectoCoauthorToProfessor(tx,relation):
-    tx.run("MATCH (p1:Professor {name:$professor}),(p2 {name:$coauthor}) \
+    tx.run("MATCH (p1 {name:$srcName}),(p2 {name:$dstName}) \
             CREATE (p1)-[r:cooperateWith]->(p2)" \
-            ,professor=relation["src"] \
-            ,coauthor=relation["dst"])
+            ,srcName=relation["src"] \
+            ,dstName=relation["dst"])
 
 # deletes all the data from Neo4j
 def cleanNeo4j(session):
