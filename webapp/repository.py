@@ -130,7 +130,7 @@ class databaseConnector:
 
 
     # Returns the least number of hops from a professor to a female 
-    def getShortestpathFromProfessorToFemale(self,professorName:str)->  
+    def getShortestpathFromProfessorToFemale(self,professorName:str)->str:  
 
         """
         ####### Returns for I. Pitas ##############
@@ -143,9 +143,9 @@ class databaseConnector:
                             RETURN path", \
                             professorName=professorName,gender="F")
             try:
-                #return str(len(path.value())) 
                 return str(len(path.peek().values()[0])), path.value()[0].end_node["name"]
             except IndexError: # if professor doesn't has path for female
                 return None 
 
-
+#a = databaseConnector()
+#print(a.getCoauthorsOfSpecificProfessor("Nikos Nikolaidis"))
