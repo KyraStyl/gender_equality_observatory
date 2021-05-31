@@ -89,6 +89,7 @@ def storeCoauthorInNeo4j(tx, coauthor):
         
     tx.run("CREATE (:Coauthor {name:$name, \
                                scholar_Id:$scholar_Id, \
+                               gender:$gender, \
                                affiliation:$affiliation, \
                                url_picture:$picture, \
                                citedby:$citedby, \
@@ -100,6 +101,7 @@ def storeCoauthorInNeo4j(tx, coauthor):
                                num_publications:$num_publications})", \
                                name=coauthor["name"], \
                                scholar_Id=coauthor["scholar_id"], \
+                               gender=coauthor["gender"], \
                                affiliation=coauthor["affiliation"], \
                                picture=coauthor["url_picture"], \
                                citedby=coauthor["citedby"], \
@@ -110,8 +112,6 @@ def storeCoauthorInNeo4j(tx, coauthor):
                                i10index5y=coauthor["i10index5y"], \
                                num_publications=coauthor["num_publications"]) 
 
-                               #gender:$gender, \
-                               #gender=coauthor["gender"], \
 
 # Create the edges between the Professors and their coauthors
 def connectoCoauthorToProfessor(tx,relation):
