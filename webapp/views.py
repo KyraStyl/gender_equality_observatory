@@ -34,19 +34,19 @@ def create_app(test_config=None):
     def home():
         return render_template('home.html')
 
-    @app.route("/page1")
-    def page1():
-        return render_template('home.html')
+    @app.route("/topk")
+    def topk():
+        return render_template('topk.html')
 
-    @app.route("/page2")
-    def page2():
-        return render_template('home.html')
+    @app.route("/graphmtr")
+    def graphmtr():
+        return render_template('graphmtr.html')
     # you can add more pages using @app.route("/page")
 
-    @app.errorhandler(Exception)
-    def page_not_found(e):
-        return render_template('error.html'), 400
-    app.register_error_handler(400, page_not_found)
+    #@app.errorhandler(Exception)
+    #def page_not_found(e):
+    #    return render_template('error.html'), 400
+    #app.register_error_handler(400, page_not_found)
 
     return app
 

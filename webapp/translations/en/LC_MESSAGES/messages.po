@@ -7,6 +7,25 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2021-06-02 14:26+0300\n"
+"PO-Revision-Date: 2021-06-02 14:26+0300\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+# English translations for PROJECT.
+# Copyright (C) 2021 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-05-17 02:22+0300\n"
 "PO-Revision-Date: 2021-05-17 02:23+0300\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -18,29 +37,30 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.8.0\n"
 
-#: templates/base.html:28
+
+#: templates/base.html:53
 msgid "Home"
 msgstr "Home"
 
-#: templates/base.html:31
-msgid "Page1"
-msgstr "Page 1"
+#: templates/base.html:56
+msgid "Top-K"
+msgstr "Top-K"
 
-#: templates/base.html:34
-msgid "Page2"
-msgstr "Page 2"
+#: templates/base.html:59
+msgid "Graph Metrics"
+msgstr "Graph Metrics"
 
-#: templates/base.html:41
+#: templates/base.html:66
 msgid "Langtogreek"
 msgstr "Change language to Greek"
 
-#: templates/base.html:47
+#: templates/base.html:72
 msgid "Langtoenglish"
 msgstr "Change language to English"
 
-#: templates/base.html:63
+#: templates/base.html:88
 msgid "Footermsg"
-msgstr "Made with ❤ by 1 2 3 4"
+msgstr "MSc Data and Web Science, Auth"
 
 #: templates/error.html:9
 msgid "Page not found title"
@@ -53,4 +73,89 @@ msgstr "An error occurred! There is no such page!"
 #: templates/error.html:14
 msgid "Page not found link"
 msgstr "Go to a safer place."
+
+#: templates/home.html:16
+msgid "title"
+msgstr "Welcome to Web Mining 2021"
+
+#: templates/home.html:20 templates/home.html:107
+msgid "AUTH"
+msgstr "Aristotle University of Thessaloniki"
+
+#: templates/home.html:30 templates/home.html:171
+msgid "Bordeaux"
+msgstr "University of Bordeaux"
+
+#: templates/home.html:40 templates/home.html:187
+msgid "Bochum"
+msgstr "Ruhr University Bochum"
+
+#: templates/home.html:50 templates/home.html:123
+msgid "Porto"
+msgstr "University of Porto"
+
+#: templates/home.html:60 templates/home.html:155
+msgid "Lotz"
+msgstr "University of Lotz"
+
+#: templates/home.html:70 templates/home.html:139
+msgid "Oulu"
+msgstr "University of Oulu"
+
+#: templates/home.html:91
+msgid "Gallery"
+msgstr "Gallery with Image Links and Lightboxes"
+
+#: templates/home.html:208
+msgid "description_title"
+msgstr "Building a Gender Balance observatory on scientific research leveraging web data"
+
+#: templates/home.html:209
+msgid "intro"
+msgstr ""
+"The term “Gender balance” refers to “an equitable distribution of life's opportunities"
+"and resources between women and men, and/or the equal representation of women and men.” In science"
+"and academia inequalities exist in different career stages from postgraduate level to top-tier academia."
+"In this task, you will create an observatory of this phenomenon by exploring data from different sources that"
+"reflect gender representation in science and academia (citations, university gender indices, official documents"
+"related to gender ethics etc). Specifically, your tasks as a team include:"
+
+#: templates/home.html:212
+msgid "task1"
+msgstr ""
+"Collect gender data related to science and academia: from open databases, authorities documents,"
+"scientific publishers, social media conversations (for example Twitter conversations using their official API)."
+
+#: templates/home.html:213
+msgid "task2"
+msgstr ""
+"Explore and visualize (temporal) associations regarding gender at different levels, utilizing user profiles"
+"from social media and databases and general indices to build profiles and explore user segments. Utilize the User Profile"
+"Building methods User Segments and Community Detection methods explored in the theoretical assignment to identify user characteristics."
+
+#: templates/home.html:214
+msgid "task3"
+msgstr ""
+"Explore and visualize patterns in gender perceptions in academia, based on discussions and other documents. Utilize the topic detection"
+"methods explored in the theoretical assignment to identify emerging topics."
+
+#: templates/home.html:229
+msgid "team"
+msgstr "Team"
+
+#: templates/home.html:245
+msgid "Giorgos"
+msgstr "Georgios Michoulis"
+
+#: templates/home.html:250
+msgid "Stella"
+msgstr "Styliani Kyrama"
+
+#: templates/home.html:256
+msgid "Dimitris"
+msgstr "Dimitris Tourgaidis"
+
+#: templates/home.html:262
+msgid "Vasilis"
+msgstr "Vasileios Mosxopoulos"
 
