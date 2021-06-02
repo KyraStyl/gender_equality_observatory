@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-05-17 02:22+0300\n"
+"POT-Creation-Date: 2021-06-02 14:26+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,27 +17,27 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.8.0\n"
 
-#: templates/base.html:28
+#: templates/base.html:53
 msgid "Home"
 msgstr ""
 
-#: templates/base.html:31
-msgid "Page1"
+#: templates/base.html:56
+msgid "Top-K"
 msgstr ""
 
-#: templates/base.html:34
-msgid "Page2"
+#: templates/base.html:59
+msgid "Graph Metrics"
 msgstr ""
 
-#: templates/base.html:41
+#: templates/base.html:66
 msgid "Langtogreek"
 msgstr ""
 
-#: templates/base.html:47
+#: templates/base.html:72
 msgid "Langtoenglish"
 msgstr ""
 
-#: templates/base.html:63
+#: templates/base.html:88
 msgid "Footermsg"
 msgstr ""
 
@@ -51,5 +51,77 @@ msgstr ""
 
 #: templates/error.html:14
 msgid "Page not found link"
+msgstr ""
+
+#: templates/home.html:16
+msgid "title"
+msgstr ""
+
+#: templates/home.html:20 templates/home.html:107
+msgid "AUTH"
+msgstr ""
+
+#: templates/home.html:30 templates/home.html:171
+msgid "Bordeaux"
+msgstr ""
+
+#: templates/home.html:40 templates/home.html:187
+msgid "Bochum"
+msgstr ""
+
+#: templates/home.html:50 templates/home.html:123
+msgid "Porto"
+msgstr ""
+
+#: templates/home.html:60 templates/home.html:155
+msgid "Lotz"
+msgstr ""
+
+#: templates/home.html:70 templates/home.html:139
+msgid "Oulu"
+msgstr ""
+
+#: templates/home.html:91
+msgid "Gallery"
+msgstr ""
+
+#: templates/home.html:208
+msgid "description_title"
+msgstr ""
+
+#: templates/home.html:209
+msgid "intro"
+msgstr ""
+
+#: templates/home.html:212
+msgid "task1"
+msgstr ""
+
+#: templates/home.html:213
+msgid "task2"
+msgstr ""
+
+#: templates/home.html:214
+msgid "task3"
+msgstr ""
+
+#: templates/home.html:229
+msgid "team"
+msgstr ""
+
+#: templates/home.html:245
+msgid "Giorgos"
+msgstr ""
+
+#: templates/home.html:250
+msgid "Stella"
+msgstr ""
+
+#: templates/home.html:256
+msgid "Dimitris"
+msgstr ""
+
+#: templates/home.html:262
+msgid "Vasilis"
 msgstr ""
 
