@@ -4,6 +4,44 @@
 
 {% block content %}
 
+<table>
+  <thead>
+    <th>{{gettext('university')}}</th>
+    <th>{{gettext('departments')}}</th>
+  </thead>
+
+  <tbody>
+    {% for uni in unis %}
+    <tr>
+      <td>{{ gettext(uni[0]) }}</td>
+      <td>{{ uni[1]|join(', ') }}</td>
+    </tr>
+    {% endfor %}
+
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <th>{{gettext('university')}}</th>
+    <th>{{gettext('males')}}</th>
+    <th>{{gettext('females')}}</th>
+  </thead>
+
+  <tbody>
+    {% for gd in gender_distr %}
+    <tr>
+      <td>{{ gettext(gd[0]) }}</td>
+        {% for num in gd[1] %}
+            <td>{{ num }}</td>
+        {% endfor %}
+    </tr>
+    {% endfor %}
+
+  </tbody>
+</table>
+
+
 <section class="mbr-section 04 cid-sz7XxKJA5p" id="content5-c">
     <div class="container">
         <div class="mbr-row mbr-jc-c">

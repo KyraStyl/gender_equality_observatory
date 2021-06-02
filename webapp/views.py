@@ -6,6 +6,27 @@ from flask_babel import Babel
 from flask_babel import gettext
 from flask_restful import Api
 
+from .models import *
+from .networkCharacteristicsQueries import *
+
+
+def flatmap(di):
+    l = []
+    for i in di.items():
+        value = i[1]
+        if type(value) is dict:
+            value = flatmap(value)
+        l.append(value)
+    return l
+
+def dictToList(diction):
+    dictlist = []
+    for item in diction.items():
+        value = item[1]
+        if type(value) is dict:
+            value = flatmap(value)
+        dictlist.append([item[0], value])
+    return dictlist
 
 def create_app(test_config=None):
     """Create and configure an instance of the Flask application."""
@@ -34,8 +55,12 @@ def create_app(test_config=None):
     def home():
         return render_template('home.html')
 
-    @app.route("/topk")
+    @app.route("/topk", methods=['GET'])
     def topk():
+        if request.method == 'GET':
+            unis = dictToList(getAllUniversities())
+            gender_distr = dictToList(getGenderDistributionOfUniversities())
+            return render_template("topk.html", unis=unis, gender_distr=gender_distr)
         return render_template('topk.html')
 
     @app.route("/graphmtr")

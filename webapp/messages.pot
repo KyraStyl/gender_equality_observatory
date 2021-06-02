@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-06-02 14:26+0300\n"
+"POT-Creation-Date: 2021-06-03 01:21+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -58,27 +58,27 @@ msgid "title"
 msgstr ""
 
 #: templates/home.html:20 templates/home.html:107
-msgid "AUTH"
+msgid "University of Thessaloniki"
 msgstr ""
 
 #: templates/home.html:30 templates/home.html:171
-msgid "Bordeaux"
+msgid "University of Bordeaux"
 msgstr ""
 
 #: templates/home.html:40 templates/home.html:187
-msgid "Bochum"
+msgid "University of Bochum"
 msgstr ""
 
 #: templates/home.html:50 templates/home.html:123
-msgid "Porto"
+msgid "University of Porto"
 msgstr ""
 
 #: templates/home.html:60 templates/home.html:155
-msgid "Lotz"
+msgid "University of Lodz"
 msgstr ""
 
 #: templates/home.html:70 templates/home.html:139
-msgid "Oulu"
+msgid "University of Oulu"
 msgstr ""
 
 #: templates/home.html:91
@@ -117,11 +117,31 @@ msgstr ""
 msgid "Stella"
 msgstr ""
 
-#: templates/home.html:256
+#: templates/home.html:251
+msgid "Kyrama"
+msgstr ""
+
+#: templates/home.html:257
 msgid "Dimitris"
 msgstr ""
 
-#: templates/home.html:262
+#: templates/home.html:263
 msgid "Vasilis"
+msgstr ""
+
+#: templates/topk.html:9 templates/topk.html:26
+msgid "university"
+msgstr ""
+
+#: templates/topk.html:10
+msgid "departments"
+msgstr ""
+
+#: templates/topk.html:27
+msgid "males"
+msgstr ""
+
+#: templates/topk.html:28
+msgid "females"
 msgstr ""
 
