@@ -147,6 +147,12 @@ def main():
         for index, relation in relations.iterrows():
             session.write_transaction(connectoCoauthorToProfessor, relation)
 
+        graphExistAlready = session.run("CALL gds.graph.exists('my-graph') YIELD exists RETURN exists")
+        if graphExistAlready.value()[0]:
+            session.run("CALL gds.graph.drop('my-graph')")
+
+        session.run("CALL gds.graph.create('my-graph',['Professor','Coauthor'],{cooperateWith:{type:'cooperateWith',orientation:'UNDIRECTED'}})")
+
     driver.close()
 
 
