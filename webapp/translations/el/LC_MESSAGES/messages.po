@@ -84,7 +84,7 @@ msgstr "Πανεπιστήμιο του Ούλου"
 
 #: templates/home.html:91
 msgid "Gallery"
-msgstr "Συλλογή με συνδέσμους εικόνων και lightboxes"
+msgstr "Συλλογή με εικόνες"
 
 #: templates/home.html:208
 msgid "description_title"
@@ -128,7 +128,7 @@ msgstr "Γεώργιος Μιχούλης"
 
 #: templates/home.html:250
 msgid "Stella"
-msgstr "Στυλιανή Κυραμά"
+msgstr "Στυλιανή <br> Κυραμά"
 
 #: templates/home.html:256
 msgid "Dimitris"

@@ -104,7 +104,7 @@ msgstr "University of Oulu"
 
 #: templates/home.html:91
 msgid "Gallery"
-msgstr "Gallery with Image Links and Lightboxes"
+msgstr "Gallery with Images"
 
 #: templates/home.html:208
 msgid "description_title"
@@ -148,8 +148,12 @@ msgid "Giorgos"
 msgstr "Georgios Michoulis"
 
 #: templates/home.html:250
-msgid "Stella"
-msgstr "Styliani Kyrama"
+msgid "Stella1"
+msgstr "Styliani <br> Kyrama"
+
+#: templates/home.html:250
+msgid "Stella2"
+msgstr "Kyrama"
 
 #: templates/home.html:256
 msgid "Dimitris"
