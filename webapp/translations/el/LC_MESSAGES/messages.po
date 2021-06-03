@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-06-03 02:44+0300\n"
+"POT-Creation-Date: 2021-06-03 23:24+0300\n"
 "PO-Revision-Date: 2021-06-02 14:11+0300\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: el\n"
@@ -53,6 +53,26 @@ msgstr "Η σελίδα που ζητήσατε δεν υπάρχει."
 #: templates/error.html:14
 msgid "Page not found link"
 msgstr "Μεταφερθείτε κάπου όμορφα"
+
+#: templates/graphmtr.html:12
+msgid "general_info"
+msgstr "Γενικές Πληροφορίες για κάθε Πανεπιστήμιο"
+
+#: templates/graphmtr.html:19
+msgid "university"
+msgstr "Πανεπιστήμιο"
+
+#: templates/graphmtr.html:20
+msgid "departments"
+msgstr "Τμήματα"
+
+#: templates/graphmtr.html:21
+msgid "males"
+msgstr "Άντρες"
+
+#: templates/graphmtr.html:22
+msgid "females"
+msgstr "Γυναίκες"
 
 #: templates/home.html:16
 msgid "title"
@@ -169,61 +189,60 @@ msgstr "Πεδίο"
 msgid "value"
 msgstr "Τιμή"
 
-#: templates/topk.html:12
-msgid "general_info"
-msgstr "Γενικές Πληροφορίες για κάθε Πανεπιστήμιο"
+#: templates/topk.html:8
+msgid "Specify number of results"
+msgstr "Επίλεξε το Κ"
 
-#: templates/topk.html:19
-msgid "university"
-msgstr "Πανεπιστήμιο"
+#: templates/topk.html:10
+msgid "Submit"
+msgstr "Υποβολή"
 
-#: templates/topk.html:20
-msgid "departments"
-msgstr "Τμήματα"
+#: templates/topk.html:17
+msgid "Top-K with k="
+msgstr "Τοπ-Κ αποτελέσματα, με Κ="
 
-#: templates/topk.html:21
-msgid "males"
-msgstr "Άντρες"
-
-#: templates/topk.html:22
-msgid "females"
-msgstr "Γυναίκες"
-
+#: templates/topk.html:23
 msgid "name"
 msgstr "Όνομα"
 
+#: templates/topk.html:24
 msgid "gender"
 msgstr "Φύλο"
 
-msgid "role"
-msgstr "Βαθμίδα"
+#: templates/topk.html:25
+msgid "coauthors"
+msgstr "Συν-συγγραφείς"
 
-msgid "picture"
-msgstr "Σύνδεσμος Φωτογραφίας"
+#: msgid "role"
+#: msgstr "Βαθμίδα"
 
-msgid "citedby"
-msgstr "Έχει αναφερθεί από"
+#: msgid "picture"
+#: msgstr "Σύνδεσμος Φωτογραφίας"
 
-msgid "citedby5y"
-msgstr "Έχει αναφερθεί τα τελευταία 5 χρόνια"
+#: msgid "citedby"
+#: msgstr "Έχει αναφερθεί από"
 
-msgid "hindex"
-msgstr "H-index"
+#: msgid "citedby5y"
+#: msgstr "Έχει αναφερθεί τα τελευταία 5 χρόνια"
 
-msgid "hindex5y"
-msgstr "H-index των τελευταίων 5 χρόνων"
+#: msgid "hindex"
+#: msgstr "H-index"
 
-msgid "i10index"
-msgstr "i10-index"
+#: msgid "hindex5y"
+#: msgstr "H-index των τελευταίων 5 χρόνων"
 
-msgid "i10index5y"
-msgstr "i10-index των τελευταίων 5 χρόνων"
+#: msgid "i10index"
+#: msgstr "i10-index"
 
-msgid "num_publications"
-msgstr "Αριθμός δημοσιεύσεων"
+#: msgid "i10index5y"
+#: msgstr "i10-index των τελευταίων 5 χρόνων"
 
-msgid "cites_per_year"
-msgstr "Αναφορές ανά χρόνο"
+#: msgid "num_publications"
+#: msgstr "Αριθμός δημοσιεύσεων"
 
-msgid "interests"
-msgstr "Ενδιαφέροντα"
+#: msgid "cites_per_year"
+#: msgstr "Αναφορές ανά χρόνο"
+
+#: msgid "interests"
+#: msgstr "Ενδιαφέροντα"
+

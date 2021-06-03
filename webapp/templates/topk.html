@@ -4,12 +4,17 @@
 
 {% block content %}
 
+<form class="container text-center my-3 w-50 d-flex align-items-center justify-content-center align-self-center" action="{{ url_for('topk')}}" method="post">
+    <label class="w-25 align-middle text-center h6 mx-auto" for="topk" style="text-align:center;">{{gettext('Specify number of results')}}</label>
+    <input class="w-25 mr-2 form-control" id="topk" name="topk" type="number" min="1" max="50" value="5">
+    <button class="btn btn-info w-25 rounded-pill font-weight-bold with-border">{{gettext('Submit')}}</button>
+</form>
+
 <div class="card rounded-lg container">
 
-    <div class="card-title text-white bg-primary rounded mx-3 my-3 p-2">
+    <div class="card-title text-white bg-info rounded mx-3 my-3 p-2">
         <div class="h6 my-2">
-            <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
-            {{gettext('Top-K')}}
+            {{gettext('Top-K with k=')}}{{num}}
         </div>
     </div>
     <div class="card-body row">

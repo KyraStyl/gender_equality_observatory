@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-06-03 02:44+0300\n"
+"POT-Creation-Date: 2021-06-03 23:24+0300\n"
 "PO-Revision-Date: 2021-05-17 02:23+0300\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -53,6 +53,26 @@ msgstr "An error occurred! There is no such page!"
 #: templates/error.html:14
 msgid "Page not found link"
 msgstr "Go to a safer place."
+
+#: templates/graphmtr.html:12
+msgid "general_info"
+msgstr "General Info for Universities"
+
+#: templates/graphmtr.html:19
+msgid "university"
+msgstr "University"
+
+#: templates/graphmtr.html:20
+msgid "departments"
+msgstr "Departments"
+
+#: templates/graphmtr.html:21
+msgid "males"
+msgstr "Males"
+
+#: templates/graphmtr.html:22
+msgid "females"
+msgstr "Females"
 
 #: templates/home.html:16
 msgid "title"
@@ -165,61 +185,60 @@ msgstr "Attribute"
 msgid "value"
 msgstr "Value"
 
-#: templates/topk.html:12
-msgid "general_info"
-msgstr "General Info for Universities"
+#: templates/topk.html:8
+msgid "Specify number of results"
+msgstr "Specify number of results"
 
-#: templates/topk.html:19
-msgid "university"
-msgstr "University"
+#: templates/topk.html:10
+msgid "Submit"
+msgstr "Submit"
 
-#: templates/topk.html:20
-msgid "departments"
-msgstr "Departments"
+#: templates/topk.html:17
+msgid "Top-K with k="
+msgstr "Top-K results with K="
 
-#: templates/topk.html:21
-msgid "males"
-msgstr "Males"
-
-#: templates/topk.html:22
-msgid "females"
-msgstr "Females"
-
+#: templates/topk.html:23
 msgid "name"
 msgstr "Name"
 
+#: templates/topk.html:24
 msgid "gender"
 msgstr "Gender"
 
-msgid "role"
-msgstr "Role"
+#: templates/topk.html:25
+msgid "coauthors"
+msgstr "Co-authors"
 
-msgid "picture"
-msgstr "Picture Link"
+#: msgid "role"
+#: msgstr "Role"
 
-msgid "citedby"
-msgstr "Cited By"
+#: msgid "picture"
+#: msgstr "Picture Link"
 
-msgid "citedby5y"
-msgstr "Last 5 years cited by"
+#: msgid "citedby"
+#: msgstr "Cited By"
 
-msgid "hindex"
-msgstr "H-index"
+#: msgid "citedby5y"
+#: msgstr "Last 5 years cited by"
 
-msgid "hindex5y"
-msgstr "Last 5 years H-index"
+#: msgid "hindex"
+#: msgstr "H-index"
 
-msgid "i10index"
-msgstr "i10-index"
+#: msgid "hindex5y"
+#: msgstr "Last 5 years H-index"
 
-msgid "i10index5y"
-msgstr "Last 5 years i10-index"
+#: msgid "i10index"
+#: msgstr "i10-index"
 
-msgid "num_publications"
-msgstr "Number of publications"
+#: msgid "i10index5y"
+#: msgstr "Last 5 years i10-index"
 
-msgid "cites_per_year"
-msgstr "Cites per year"
+#: msgid "num_publications"
+#: msgstr "Number of publications"
 
-msgid "interests"
-msgstr "Interests"
+#: msgid "cites_per_year"
+#: msgstr "Cites per year"
+
+#: msgid "interests"
+#: msgstr "Interests"
+

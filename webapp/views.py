@@ -56,12 +56,17 @@ def create_app(test_config=None):
     def home():
         return render_template('home.html')
 
-    @app.route("/topk", methods=['GET'])
+    @app.route("/topk", methods=['GET','POST'])
     def topk():
-        if request.method == 'GET':
-            profwcoauth = getTopKProfessorsWithMostCoauthors(5)
-            return render_template("topk.html", profwcoauthors=profwcoauth)
-        return render_template('error.html')
+        if request.method in ['GET','POST']:
+            if request.method == 'GET':
+                num = 5
+            if request.method == 'POST':
+                num = int(request.form["topk"])
+            profwcoauth = getTopKProfessorsWithMostCoauthors(num)
+            return render_template("topk.html", num=num, profwcoauthors=profwcoauth)
+        else:
+            return render_template('error.html')
 
     @app.route("/graphmtr", methods=['GET'])
     def graphmtr():

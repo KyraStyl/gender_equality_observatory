@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-06-03 02:44+0300\n"
+"POT-Creation-Date: 2021-06-03 23:24+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -51,6 +51,26 @@ msgstr ""
 
 #: templates/error.html:14
 msgid "Page not found link"
+msgstr ""
+
+#: templates/graphmtr.html:12
+msgid "general_info"
+msgstr ""
+
+#: templates/graphmtr.html:19
+msgid "university"
+msgstr ""
+
+#: templates/graphmtr.html:20
+msgid "departments"
+msgstr ""
+
+#: templates/graphmtr.html:21
+msgid "males"
+msgstr ""
+
+#: templates/graphmtr.html:22
+msgid "females"
 msgstr ""
 
 #: templates/home.html:16
@@ -141,23 +161,27 @@ msgstr ""
 msgid "value"
 msgstr ""
 
-#: templates/topk.html:12
-msgid "general_info"
+#: templates/topk.html:8
+msgid "Specify number of results"
 msgstr ""
 
-#: templates/topk.html:19
-msgid "university"
+#: templates/topk.html:10
+msgid "Submit"
 msgstr ""
 
-#: templates/topk.html:20
-msgid "departments"
+#: templates/topk.html:17
+msgid "Top-K with k="
 msgstr ""
 
-#: templates/topk.html:21
-msgid "males"
+#: templates/topk.html:23
+msgid "name"
 msgstr ""
 
-#: templates/topk.html:22
-msgid "females"
+#: templates/topk.html:24
+msgid "gender"
+msgstr ""
+
+#: templates/topk.html:25
+msgid "coauthors"
 msgstr ""
 
