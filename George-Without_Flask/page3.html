@@ -1,0 +1,151 @@
+<html>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <head>
+        <title>DataViz</title>
+        <style type="text/css">
+        
+
+
+.card-header .fa {
+  transition: .3s transform ease-in-out;
+}
+.card-header .collapsed .fa {
+  transform: rotate(90deg);
+}
+
+
+            #viz {
+                width: 100%;
+                height: 700px;
+            }
+        </style>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+        <script src="https://rawgit.com/neo4j-contrib/neovis.js/master/dist/neovis.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>   
+    <script>
+        function draw() {
+            var config = {
+                container_id: "viz",
+                server_url: "bolt://localhost:7687",
+                server_user: "neo4j",
+                server_password: "a",
+                labels: {
+                    "University": {
+                        caption: "name",
+                       
+                    },
+                    "Department": {
+                        caption: "name",
+                       
+                    },
+                    "Professor": {
+                        caption: "name"
+                    },
+                    
+                },
+                
+                relationships: {
+                    "Department": {
+                        caption: "name"
+                        
+                    }
+                },
+               
+                
+               
+                initial_cypher: "MATCH (p:Professor)-[r1:worksAt]->(d:Department)-[r2:belongsTo]->(u:University)   RETURN *"
+            }
+
+            var viz = new NeoVis.default(config);
+            viz.render();
+
+            var config1 = {
+                container_id: "viz1",
+                server_url: "bolt://localhost:7687",
+                server_user: "neo4j",
+                server_password: "a",
+                labels: {
+                    "University": {
+                        caption: "name",
+                       
+                    },
+                    "Department": {
+                        caption: "name",
+                       
+                    },
+                    "Professor": {
+                        caption: "name"
+                    },
+                    
+                },
+                
+                relationships: {
+                    "Department": {
+                        caption: "name"
+                        
+                    }
+                },
+               
+                
+               
+                initial_cypher: "MATCH (p:Professor)-[r1:worksAt]->(d:Department)-[r2:belongsTo]->(u:University)   RETURN *"
+            }
+
+            var viz1 = new NeoVis.default(config1);
+            viz1.render();
+        }
+    </script>
+    <body onload="draw()">
+
+        
+<div class="container.fluid">
+        <div id="accordion">
+            
+            <div class="card">
+              <div class="card-header" id="headingTwo">
+                <h5 class="mb-0">
+                  <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Collapsible Group Item #2
+                  </button>
+                </h5>
+              </div>
+              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                <div class="card-body">
+                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingThree">
+                <h5 class="mb-0">
+                  <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Universities-Departments-Profiessors!
+                  </button>
+                </h5>
+              </div>
+              <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                <div class="card-body">
+                    <div id="viz" ></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+        
+
+
+    </div>
+        <script>
+            $('#myCollapsible').collapse({
+  toggle: false
+})
+        </script>
+    </body>
+</html>
