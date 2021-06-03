@@ -1,0 +1,51 @@
+{% extends 'base.html' %}
+
+{% block title %}{{uni}}{% endblock %}
+
+{% block content %}
+
+<div class="card rounded-lg container">
+
+    <div class="card-title text-white bg-primary rounded mx-3 my-3 p-2">
+        <div class="h6 my-2">
+            <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
+            {{gettext(uni)}}
+        </div>
+    </div>
+    <div class="card-body row">
+    {% for row in profs %}
+
+        <div class="card rounded-lg w-25 col-sm">
+
+            <div class="card-title text-white bg-primary rounded mx-3 my-3 p-2">
+                <div class="h6 my-2">
+                    <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
+                    {{gettext(row[0])}}
+                </div>
+            </div>
+
+            <div class="card-body">
+
+                <table>
+                  <thead>
+                    <th>{{gettext('professor')}}</th>
+                  </thead>
+
+                  <tbody>
+                    {% for prof in row[1] %}
+                    <tr>
+                        <td><a href="{{url_for('profinfo',prof=prof)}}">{{ prof }}</a></td>
+                    </tr>
+                    {% endfor %}
+                  </tbody>
+                </table>
+            </div>
+
+        </div>
+
+    {% endfor %}
+    </div>
+
+</div>
+
+{%  endblock %}

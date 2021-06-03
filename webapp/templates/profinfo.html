@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+
+{% block title %}{{name}}{% endblock %}
+
+{% block content %}
+
+<div class="card rounded-lg container">
+
+    <div class="card-title text-white bg-info rounded mx-3 my-3 p-2">
+        <div class="h6 my-2">
+            <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
+            {{name}}
+        </div>
+    </div>
+
+    <div class="card-body">
+        <table>
+          <thead>
+            <th>{{gettext('attribute')}}</th>
+            <th>{{gettext('value')}}</th>
+          </thead>
+
+          <tbody>
+            {% for row in info %}
+            <tr>
+              <td>{{gettext(row[0])}}</td>
+                {% if row[1] is iterable %}
+                <td>{{row[1]}}</td>
+                {% else %}
+                <td>{{gettext(row[1])}}</td>
+                {% endif %}
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+    </div>
+
+</div>
+
+{% endblock %}

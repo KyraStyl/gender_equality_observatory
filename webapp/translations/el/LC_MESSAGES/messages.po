@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-06-03 01:21+0300\n"
+"POT-Creation-Date: 2021-06-03 02:44+0300\n"
 "PO-Revision-Date: 2021-06-02 14:11+0300\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: el\n"
@@ -157,19 +157,73 @@ msgstr "Δημήτριος Τουργαΐδης"
 msgid "Vasilis"
 msgstr "Βασίλειος Μοσχόπουλος"
 
-#: templates/topk.html:9 templates/topk.html:26
+#: templates/profforuni.html:31
+msgid "professor"
+msgstr "Καθηγητής"
+
+#: templates/profinfo.html:19
+msgid "attribute"
+msgstr "Πεδίο"
+
+#: templates/profinfo.html:20
+msgid "value"
+msgstr "Τιμή"
+
+#: templates/topk.html:12
+msgid "general_info"
+msgstr "Γενικές Πληροφορίες για κάθε Πανεπιστήμιο"
+
+#: templates/topk.html:19
 msgid "university"
 msgstr "Πανεπιστήμιο"
 
-#: templates/topk.html:10
+#: templates/topk.html:20
 msgid "departments"
 msgstr "Τμήματα"
 
-#: templates/topk.html:27
+#: templates/topk.html:21
 msgid "males"
 msgstr "Άντρες"
 
-#: templates/topk.html:28
+#: templates/topk.html:22
 msgid "females"
 msgstr "Γυναίκες"
 
+msgid "name"
+msgstr "Όνομα"
+
+msgid "gender"
+msgstr "Φύλο"
+
+msgid "role"
+msgstr "Βαθμίδα"
+
+msgid "picture"
+msgstr "Σύνδεσμος Φωτογραφίας"
+
+msgid "citedby"
+msgstr "Έχει αναφερθεί από"
+
+msgid "citedby5y"
+msgstr "Έχει αναφερθεί τα τελευταία 5 χρόνια"
+
+msgid "hindex"
+msgstr "H-index"
+
+msgid "hindex5y"
+msgstr "H-index των τελευταίων 5 χρόνων"
+
+msgid "i10index"
+msgstr "i10-index"
+
+msgid "i10index5y"
+msgstr "i10-index των τελευταίων 5 χρόνων"
+
+msgid "num_publications"
+msgstr "Αριθμός δημοσιεύσεων"
+
+msgid "cites_per_year"
+msgstr "Αναφορές ανά χρόνο"
+
+msgid "interests"
+msgstr "Ενδιαφέροντα"

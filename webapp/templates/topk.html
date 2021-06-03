@@ -4,42 +4,43 @@
 
 {% block content %}
 
-<table>
-  <thead>
-    <th>{{gettext('university')}}</th>
-    <th>{{gettext('departments')}}</th>
-  </thead>
+<div class="card rounded-lg">
 
-  <tbody>
-    {% for uni in unis %}
-    <tr>
-      <td>{{ gettext(uni[0]) }}</td>
-      <td>{{ uni[1]|join(', ') }}</td>
-    </tr>
-    {% endfor %}
+    <div class="card-title text-white bg-primary rounded mx-3 my-3 p-2">
+        <div class="h6 my-2">
+            <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
+            {{gettext('general_info')}}
+        </div>
+    </div>
 
-  </tbody>
-</table>
+    <div class="card-body">
+        <table>
+          <thead>
+            <th>{{gettext('university')}}</th>
+            <th>{{gettext('departments')}}</th>
+            <th>{{gettext('males')}}</th>
+            <th>{{gettext('females')}}</th>
+          </thead>
 
-<table>
-  <thead>
-    <th>{{gettext('university')}}</th>
-    <th>{{gettext('males')}}</th>
-    <th>{{gettext('females')}}</th>
-  </thead>
+          <tbody>
+            {% for uni in unis %}
+            <tr>
+              <td><a href="{{url_for('profforuni',uni=uni[0])}}"> {{ gettext(uni[0]) }}</a></td>
+              <td>{{ uni[1]|join(', ') }}</td>
+                {% for gd in gender_distr %}
+                    {% if uni[0] == gd[0] %}
+                        {% for num in gd[1] %}
+                            <td>{{ num }}</td>
+                        {% endfor %}
+                    {% endif %}
+                {% endfor %}
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+    </div>
 
-  <tbody>
-    {% for gd in gender_distr %}
-    <tr>
-      <td>{{ gettext(gd[0]) }}</td>
-        {% for num in gd[1] %}
-            <td>{{ num }}</td>
-        {% endfor %}
-    </tr>
-    {% endfor %}
-
-  </tbody>
-</table>
+</div>
 
 
 <section class="mbr-section 04 cid-sz7XxKJA5p" id="content5-c">

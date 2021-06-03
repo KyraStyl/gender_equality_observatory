@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-06-03 01:21+0300\n"
+"POT-Creation-Date: 2021-06-03 02:44+0300\n"
 "PO-Revision-Date: 2021-05-17 02:23+0300\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -153,19 +153,73 @@ msgstr "Dimitris Tourgaidis"
 msgid "Vasilis"
 msgstr "Vasileios Mosxopoulos"
 
-#: templates/topk.html:9 templates/topk.html:26
+#: templates/profforuni.html:31
+msgid "professor"
+msgstr "Professor"
+
+#: templates/profinfo.html:19
+msgid "attribute"
+msgstr "Attribute"
+
+#: templates/profinfo.html:20
+msgid "value"
+msgstr "Value"
+
+#: templates/topk.html:12
+msgid "general_info"
+msgstr "General Info for Universities"
+
+#: templates/topk.html:19
 msgid "university"
 msgstr "University"
 
-#: templates/topk.html:10
+#: templates/topk.html:20
 msgid "departments"
 msgstr "Departments"
 
-#: templates/topk.html:27
+#: templates/topk.html:21
 msgid "males"
 msgstr "Males"
 
-#: templates/topk.html:28
+#: templates/topk.html:22
 msgid "females"
 msgstr "Females"
 
+msgid "name"
+msgstr "Name"
+
+msgid "gender"
+msgstr "Gender"
+
+msgid "role"
+msgstr "Role"
+
+msgid "picture"
+msgstr "Picture Link"
+
+msgid "citedby"
+msgstr "Cited By"
+
+msgid "citedby5y"
+msgstr "Last 5 years cited by"
+
+msgid "hindex"
+msgstr "H-index"
+
+msgid "hindex5y"
+msgstr "Last 5 years H-index"
+
+msgid "i10index"
+msgstr "i10-index"
+
+msgid "i10index5y"
+msgstr "Last 5 years i10-index"
+
+msgid "num_publications"
+msgstr "Number of publications"
+
+msgid "cites_per_year"
+msgstr "Cites per year"
+
+msgid "interests"
+msgstr "Interests"

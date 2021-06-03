@@ -61,13 +61,29 @@ def create_app(test_config=None):
             unis = dictToList(getAllUniversities())
             gender_distr = dictToList(getGenderDistributionOfUniversities())
             return render_template("topk.html", unis=unis, gender_distr=gender_distr)
-        return render_template('topk.html')
+        return render_template('error.html')
 
     @app.route("/graphmtr")
     def graphmtr():
         return render_template('graphmtr.html')
     # you can add more pages using @app.route("/page")
 
+
+    @app.route("/profforuni/<uni>", methods=["GET"])
+    def profforuni(uni):
+        if request.method == "GET":
+            profs = dictToList(getAllProfessorsOfSpecificUniversity(uni))
+            return render_template("profforuni.html", uni=uni, profs=profs)
+        return redirect(url_for("topk.html"))
+
+    @app.route("/profinfo/<prof>", methods=["GET"])
+    def profinfo(prof):
+        if request.method == "GET":
+            professor = getSpecificProfessor(prof)
+            info = dictToList(professor.serialize)
+            print(info)
+            return render_template("profinfo.html", name=prof, info=info)
+        return render_template("error.html")
     #@app.errorhandler(Exception)
     #def page_not_found(e):
     #    return render_template('error.html'), 400
