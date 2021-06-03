@@ -35,7 +35,7 @@ class Professor:
         self.cites_per_year = dict(
             [tuple(citesInAYear.split("-")) for citesInAYear in professor["cites_per_year"].split(" ")])
         try:  # professor has at least one interest
-            self.interest = [interest for interest in
+            self.interests = [interest for interest in
                              [interest.replace("_", " ") for interest in professor["interests"].split(" ")]]
         except AttributeError:
             self.interests = []
@@ -56,7 +56,7 @@ class Professor:
             'i10index5y': self.i10index5y,
             'num_publications': self.num_publications,
             'cites_per_year': self.cites_per_year,
-            'interests': self.interest
+            'interests': self.interests
         }
 
 def date():
