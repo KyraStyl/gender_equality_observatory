@@ -4,36 +4,28 @@
 
 {% block content %}
 
-<div class="card rounded-lg">
+<div class="card rounded-lg container">
 
     <div class="card-title text-white bg-primary rounded mx-3 my-3 p-2">
         <div class="h6 my-2">
             <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
-            {{gettext('general_info')}}
+            {{gettext('Top-K')}}
         </div>
     </div>
-
-    <div class="card-body">
+    <div class="card-body row">
         <table>
           <thead>
-            <th>{{gettext('university')}}</th>
-            <th>{{gettext('departments')}}</th>
-            <th>{{gettext('males')}}</th>
-            <th>{{gettext('females')}}</th>
+            <th>{{gettext('name')}}</th>
+            <th>{{gettext('gender')}}</th>
+            <th>{{gettext('coauthors')}}</th>
           </thead>
 
           <tbody>
-            {% for uni in unis %}
+            {% for prof in profwcoauthors %}
             <tr>
-              <td><a href="{{url_for('profforuni',uni=uni[0])}}"> {{ gettext(uni[0]) }}</a></td>
-              <td>{{ uni[1]|join(', ') }}</td>
-                {% for gd in gender_distr %}
-                    {% if uni[0] == gd[0] %}
-                        {% for num in gd[1] %}
-                            <td>{{ num }}</td>
-                        {% endfor %}
-                    {% endif %}
-                {% endfor %}
+                <td><a href="{{url_for('profinfo',prof=prof[0])}}">{{ prof[0] }}</a></td>
+                <td>{{prof[1]}}</td>
+                <td>{{prof[2]}}</td>
             </tr>
             {% endfor %}
           </tbody>
@@ -41,6 +33,7 @@
     </div>
 
 </div>
+
 
 
 <section class="mbr-section 04 cid-sz7XxKJA5p" id="content5-c">

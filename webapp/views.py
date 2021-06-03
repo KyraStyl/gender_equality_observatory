@@ -8,6 +8,7 @@ from flask_restful import Api
 
 from .models import *
 from .networkCharacteristicsQueries import *
+from .genderCharacteristicsQueries import *
 
 
 def flatmap(di):
@@ -58,14 +59,17 @@ def create_app(test_config=None):
     @app.route("/topk", methods=['GET'])
     def topk():
         if request.method == 'GET':
-            unis = dictToList(getAllUniversities())
-            gender_distr = dictToList(getGenderDistributionOfUniversities())
-            return render_template("topk.html", unis=unis, gender_distr=gender_distr)
+            profwcoauth = getTopKProfessorsWithMostCoauthors(5)
+            return render_template("topk.html", profwcoauthors=profwcoauth)
         return render_template('error.html')
 
-    @app.route("/graphmtr")
+    @app.route("/graphmtr", methods=['GET'])
     def graphmtr():
-        return render_template('graphmtr.html')
+        if request.method == 'GET':
+            unis = dictToList(getAllUniversities())
+            gender_distr = dictToList(getGenderDistributionOfUniversities())
+            return render_template("graphmtr.html", unis=unis, gender_distr=gender_distr)
+        return render_template('error.html')
     # you can add more pages using @app.route("/page")
 
 
