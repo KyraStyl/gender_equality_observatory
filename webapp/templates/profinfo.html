@@ -4,27 +4,10 @@
 
 {% block content %}
 
-
-<style>
-        
-
-  
-              #viz {
-                  width: 100%;
-                  height: 700px;
-              }
-</style>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-<script src="https://rawgit.com/neo4j-contrib/neovis.js/master/dist/neovis.js"></script>
-
-     
-
-
 <div class="card rounded-lg container">
 
     <div class="card-title text-center text-white bg-info rounded mx-3 my-3 p-2">
         <div class="h6 my-2">
-            <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
             <h2>{{name}} </h2>
         </div>
     </div>
@@ -51,9 +34,11 @@
         </table>
     </div>
 </div>
+
+
 <body onload="draw('{{name}}')">
 <div class="container">
-  <div class="card-header bg-primary text-white text-center">
+  <div class="card-header bg-dark text-white text-center">
      <h3> Cooperates With</h3>
   </div>
   <div class="card-body">
@@ -61,16 +46,16 @@
 </div>
 </div>
 </body>
+
+
 <script>
-  
-
 function draw(nm) {
-  
-const d=nm;          
-var config = {
-  
 
-                
+const d=nm;
+var config = {
+
+
+
 container_id: "viz",
  server_url: "bolt://localhost:7687",
 server_user: "neo4j",
@@ -79,33 +64,32 @@ d:nm,
      labels: {
            "Professor": {
               caption: "name",
-                      
+
                     },
-                  
+
             "Coauthor": {
                 caption: "name",
                 size:"num_publications"
                     },
-                    
+
                 },
-                
+
     relationships: {
          "cooperateWith": {
-             caption: false,                 
+             caption: false,
                 thickness:'i10index'
                     }
                 },
-                
-               
-                initial_cypher: 'MATCH (p:Professor {name:\"' +d+ '\"})-[r:cooperateWith]-(p2) RETURN *' 
 
-                
+
+                initial_cypher: 'MATCH (p:Professor {name:\"' +d+ '\"})-[r:cooperateWith]-(p2) RETURN *'
+
+
             };
-            
+
             var viz = new NeoVis.default(config);
             viz.render();
           }
-          alert(nm)
 </script>
 
 {% endblock %}

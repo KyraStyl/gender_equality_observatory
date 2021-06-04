@@ -126,7 +126,6 @@ def create_app(test_config=None):
         if request.method == "GET":
             professor = getSpecificProfessor(prof)
             info = dictToList(professor.serialize)
-            print(info)
             return render_template("profinfo.html", name=prof, info=info)
         return render_template("error.html")
     #@app.errorhandler(Exception)
