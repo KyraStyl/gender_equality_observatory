@@ -59,12 +59,43 @@ def create_app(test_config=None):
     @app.route("/topk", methods=['GET','POST'])
     def topk():
         if request.method in ['GET','POST']:
+            titles, headers, data = [], [], []
             if request.method == 'GET':
                 num = 5
             if request.method == 'POST':
                 num = int(request.form["topk"])
-            profwcoauth = getTopKProfessorsWithMostCoauthors(num)
-            return render_template("topk.html", num=num, profwcoauthors=profwcoauth)
+                if request.form.get('coauthors'):
+                    titles.append('with the Most Co-authors')
+                    headers.append(['Name','Gender','Co-authors'])
+                    data.append(getTopKProfessorsWithMostCoauthors(num))
+                if request.form.get('pagerank'):
+                    titles.append('with Highest PageRank Score')
+                    headers.append(['Name','Gender','PageRank Score'])
+                    data.append(topKProfessorsWithHighestPageRankScore(num))
+                if request.form.get('betweenness'):
+                    titles.append('with the Highest Betweenness')
+                    headers.append(['Name', 'Gender', 'Betweeness'])
+                    data.append(topKProfessorsWithHighestBetweenes(num))
+                if request.form.get('degreecentr'):
+                    titles.append('with the Highest Degree Centrality')
+                    headers.append(['Name', 'Gender', 'Degree Centrality'])
+                    data.append(topKProfessorsWithHighestDegreeCentrality(num))
+                if request.form.get('closenesscentr'):
+                    titles.append('with the Highest Closeness Centrality')
+                    headers.append(['Name', 'Gender', 'Closeness Centrality'])
+                    data.append(topKProfessorsWithHighestClosenessCentrality(num))
+                if request.form.get('closharmcentr'):
+                    titles.append('with the Highest Closeness Harmonic Centrality')
+                    headers.append(['Name', 'Gender', 'Closeness Harmonic Centrality'])
+                    data.append(topKProfessorsWithHighestClosenessHarmonicCentrality(num))
+                if request.form.get('spreadinf'):
+                    titles.append('with the Highest Spread Information Influence')
+                    headers.append(['Name', 'Gender', 'Spread Information Influence'])
+                    data.append(topKProfessorsWithHighestSpreadInformationInfluence(num))
+            avgTriang = getAvgOfTrianglesForMaleAndFemaleProfessors()
+            numFunc = len(titles)
+            return render_template("topk.html", num=num, numFunc=numFunc, titles=titles, headers=headers, \
+                                   data=data, avgTriang=avgTriang)
         else:
             return render_template('error.html')
 
@@ -73,12 +104,12 @@ def create_app(test_config=None):
         if request.method == 'GET':
             unis = dictToList(getAllUniversities())
             gender_distr = dictToList(getGenderDistributionOfUniversities())
-            louvain= int(getNumberOfCommunitiesLouvain())
-            scc=int(getNumberOfCommunitiesSCC())
-            wcc=int(getNumberOfCommunitiesWCC())
-            modularity=int(getNumberOfCommunitiesModularityOptimization())
-            triangles=int(getNumberOfTriangles())
-            return render_template("graphmtr.html", unis=unis, gender_distr=gender_distr, louvain=louvain,scc=scc,wcc=wcc,triangles=triangles,modularity=modularity)
+            louvain = int(getNumberOfCommunitiesLouvain())
+            scc = int(getNumberOfCommunitiesSCC())
+            wcc = int(getNumberOfCommunitiesWCC())
+            modularity = int(getNumberOfCommunitiesModularityOptimization())
+            triangles = int(getNumberOfTriangles())
+            return render_template("graphmtr.html", unis=unis, gender_distr=gender_distr, louvain=louvain, scc=scc, wcc=wcc, triangles=triangles, modularity=modularity)
         return render_template('error.html')
     # you can add more pages using @app.route("/page")
 

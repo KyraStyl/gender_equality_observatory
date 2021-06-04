@@ -7,3 +7,20 @@ h1 {
 body {
     background-color: #B8B8B8;
 }
+
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:flex;
+}
+
+.vertical-scrollable> .row {
+          position: absolute;
+          top: 120px;
+          bottom: 100px;
+          left: 180px;
+          width: 50%;
+          overflow-y: scroll;
+        }
+

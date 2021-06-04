@@ -4,33 +4,67 @@
 
 {% block content %}
 
-<form class="container text-center my-3 w-50 d-flex align-items-center justify-content-center align-self-center" action="{{ url_for('topk')}}" method="post">
-    <label class="w-25 align-middle text-center h6 mx-auto" for="topk" style="text-align:center;">{{gettext('Specify number of results')}}</label>
-    <input class="w-25 mr-2 form-control" id="topk" name="topk" type="number" min="1" max="50" value="5">
-    <button class="btn btn-info w-25 rounded-pill font-weight-bold with-border">{{gettext('Submit')}}</button>
+<form class="container row w-100 text-center align-items-center my-3 align-self-center"
+      action="{{ url_for('topk')}}" method="post">
+    <label class="col-md-3 text-center h6" for="topk">{{gettext('Specify number of results')}}</label>
+    <input class="col-md-1 form-control" id="topk" name="topk" type="number" min="1" max="50" value="5">
+
+    <div class="col-md-2 text-left mx-2">
+        <input type="checkbox" name="coauthors">Most Co-authors</input><br>
+        <input type="checkbox" name="pagerank">PageRank Score</input><br>
+        <input type="checkbox" name="betweenness">Betweenness</input><br>
+        <input type="checkbox" name="degreecentr">Degree Centrality</input>
+    </div>
+
+    <div class="col-md-3 text-left mx-2">
+        <input type="checkbox" name="closenesscentr">Closeness Centrality<br>
+        <input type="checkbox" name="closharmcentr">Closeness Harmonic Centrality<br>
+        <input type="checkbox" name="spreadinf">Spread Information Influence<br>
+    </div>
+
+    <button class="btn btn-info col-md-2 mx-2 rounded-pill font-weight-bold with-border">{{gettext('Submit')}}</button>
+
 </form>
 
-<div class="card rounded-lg container">
+<!--<div class="row">
+    <div class="card rounded-lg container" >
 
-    <div class="card-title text-white bg-info rounded mx-3 my-3 p-2">
-        <div class="h6 my-2">
-            {{gettext('Top-K with k=')}}{{num}}
+        <div class="card-title text-white bg-info rounded mx-3 my-2 p-2">
+            <div class="h6 my-2">
+                Local clustering coefficient
+            </div>
+        </div>
+        <div class="container card-body h6 my-2">
+            Men: {{ avgTriang[0][1] }}<br>
+            Women: {{ avgTriang[1][1] }}
         </div>
     </div>
-    <div class="card-body row">
-        <table>
-          <thead>
-            <th>{{gettext('name')}}</th>
-            <th>{{gettext('gender')}}</th>
-            <th>{{gettext('coauthors')}}</th>
+</div>-->
+
+<div class="card container row align-self-center justify-content-center vertical-scrollable" >
+{% for i in range(0,numFunc) %}
+
+<div class="card rounded-lg container" >
+
+    <div class="card-title text-white bg-info rounded mx-3 my-2 p-2">
+        <div class="h6 text-center my-2">
+            Top {{num}} Professors {{titles[i]}}
+        </div>
+    </div>
+    <div class="container card-body" style="height:350px; overflow-y:auto;">
+        <table style="align-items: center;" class="table table-striped">
+          <thead class="thead-dark">
+          {% for h in headers[i]%}
+            <th class="text-center">{{h}}</th>
+          {% endfor %}
           </thead>
 
           <tbody>
-            {% for prof in profwcoauthors %}
+            {% for prof in data[i] %}
             <tr>
-                <td><a href="{{url_for('profinfo',prof=prof[0])}}">{{ prof[0] }}</a></td>
-                <td>{{prof[1]}}</td>
-                <td>{{prof[2]}}</td>
+                {% for attr in prof%}
+                <td class="text-center">{{attr}}</td>
+                {% endfor %}
             </tr>
             {% endfor %}
           </tbody>
@@ -38,19 +72,8 @@
     </div>
 
 </div>
-
-
-
-<section class="mbr-section 04 cid-sz7XxKJA5p" id="content5-c">
-    <div class="container">
-        <div class="mbr-row mbr-jc-c">
-            <div class="mbr-section-btn mbr-col-md-12 mbr-col-sm-12 mbr-col-lg-8 align-center">
-                <a class="btn btn-primary display-4" href="https://mobiri.se">Learn More</a>
-                <a class="btn btn-secondary display-4" href="https://mobiri.se">Live Demo</a>
-            </div>
-        </div>
-    </div>
-</section>
+{% endfor %}
+</div>
 
 {% endblock %}
 
