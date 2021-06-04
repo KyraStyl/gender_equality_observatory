@@ -34,7 +34,7 @@
                   <tbody>
                     {% for prof in row[1] %}
                     <tr>
-                        <td><a href="{{url_for('profinfo',prof=prof)}}">{{ prof }}</a></td>
+                        <td id="prof"><a href="{{url_for('profinfo',prof=prof)}}">{{ prof }}</a></td>
                     </tr>
                     {% endfor %}
                   </tbody>

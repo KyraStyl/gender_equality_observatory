@@ -44,7 +44,7 @@
                         caption: "name",
                        
                     },
-                    "Professor": {
+                    "Coauthor": {
                         caption: "name"
                     },
                     
@@ -59,7 +59,7 @@
                
                 
                
-                initial_cypher: "MATCH (p:Professor)-[r1:worksAt]->(d:Department)-[r2:belongsTo]->(u:University)   RETURN *"
+                initial_cypher: "MATCH (p:Professor {name:'Nikos Nikolaidis'})-[r:cooperateWith]-(p2) RETURN * "
             }
 
             var viz = new NeoVis.default(config);
@@ -94,7 +94,7 @@
                
                 
                
-                initial_cypher: "MATCH (p:Professor)-[r1:worksAt]->(d:Department)-[r2:belongsTo]->(u:University)   RETURN *"
+                initial_cypher: "MATCH (p:Professor)-[r1:worksAt]->(d:Department)-[r2:belongsTo]->(u:University)    RETURN *"
             }
 
             var viz1 = new NeoVis.default(config1);

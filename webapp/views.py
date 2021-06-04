@@ -73,7 +73,12 @@ def create_app(test_config=None):
         if request.method == 'GET':
             unis = dictToList(getAllUniversities())
             gender_distr = dictToList(getGenderDistributionOfUniversities())
-            return render_template("graphmtr.html", unis=unis, gender_distr=gender_distr)
+            louvain= int(getNumberOfCommunitiesLouvain())
+            scc=int(getNumberOfCommunitiesSCC())
+            wcc=int(getNumberOfCommunitiesWCC())
+            modularity=int(getNumberOfCommunitiesModularityOptimization())
+            triangles=int(getNumberOfTriangles())
+            return render_template("graphmtr.html", unis=unis, gender_distr=gender_distr, louvain=louvain,scc=scc,wcc=wcc,triangles=triangles,modularity=modularity)
         return render_template('error.html')
     # you can add more pages using @app.route("/page")
 

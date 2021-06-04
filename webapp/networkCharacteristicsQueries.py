@@ -22,7 +22,7 @@ def getAllUniversities()-> dict:
 
 
 # Returns for each university the number of Males and Females
-def getGenderDistributionOfUniversities()-> dict():
+def getGenderDistributionOfUniversities()-> dict(): #X
 
     """
     ########### Returns #########################
@@ -52,7 +52,7 @@ def getGenderDistributionOfUniversities()-> dict():
 
 
 # Returns all the professors of a specific university
-def getAllProfessorsOfSpecificUniversity(university:str)-> dict:
+def getAllProfessorsOfSpecificUniversity(university:str)-> dict: #X
 
     """
     ############ Returns for university of thessaloniki ##############
@@ -71,7 +71,7 @@ def getAllProfessorsOfSpecificUniversity(university:str)-> dict:
 
 
 # returns the details of a specific professor
-def getSpecificProfessor(professor:str)-> Professor:
+def getSpecificProfessor(professor:str)-> Professor: #X
     with driver.session() as session:
         professor = session.run("MATCH (p:Professor) WHERE p.name=$name RETURN p",name=professor)
         return Professor(professor.value()[0])
@@ -80,7 +80,7 @@ def getSpecificProfessor(professor:str)-> Professor:
 
 
 # Returns all the coauthors of a professor
-def getCoauthorsOfSpecificProfessor(professor:str)-> list:
+def getCoauthorsOfSpecificProfessor(professor:str)-> list: 
 
     """
     ############### Returns for I. Pitas ###############
