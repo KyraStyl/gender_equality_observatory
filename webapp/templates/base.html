@@ -31,11 +31,11 @@ div,span,h1,h2,h3,h4,h5,h6,p,blockquote,a,ol,ul,li,figcaption,textarea,input{fon
     <link href="https://fonts.gstatic.com/s/inter/v3/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa25L7SUc.woff2) format('woff2" rel="stylesheet">
     <link href="https://fonts.gstatic.com/s/inter/v3/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa1ZL7.woff2) format('woff2" rel="stylesheet">
 
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet"
-          href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+
 
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
 
@@ -64,13 +64,13 @@ div,span,h1,h2,h3,h4,h5,h6,p,blockquote,a,ol,ul,li,figcaption,textarea,input{fon
             {% if get_locale() == "en" %}
             <li id="greekLangTile" class="nav-item">
                 <a class="nav-link nav-link-hover" id="greekFlag" href="" onclick="set_lang('el')">
-                    <img src="../static/images/flag_gr_24.png" alt="{{ gettext("Langtogreek") }}" />
+                    <img src="../static/images/flag_gr_24.png" alt="{{ gettext('Langtogreek') }}" />
                 </a>
             </li>
             {% else %}
             <li id="englishLangTile" class="nav-item">
                 <a class="nav-link nav-link-hover" id="englishFlag" href="" onclick="set_lang('en')">
-                    <img src="../static/images/flag_uk_24.png" alt="{{ gettext("Langtoenglish") }}"/>
+                    <img src="../static/images/flag_uk_24.png" alt="{{ gettext('Langtoenglish') }}"/>
                 </a>
             </li>
             {% endif %}
@@ -110,6 +110,12 @@ div,span,h1,h2,h3,h4,h5,h6,p,blockquote,a,ol,ul,li,figcaption,textarea,input{fon
 <script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
 <script async custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.1.js"></script>
 <script async custom-element="amp-lightbox-gallery" src="https://cdn.ampproject.org/v0/amp-lightbox-gallery-0.1.js"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+        integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+<script src="https://rawgit.com/neo4j-contrib/neovis.js/master/dist/neovis.js"></script>
 
 <script src="{{ url_for('static', filename='javascript.js') }}"></script>
 
