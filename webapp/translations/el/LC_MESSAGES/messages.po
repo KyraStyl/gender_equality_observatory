@@ -193,36 +193,36 @@ msgstr "Άντρες"
 msgid "females"
 msgstr "Γυναίκες"
 
-#: msgid "role"
-#: msgstr "Βαθμίδα"
+msgid "role"
+msgstr "Βαθμίδα"
 
-#: msgid "picture"
-#: msgstr "Σύνδεσμος Φωτογραφίας"
+msgid "picture"
+msgstr "Σύνδεσμος Φωτογραφίας"
 
-#: msgid "citedby"
-#: msgstr "Έχει αναφερθεί από"
+msgid "citedby"
+msgstr "Έχει αναφερθεί από"
 
-#: msgid "citedby5y"
-#: msgstr "Έχει αναφερθεί τα τελευταία 5 χρόνια"
+msgid "citedby5y"
+msgstr "Έχει αναφερθεί τα τελευταία 5 χρόνια"
 
-#: msgid "hindex"
-#: msgstr "H-index"
+msgid "hindex"
+msgstr "H-index"
 
-#: msgid "hindex5y"
-#: msgstr "H-index των τελευταίων 5 χρόνων"
+msgid "hindex5y"
+msgstr "H-index των τελευταίων 5 χρόνων"
 
-#: msgid "i10index"
-#: msgstr "i10-index"
+msgid "i10index"
+msgstr "i10-index"
 
-#: msgid "i10index5y"
-#: msgstr "i10-index των τελευταίων 5 χρόνων"
+msgid "i10index5y"
+msgstr "i10-index των τελευταίων 5 χρόνων"
 
-#: msgid "num_publications"
-#: msgstr "Αριθμός δημοσιεύσεων"
+msgid "num_publications"
+msgstr "Αριθμός δημοσιεύσεων"
 
-#: msgid "cites_per_year"
-#: msgstr "Αναφορές ανά χρόνο"
+msgid "cites_per_year"
+msgstr "Αναφορές ανά χρόνο"
 
-#: msgid "interests"
-#: msgstr "Ενδιαφέροντα"
+msgid "interests"
+msgstr "Ενδιαφέροντα"
 

@@ -189,51 +189,51 @@ msgstr "Males"
 msgid "females"
 msgstr "Females"
 
-#: msgid "attribute"
-#: msgstr "Attribute"
+msgid "attribute"
+msgstr "Attribute"
 
-#: msgid "value"
-#: msgstr "Value"
+msgid "value"
+msgstr "Value"
 
-#: msgid "Top-K with k="
-#: msgstr "Top-K results with K="
+msgid "Top-K with k="
+msgstr "Top-K results with K="
 
-#: msgid "name"
-#: msgstr "Name"
+msgid "name"
+msgstr "Name"
 
-#: msgid "gender"
-#: msgstr "Gender"
+msgid "gender"
+msgstr "Gender"
 
-#: msgid "role"
-#: msgstr "Role"
+msgid "role"
+msgstr "Role"
 
-#: msgid "picture"
-#: msgstr "Picture Link"
+msgid "picture"
+msgstr "Picture Link"
 
-#: msgid "citedby"
-#: msgstr "Cited By"
+msgid "citedby"
+msgstr "Cited By"
 
-#: msgid "citedby5y"
-#: msgstr "Last 5 years cited by"
+msgid "citedby5y"
+msgstr "Last 5 years cited by"
 
-#: msgid "hindex"
-#: msgstr "H-index"
+msgid "hindex"
+msgstr "H-index"
 
-#: msgid "hindex5y"
-#: msgstr "Last 5 years H-index"
+msgid "hindex5y"
+msgstr "Last 5 years H-index"
 
-#: msgid "i10index"
-#: msgstr "i10-index"
+msgid "i10index"
+msgstr "i10-index"
 
-#: msgid "i10index5y"
-#: msgstr "Last 5 years i10-index"
+msgid "i10index5y"
+msgstr "Last 5 years i10-index"
 
-#: msgid "num_publications"
-#: msgstr "Number of publications"
+msgid "num_publications"
+msgstr "Number of publications"
 
-#: msgid "cites_per_year"
-#: msgstr "Cites per year"
+msgid "cites_per_year"
+msgstr "Cites per year"
 
-#: msgid "interests"
-#: msgstr "Interests"
+msgid "interests"
+msgstr "Interests"
 
