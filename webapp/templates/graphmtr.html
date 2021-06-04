@@ -4,151 +4,6 @@
 
 {% block content %}
 
-
-
- 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
-    
-    <style>
-    
-    .card-counter{
-        box-shadow: 2px 2px 10px #DADADA;
-        margin: 5px;
-        padding: 20px 10px;
-        background-color: #fff;
-        height: 100px;
-        border-radius: 5px;
-        transition: .3s linear all;
-      }
-    
-      .card-counter:hover{
-        box-shadow: 4px 4px 20px #DADADA;
-        transition: .3s linear all;
-      }
-    
-      .card-counter.primary{
-        background-color: #007bff;
-        color: #FFF;
-      }
-    
-      .card-counter.danger{
-        background-color: #ef5350;
-        color: #FFF;
-      }  
-    
-      .card-counter.success{
-        background-color: #66bb6a;
-        color: #FFF;
-      }  
-    
-      .card-counter.info{
-        background-color: #26c6da;
-        color: #FFF;
-      }  
-      .card-counter.warning{
-        background-color: #ddda23;
-        color: #FFF;
-      }  
-    
-      .card-counter i{
-        font-size: 5em;
-        opacity: 0.2;
-      }
-    
-      .card-counter .count-numbers{
-        position: absolute;
-        right: 35px;
-        top: 20px;
-        font-size: 32px;
-        display: block;
-      }
-    
-      .card-counter .count-name{
-        position: absolute;
-        right: 35px;
-        top: 65px;
-        font-style: italic;
-        text-transform: capitalize;
-        opacity: 0.5;
-        display: block;
-        font-size: 18px;
-      }
-    
-    </style>
-    
-  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
-  
-  <style>
-  
-  .card-counter{
-      box-shadow: 2px 2px 10px #DADADA;
-      margin: 5px;
-      padding: 20px 10px;
-      background-color: #fff;
-      height: 100px;
-      border-radius: 5px;
-      transition: .3s linear all;
-    }
-  
-    .card-counter:hover{
-      box-shadow: 4px 4px 20px #DADADA;
-      transition: .3s linear all;
-    }
-  
-    .card-counter.primary{
-      background-color: #007bff;
-      color: #FFF;
-    }
-  
-    .card-counter.danger{
-      background-color: #ef5350;
-      color: #FFF;
-    }  
-  
-    .card-counter.success{
-      background-color: #66bb6a;
-      color: #FFF;
-    }  
-  
-    .card-counter.info{
-      background-color: #26c6da;
-      color: #FFF;
-    }  
-    .card-counter.warning{
-      background-color: #ddda23;
-      color: #FFF;
-    }  
-  
-    .card-counter i{
-      font-size: 5em;
-      opacity: 0.2;
-    }
-  
-    .card-counter .count-numbers{
-      position: absolute;
-      right: 35px;
-      top: 20px;
-      font-size: 32px;
-      display: block;
-    }
-  
-    .card-counter .count-name{
-      position: absolute;
-      right: 35px;
-      top: 65px;
-      font-style: italic;
-      text-transform: capitalize;
-      opacity: 0.5;
-      display: block;
-      font-size: 18px;
-    }
-  
-  </style>
-
-
 <div class="container" style="margin-left: 80px; ">
 
     <div class="row">
@@ -159,7 +14,7 @@
             <span class="count-name"> Louvain</span>
           </div>
         </div>
-    
+
         <div class="col-md-2">
           <div class="card-counter danger">
             <i class="fa fa-code"></i>
@@ -167,7 +22,7 @@
             <span class="count-name">SCC</span>
           </div>
         </div>
-    
+
         <div class="col-md-2">
           <div class="card-counter success">
             <i class="fa fa-database"></i>
@@ -175,7 +30,7 @@
             <span class="count-name">WCC</span>
           </div>
         </div>
-    
+
         <div class="col-md-2">
           <div class="card-counter info">
             <i class="fa fa-sitemap"></i>
@@ -192,46 +47,6 @@
           </div>
       </div>
 </div>
-
-
-<div class="card rounded-lg">
-
-    <div class="card-title text-center text-white bg-info rounded mx-3 my-3 p-2">
-        <div class="h6 my-2">
-            {{gettext('general_info')}}
-        </div>
-    </div>
-
-    <div class="card-body">
-        <table class="table table-striped ">
-          <thead>
-            <th>{{gettext('university')}}</th>
-            <th>{{gettext('departments')}}</th>
-            <th>{{gettext('males')}}</th>
-            <th>{{gettext('females')}}</th>
-          </thead>
-
-          <tbody>
-            {% for uni in unis %}
-            <tr>
-              <td><a href="{{url_for('profforuni',uni=uni[0])}}"> {{ gettext(uni[0]) }}</a></td>
-              <td>{{ uni[1]|join(', ') }}</td>
-                {% for gd in gender_distr %}
-                    {% if uni[0] == gd[0] %}
-                        {% for num in gd[1] %}
-                            <td>{{ num }}</td>
-                        {% endfor %}
-                    {% endif %}
-                {% endfor %}
-            </tr>
-            {% endfor %}
-          </tbody>
-        </table>
-    </div>
-
-</div>
-
-
 
 
 {% endblock %}

@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+
+{% block title %}Universities{% endblock %}
+
+{% block content %}
+
+<div class="card rounded-lg">
+
+    <div class="card-title text-center text-white bg-info rounded mx-3 my-3 p-2">
+        <div class="h6 my-2">
+            {{gettext('general_info')}}
+        </div>
+    </div>
+
+    <div class="card-body">
+        <table class="table table-striped ">
+          <thead>
+            <th>{{gettext('university')}}</th>
+            <th>{{gettext('departments')}}</th>
+            <th>{{gettext('males')}}</th>
+            <th>{{gettext('females')}}</th>
+          </thead>
+
+          <tbody>
+            {% for uni in unis %}
+            <tr>
+              <td><a href="{{url_for('profforuni',uni=uni[0])}}"> {{ gettext(uni[0]) }}</a></td>
+              <td>{{ uni[1]|join(', ') }}</td>
+                {% for gd in gender_distr %}
+                    {% if uni[0] == gd[0] %}
+                        {% for num in gd[1] %}
+                            <td>{{ num }}</td>
+                        {% endfor %}
+                    {% endif %}
+                {% endfor %}
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+    </div>
+
+</div>
+
+{% endblock %}

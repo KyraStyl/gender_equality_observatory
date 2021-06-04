@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-06-03 23:24+0300\n"
+"POT-Creation-Date: 2021-06-05 00:51+0300\n"
 "PO-Revision-Date: 2021-05-17 02:23+0300\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -18,27 +18,31 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.8.0\n"
 
-#: templates/base.html:53
+#: templates/base.html:54
 msgid "Home"
 msgstr "Home"
 
-#: templates/base.html:56
+#: templates/base.html:57
 msgid "Top-K"
 msgstr "Top-K"
 
-#: templates/base.html:59
+#: templates/base.html:60
 msgid "Graph Metrics"
 msgstr "Graph Metrics"
 
-#: templates/base.html:66
+#: templates/base.html:63
+msgid "Universities"
+msgstr "Universities"
+
+#: templates/base.html:70
 msgid "Langtogreek"
 msgstr "Change language to Greek"
 
-#: templates/base.html:72
+#: templates/base.html:76
 msgid "Langtoenglish"
 msgstr "Change language to English"
 
-#: templates/base.html:88
+#: templates/base.html:92
 msgid "Footermsg"
 msgstr "MSc Data and Web Science, Auth"
 
@@ -54,65 +58,45 @@ msgstr "An error occurred! There is no such page!"
 msgid "Page not found link"
 msgstr "Go to a safer place."
 
-#: templates/graphmtr.html:12
-msgid "general_info"
-msgstr "General Info for Universities"
-
-#: templates/graphmtr.html:19
-msgid "university"
-msgstr "University"
-
-#: templates/graphmtr.html:20
-msgid "departments"
-msgstr "Departments"
-
-#: templates/graphmtr.html:21
-msgid "males"
-msgstr "Males"
-
-#: templates/graphmtr.html:22
-msgid "females"
-msgstr "Females"
-
 #: templates/home.html:16
 msgid "title"
 msgstr "Welcome to Web Mining 2021"
 
-#: templates/home.html:20 templates/home.html:107
+#: templates/home.html:21 templates/home.html:108
 msgid "University of Thessaloniki"
 msgstr "Aristotle University of Thessaloniki"
 
-#: templates/home.html:30 templates/home.html:171
+#: templates/home.html:31 templates/home.html:172
 msgid "University of Bordeaux"
 msgstr "University of Bordeaux"
 
-#: templates/home.html:40 templates/home.html:187
+#: templates/home.html:41 templates/home.html:188
 msgid "University of Bochum"
 msgstr "University of Bochum"
 
-#: templates/home.html:50 templates/home.html:123
+#: templates/home.html:51 templates/home.html:124
 msgid "University of Porto"
 msgstr "University of Porto"
 
-#: templates/home.html:60 templates/home.html:155
+#: templates/home.html:61 templates/home.html:156
 msgid "University of Lodz"
 msgstr "University of Lodz"
 
-#: templates/home.html:70 templates/home.html:139
+#: templates/home.html:71 templates/home.html:140
 msgid "University of Oulu"
 msgstr "University of Oulu"
 
-#: templates/home.html:91
+#: templates/home.html:92
 msgid "Gallery"
 msgstr "Gallery with Image Links and Lightboxes"
 
-#: templates/home.html:208
+#: templates/home.html:209
 msgid "description_title"
 msgstr ""
 "Building a Gender Balance observatory on scientific research leveraging "
 "web data"
 
-#: templates/home.html:209
+#: templates/home.html:210
 msgid "intro"
 msgstr ""
 "The term “Gender balance” refers to “an equitable distribution of life's "
@@ -125,14 +109,14 @@ msgstr ""
 "indices, official documentsrelated to gender ethics etc). Specifically, "
 "your tasks as a team include:"
 
-#: templates/home.html:212
+#: templates/home.html:213
 msgid "task1"
 msgstr ""
 "Collect gender data related to science and academia: from open databases,"
 " authorities documents,scientific publishers, social media conversations "
 "(for example Twitter conversations using their official API)."
 
-#: templates/home.html:213
+#: templates/home.html:214
 msgid "task2"
 msgstr ""
 "Explore and visualize (temporal) associations regarding gender at "
@@ -142,103 +126,114 @@ msgstr ""
 "methods explored in the theoretical assignment to identify user "
 "characteristics."
 
-#: templates/home.html:214
+#: templates/home.html:215
 msgid "task3"
 msgstr ""
 "Explore and visualize patterns in gender perceptions in academia, based "
 "on discussions and other documents. Utilize the topic detectionmethods "
 "explored in the theoretical assignment to identify emerging topics."
 
-#: templates/home.html:229
+#: templates/home.html:230
 msgid "team"
 msgstr "Team"
 
-#: templates/home.html:245
+#: templates/home.html:246
 msgid "Giorgos"
 msgstr "Georgios Michoulis"
 
-#: templates/home.html:250
+#: templates/home.html:251
 msgid "Stella"
 msgstr "Styliani"
 
-#: templates/home.html:251
+#: templates/home.html:252
 msgid "Kyrama"
 msgstr "Kyrama"
 
-#: templates/home.html:257
+#: templates/home.html:258
 msgid "Dimitris"
 msgstr "Dimitris Tourgaidis"
 
-#: templates/home.html:263
+#: templates/home.html:264
 msgid "Vasilis"
-msgstr "Vasileios Mosxopoulos"
+msgstr "Vasileios Moschopoulos"
 
-#: templates/profforuni.html:31
+#: templates/profforuni.html:29
 msgid "professor"
 msgstr "Professor"
 
-#: templates/profinfo.html:19
-msgid "attribute"
-msgstr "Attribute"
-
-#: templates/profinfo.html:20
-msgid "value"
-msgstr "Value"
-
-#: templates/topk.html:8
+#: templates/topk.html:9
 msgid "Specify number of results"
 msgstr "Specify number of results"
 
-#: templates/topk.html:10
+#: templates/topk.html:25
 msgid "Submit"
 msgstr "Submit"
 
-#: templates/topk.html:17
+#: templates/universities.html:11
+msgid "general_info"
+msgstr "General Info for Universities"
+
+#: templates/universities.html:18
+msgid "university"
+msgstr "University"
+
+#: templates/universities.html:19
+msgid "departments"
+msgstr "Departments"
+
+#: templates/universities.html:20
+msgid "males"
+msgstr "Males"
+
+#: templates/universities.html:21
+msgid "females"
+msgstr "Females"
+
+msgid "attribute"
+msgstr "Attribute"
+
+msgid "value"
+msgstr "Value"
+
 msgid "Top-K with k="
 msgstr "Top-K results with K="
 
-#: templates/topk.html:23
 msgid "name"
 msgstr "Name"
 
-#: templates/topk.html:24
 msgid "gender"
 msgstr "Gender"
 
-#: templates/topk.html:25
-msgid "coauthors"
-msgstr "Co-authors"
+msgid "role"
+msgstr "Role"
 
-#: msgid "role"
-#: msgstr "Role"
+msgid "picture"
+msgstr "Picture Link"
 
-#: msgid "picture"
-#: msgstr "Picture Link"
+msgid "citedby"
+msgstr "Cited By"
 
-#: msgid "citedby"
-#: msgstr "Cited By"
+msgid "citedby5y"
+msgstr "Last 5 years cited by"
 
-#: msgid "citedby5y"
-#: msgstr "Last 5 years cited by"
+msgid "hindex"
+msgstr "H-index"
 
-#: msgid "hindex"
-#: msgstr "H-index"
+msgid "hindex5y"
+msgstr "Last 5 years H-index"
 
-#: msgid "hindex5y"
-#: msgstr "Last 5 years H-index"
+msgid "i10index"
+msgstr "i10-index"
 
-#: msgid "i10index"
-#: msgstr "i10-index"
+msgid "i10index5y"
+msgstr "Last 5 years i10-index"
 
-#: msgid "i10index5y"
-#: msgstr "Last 5 years i10-index"
+msgid "num_publications"
+msgstr "Number of publications"
 
-#: msgid "num_publications"
-#: msgstr "Number of publications"
+msgid "cites_per_year"
+msgstr "Cites per year"
 
-#: msgid "cites_per_year"
-#: msgstr "Cites per year"
-
-#: msgid "interests"
-#: msgstr "Interests"
+msgid "interests"
+msgstr "Interests"
 
