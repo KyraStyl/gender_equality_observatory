@@ -4,6 +4,18 @@
 
 {% block content %}
 
+<style>
+        
+
+  
+  #viz {
+      width: 100%;
+      height: 700px;
+  }
+</style>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+<script src="https://rawgit.com/neo4j-contrib/neovis.js/master/dist/neovis.js"></script>
+
 <div class="card rounded-lg container">
 
     <div class="card-title text-center text-white bg-info rounded mx-3 my-3 p-2">
@@ -37,11 +49,11 @@
 
 
 <body onload="draw('{{name}}')">
-<div class="container">
+<div class="container" style="height: 700px;">
   <div class="card-header bg-dark text-white text-center">
      <h3> Cooperates With</h3>
   </div>
-  <div class="card-body">
+  <div class="card-body" style="width: 100%;">
     <div id="viz" ></div>
 </div>
 </div>
