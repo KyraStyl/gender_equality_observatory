@@ -53,11 +53,14 @@ div,span,h1,h2,h3,h4,h5,h6,p,blockquote,a,ol,ul,li,figcaption,textarea,input{fon
             <li class="nav-item {%- if request.endpoint == 'home' %} active{% endif %}">
                 <a class="nav-link nav-link-hover" href="{{ url_for('home') }}">{{ gettext("Home") }}</a>
             </li>
-            <li class="nav-item {%- if request.endpoint == 'home' %} active{% endif %}">
+            <li class="nav-item {%- if request.endpoint == 'topk' %} active{% endif %}">
                 <a class="nav-link nav-link-hover" href="{{ url_for('topk') }}">{{ gettext("Top-K") }}</a>
             </li>
-            <li class="nav-item {%- if request.endpoint == 'home' %} active{% endif %}">
+            <li class="nav-item {%- if request.endpoint == 'graphmtr' %} active{% endif %}">
                 <a class="nav-link nav-link-hover" href="{{ url_for('graphmtr') }}">{{ gettext("Graph Metrics") }}</a>
+            </li>
+            <li class="nav-item {%- if request.endpoint == 'universities' %} active{% endif %}">
+                <a class="nav-link nav-link-hover" href="{{ url_for('universities') }}">{{ gettext("Universities") }}</a>
             </li>
         </ul>
         <ul class="navbar-nav ml-auto h5 font-weight-normal">

@@ -43,18 +43,17 @@ class Professor:
     @property
     def serialize(self):
         return {
+            'picture': self.picture,
             'name': self.name,
-            'scholar_id': self.scholar_Id,
             'gender': self.gender,
             'role': self.role,
-            'picture': self.picture,
+            'num_publications': self.num_publications,
             'citedby': self.citedby,
             'citedby5y': self.citedby5y,
             'hindex': self.hindex,
             'hindex5y': self.hindex5y,
             'i10index': self.i10index,
             'i10index5y': self.i10index5y,
-            'num_publications': self.num_publications,
             'cites_per_year': self.cites_per_year,
             'interests': self.interests
         }

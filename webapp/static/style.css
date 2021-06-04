@@ -59,6 +59,7 @@ body {
     background-color: #26c6da;
     color: #FFF;
   }
+
   .card-counter.warning{
     background-color: #ddda23;
     color: #FFF;
@@ -91,5 +92,5 @@ body {
 
 #viz {
       width: 100%;
-      height: 700px;
+      height: 200px;
 }
