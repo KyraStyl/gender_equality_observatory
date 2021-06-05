@@ -56,8 +56,8 @@ def create_app(test_config=None):
     def home():
         return render_template('home.html')
 
-    @app.route("/topk", methods=['GET','POST'])
-    def topk():
+    @app.route("/gender", methods=['GET','POST'])
+    def gender():
         if request.method in ['GET','POST']:
             titles, headers, data = [], [], []
             if request.method == 'GET':
@@ -92,18 +92,22 @@ def create_app(test_config=None):
                     titles.append('with the Highest Spread Information Influence')
                     headers.append(['Name', 'Gender', 'Spread Information Influence'])
                     data.append(topKProfessorsWithHighestSpreadInformationInfluence(num))
-            avgTriang = getAvgOfTrianglesForMaleAndFemaleProfessors()
             numFunc = len(titles)
-            return render_template("topk.html", num=num, numFunc=numFunc, titles=titles, headers=headers, \
-                                   data=data, avgTriang=avgTriang)
+            cardData = []
+            cardHeaders = ['Average Number of Publications', 'Average Number Of Coauthors', 'Average Number Of Citations',
+                           'Average Number Of HIndex', 'Average Number Of I10Index']
+            cardData.append(getAverageNumberOfPublicationsOfMaleAndFemaleProfessor())
+            cardData.append(dictToList(getAverageNumberOfCoauthorsOfMaleAndFemaleProfessor()))
+            cardData.append(getAverageNumberOfCitationsOfMaleAndFemaleProfessor())
+            cardData.append(getAverageNumberOfHIndexOfMaleAndFemaleProfessor())
+            cardData.append(getAverageNumberOfI10IndexOfMaleAndFemaleProfessor())
+            return render_template("gender.html", size=len(cardHeaders), cardHeaders=cardHeaders, cardData=cardData, num=num, numFunc=numFunc, titles=titles, headers=headers, data=data)
         else:
             return render_template('error.html')
 
     @app.route("/graphmtr", methods=['GET'])
     def graphmtr():
         if request.method == 'GET':
-            unis = dictToList(getAllUniversities())
-            gender_distr = dictToList(getGenderDistributionOfUniversities())
             louvain = int(getNumberOfCommunitiesLouvain())
             scc = int(getNumberOfCommunitiesSCC())
             wcc = int(getNumberOfCommunitiesWCC())
@@ -127,7 +131,7 @@ def create_app(test_config=None):
         if request.method == "GET":
             profs = dictToList(getAllProfessorsOfSpecificUniversity(uni))
             return render_template("profforuni.html", uni=uni, profs=profs)
-        return redirect(url_for("topk.html"))
+        return render_template("error.html")
 
     @app.route("/profinfo/<prof>", methods=["GET"])
     def profinfo(prof):
@@ -136,11 +140,13 @@ def create_app(test_config=None):
             info = dictToList(professor.serialize)
             return render_template("profinfo.html", name=prof, info=info)
         return render_template("error.html")
+
+
     #@app.errorhandler(Exception)
     #def page_not_found(e):
     #    return render_template('error.html'), 400
-    #app.register_error_handler(400, page_not_found)
 
+    #app.register_error_handler(400, page_not_found)
     return app
 
 

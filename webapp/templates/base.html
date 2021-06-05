@@ -48,6 +48,12 @@ body{
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
 
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+        google.charts.load('current', {
+            packages: ['corechart']
+        });
+    </script>
 
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
 
@@ -65,11 +71,11 @@ body{
             <li class="nav-item {%- if request.endpoint == 'home' %} active{% endif %}">
                 <a class="nav-link nav-link-hover" href="{{ url_for('home') }}">{{ gettext("Home") }}</a>
             </li>
-            <li class="nav-item {%- if request.endpoint == 'home' %} active{% endif %}">
-                <a class="nav-link nav-link-hover" href="{{ url_for('topk') }}">{{ gettext("Top-K") }}</a>
+            <li class="nav-item {%- if request.endpoint == 'gender' %} active{% endif %}">
+                <a class="nav-link nav-link-hover" href="{{ url_for('gender') }}">{{ gettext("Gender Balance") }}</a>
             </li>
-            <li class="nav-item {%- if request.endpoint == 'home' %} active{% endif %}">
-                <a class="nav-link nav-link-hover" href="{{ url_for('graphmtr') }}">{{ gettext("Graph Metrics") }}</a>
+            <li class="nav-item {%- if request.endpoint == 'graphmtr' %} active{% endif %}">
+                <a class="nav-link nav-link-hover" href="{{ url_for('graphmtr') }}">{{ gettext("Graph Info") }}</a>
             </li>
             <li class="nav-item {%- if request.endpoint == 'universities' %} active{% endif %}">
                 <a class="nav-link nav-link-hover" href="{{ url_for('universities') }}">{{ gettext("Universities") }}</a>
@@ -134,6 +140,13 @@ body{
 <script src="https://raw.githubusercontent.com/neo4j-contrib/neovis.js/master/dist/neovis-without-dependencies.js"></script>
 <script src="https://cdn.neo4jlabs.com/neovis.js/v1.5.0/neovis.js"></script>
 
+
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+        google.charts.load('current', {
+            packages: ['corechart']
+        });
+    </script>
 
 <script src="{{ url_for('static', filename='javascript.js') }}"></script>
 
