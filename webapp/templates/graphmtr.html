@@ -49,4 +49,158 @@
 </div>
 
 
+<script>
+  function draw() {
+      var config = {
+          container_id: "viz",
+          server_url: "bolt://localhost:7687",
+          server_user: "neo4j",
+          server_password: "a",
+          labels: {
+              "University": {
+                  caption: "name",
+                 
+              },
+              "Department": {
+                  caption: "name",
+                  
+                 
+              },
+              "Professor": {
+                  caption: "name",
+                  community:"gender",
+                  imageUrl: "url_picture",
+                  
+              },
+              
+              
+          },
+          
+          relationships: {
+              "belongsTo": {
+                  caption: false
+                  
+              },
+              "worksAt":{
+                caption:false
+
+              }
+          },
+         
+          
+         
+          initial_cypher: "MATCH (p:Professor)-[r1:worksAt]->(d:Department)-[r2:belongsTo]->(u:University) RETURN *"
+      }
+
+      var viz = new NeoVis.default(config);
+      viz.render();
+
+      var config1 = {
+          container_id: "viz1",
+          server_url: "bolt://localhost:7687",
+          server_user: "neo4j",
+          server_password: "a",
+          labels: {
+              "University": {
+                  caption: "name",
+                 
+              },
+              "Department": {
+                  caption: "name",
+                  
+                 
+              },
+              "Professor": {
+                  caption: "name",
+                  community:"role",
+                  imageUrl: "url_picture",
+                  
+              },
+              "Coauthor":
+                    {
+                        caption:"name",
+                        size:"citedby",
+
+                    }
+              
+              
+          },
+          
+          relationships: {
+              "cooperateWith": {
+                  caption: false,
+                  thickness:"citedby"
+                  
+              },
+              "worksAt":{
+                caption:false
+
+              },
+              "belongsTo":{
+                caption:false
+              }
+          },
+         
+          
+         
+          initial_cypher: "MATCH (n:Coauthor)-[r:cooperateWith]->(p:Professor) RETURN *"
+      }
+
+      var viz1 = new NeoVis.default(config1);
+      viz1.render();
+
+
+
+
+      
+    
+  }
+</script>
+<body onload="draw()">
+
+  
+<div class="container">
+  <div id="accordion">
+      
+      <div class="card">
+        <div class="card-header" id="headingTwo">
+          <h5 class="mb-0 text-center">
+            <p>We can find hubs, bridges, paths, etc.</p>
+            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              All CoAuthors and the Professors
+            </button>
+          </h5>
+        </div>
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+          <div class="card-body">
+            <div id="viz1"  style="height: 500px!important; width: 100%!important;"></div>          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingThree">
+          <h5 class="mb-0 text-center">
+            <button class="btn btn-link collapsed"  data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              <p >Universities-Departments-Profiessors! </p>
+            </button>
+          </h5>
+        </div>
+        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+          <div class="card-body">
+              <div id="viz"  style="height: 500px!important; width: 100%!important;"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  
+
+
+</div>
+  <script>
+      $('#myCollapsible').collapse({
+toggle: false
+})
+  </script>
+
 {% endblock %}

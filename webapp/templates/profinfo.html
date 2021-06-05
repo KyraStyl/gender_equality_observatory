@@ -16,101 +16,114 @@
     {% endif %}
     <div class="row container w-75 rounded bg-info align-items-center justify-content-center">
         <img src="{{ picture_url }}" class="rounded-circle" style="height: 100px; width:100px;">
-        <div class="h3 col-sm-5 text-dark align-self-center text-center"> {{info[1][1]}}</div>
+        <div class="mbr-text display-5 col-sm-5 text-dark align-self-center text-center"> {{info[1][1]}}</div>
         <img src="{{ gender_pic}}" style="height: 50px; width:40px;">
+    </div>
     </div>
 
 
     <div class="row container">
-    <div class="col-lg-2 container align-self-left w-100 ">
+    <div class="col-lg-6 container align-self-left w-100 ">
 
             {% for i in range(3,7)%}
 
               <div class="row w-100 card card-counter {{colors[i-3]}}">
-                <i class="fa fa-code-fork"></i>
+                <i class="fa fa-user-o"></i>
                   <div class="card-body">
-                      <h6>{{ gettext(info[i][0]) }}</h6>
-                      <h6>{{info[i][1]}}</h6>
+                      <h6 class="mbr-text text-white display-7 text-capitalize">{{ gettext(info[i][0]) }}: {{info[i][1]}}</h6>
                   </div>
               </div>
 
             {% endfor %}
     </div>
 
-    <div class="col-lg-7">
-        <body onload="draw('{{name}}')">
-            <div class="container ">
-              <div class="card-body">
-                <div id="viz" ></div>
-            </div>
-            </div>
-            </body>
 
-
-            <script>
-            function draw(nm) {
-
-            const d=nm;
-            var config = {
-
-
-
-            container_id: "viz",
-             server_url: "bolt://localhost:7687",
-            server_user: "neo4j",
-            server_password: "a",
-            d:nm,
-                 labels: {
-                       "Professor": {
-                          caption: "name",
-
-                                },
-
-                        "Coauthor": {
-                            caption: "name",
-                            size:"citedby",
-                            community:"community",
-                                },
-
-                            },
-
-                relationships: {
-                     "cooperateWith": {
-                         caption: false,
-                            thickness:'i10index',
-                                }
-                            },
-
-
-                            initial_cypher: 'MATCH (p:Professor {name:\"' +d+ '\"})-[r:cooperateWith]-(p2) RETURN *'
-
-
-                        };
-
-                        var viz = new NeoVis.default(config);
-                        viz.render();
-                      }
-            </script>
-    </div>
-
-
-        <div class="col-lg-2 container align-self-left w-100 ">
+        <div class="col-lg-6 container align-self-left w-100 ">
 
             {% for i in range(7,11)%}
 
               <div class="row w-100 card card-counter {{colors[i-7]}}">
-                <i class="fa fa-code-fork"></i>
+                <i class="fa fa-book"></i>
                   <div class="card-body">
-                    <h6 class="text-capitalize">{{gettext(info[i][0])}}</h6>
-                    <h6>{{info[i][1]}}</h6>
+                    <h6 class="mbr-text text-white display-7 text-capitalize">{{gettext(info[i][0])}}: {{info[i][1]}} </h6>
                   </div>
               </div>
 
             {% endfor %}
     </div>
 
+
+      
+    
+      <body onload="draw('{{name}}')">
+          <div class="container ">
+            <div class="row">
+              <div class="col"> </div>
+              
+             <div class="col-md-7" style="margin-left: 20px!important;">
+              <h4 class="mbr-text text-center text-white display-5" style="border: solid;">Professor & CoAuthors</h4>
+              <div style="border: solid; margin-left: 50px;" id="viz" ></div> </div> 
+             <div class="col"></div>
+
+          </div>
+        
+          </body>
+
+  
+
 </div>
 
 </div>
+
+
+
+
+<script>
+  
+  function draw(nm) {
+
+      
+  
+              const d=nm;
+              var config = {
+  
+  
+  
+              container_id: "viz",
+               server_url: "bolt://localhost:7687",
+              server_user: "neo4j",
+              server_password: "a",
+              d:nm,
+                   labels: {
+                         "Professor": {
+                            caption: "name",
+  
+                                  },
+  
+                          "Coauthor": {
+                              caption: "name",
+                              size:"citedby",
+                              community:'gender',
+                                  },
+  
+                              },
+  
+                  relationships: {
+                       "cooperateWith": {
+                           caption: false,
+                              thickness:'num_publications',
+                                  }
+                              },
+  
+  
+                              initial_cypher: 'MATCH (p:Professor {name:\"' +d+ '\"})-[r:cooperateWith]-(p2) RETURN *'
+  
+  
+                          };
+  
+                          var viz = new NeoVis.default(config);
+                          viz.render();
+                        }
+              </script>
 
 {% endblock %}
