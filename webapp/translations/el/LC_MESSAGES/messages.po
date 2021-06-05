@@ -88,7 +88,7 @@ msgstr "Πανεπιστήμιο του Ούλου"
 
 #: templates/home.html:92
 msgid "Gallery"
-msgstr "Συλλογή με συνδέσμους εικόνων και lightboxes"
+msgstr "Συλλογή Eικόνων"
 
 #: templates/home.html:209
 msgid "description_title"
