@@ -91,9 +91,15 @@ body {
 
 
 #viz {
+<<<<<<< HEAD
       width: 500px;
       height: 500px;
       border: solid;
 }
 
 
+=======
+      width: 100%;
+      height: 500px;
+}
+>>>>>>> 48c812d5b3b8e46224268e4e7fd72b657f306999

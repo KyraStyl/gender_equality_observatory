@@ -64,7 +64,7 @@ def getAllProfessorsOfSpecificUniversity(university:str)-> dict: #X
 
     with driver.session() as session:
         professors = session.run("MATCH (p:Professor)-[r1:worksAt]->(d:Department)-[r2:belongsTo]->(u:University {name:$name}) \
-                                 RETURN d.name, collect(p.name)"  \
+                                 with p, d order by p.name RETURN d.name , collect(p.name) "  \
                                  ,name=university)
         return dict(professors.values())
 

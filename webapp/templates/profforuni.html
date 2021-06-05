@@ -13,38 +13,36 @@
         </div>
     </div>
     <div class="card-body row " style="overflow: auto;">
-    {% for row in profs %}
+        {% for row in profs %}
+    
+            <div class="row">
 
-        <div class="card rounded-lg w-25 col-sm">
+                
+                    <h3 class="mbr-text text-white bg-primary rounded mx-3 my-3 p-2" style="background-color: cornflowerblue; margin-bottom: 10px";> {{gettext(row[0])}}</h3>
+                  
+                    <h3 class="mbr-text text-white bg-danger rounded mx-3 my-3 p-2" style=" margin-bottom: 10px">{{gettext('professor')}} </h3>
+                        <div class="container-fluid">
+                        <table class="table">
+                      <div class="d-grid gap-2">
+                        
+                        {% for prof in row[1] %} 
+                            
+                                
+                                <a href= "{{url_for('profinfo',prof=prof)}}", class="btn btn-dark active " style="width: 230px;" type="button">{{ prof }}</a>
+                               
 
-            <div class="card-title text-white bg-secondary rounded mx-3 my-3 p-2">
-                <div class="mbr-text text-white my-2" >
-                    {{gettext(row[0])}}</i>
+                                       {% endfor %}
+                                    </div>
+                                
+                    </table>
+                    </div>
                 </div>
-            </div>
-
-            <div class="container" style="width:350px; height:400px; overflow:scroll;">
-                <table style="align-items: center;" class="table table-striped">
-                  <thead >
-                    <th>{{gettext('professor')}}</th>
-                  </thead>
-
-                  <tbody>
-                    {% for prof in row[1] %}
-                    <tr>
-                        <td id="prof"><a href="{{url_for('profinfo',prof=prof)}}">{{ prof }}</a></td>
-                    </tr>
-                    {% endfor %}
-                  </tbody>
-                </table>
-            </div>
-            
-
+                
+    
+           
+    
+        {% endfor %}
         </div>
-
-    {% endfor %}
-    </div>
-
 </div>
 
 

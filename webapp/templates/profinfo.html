@@ -2,57 +2,73 @@
 
 {% block title %}{{name}}{% endblock %}
 
+<head>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+        google.charts.load('current', {
+            packages: ['corechart']
+        });
+    </script>
+</head>
+
 {% block content %}
 
-<div class="container w-100 row align-self-center justify-content-center text-center">
+<div class="container row bg-secondary w-100 rounded align-self-center justify-content-center text-center">
     {% set colors = ['primary','success','danger','warning','secondary']%}
     {% set picture_url = info[0][1] %}
     {% if info[2][1] == "F" %}
     {% set gender_pic = "../static/images/female-logo-img.png"%}
-    <!--{% set clr = "#ffc1ca" %}-->
     {% else %}
     {% set gender_pic = "../static/images/male-logo.png"%}
-    <!--{% set clr = "#bce4fd"%}-->
     {% endif %}
-    <div class="row container w-75 rounded bg-info align-items-center justify-content-center">
+    <div class="row container align-items-center justify-content-center" >
         <img src="{{ picture_url }}" class="rounded-circle" style="height: 100px; width:100px;">
-        <div class="mbr-text display-5 col-sm-5 text-dark align-self-center text-center"> {{info[1][1]}}</div>
+        <div class="mbr-text display-5 col-sm-5 text-dark align-self-center text-center"> {{name}}</div>
         <img src="{{ gender_pic}}" style="height: 50px; width:40px;">
     </div>
+    {% if info[12] != []%}
+    <div class="row">
+        <h6><i>{{info[12][1]|join(", ")}}</i></h6>
     </div>
+    {% endif %}
+</div>
 
-
-    <div class="row container">
-    <div class="col-lg-6 container align-self-left w-100 ">
+<br>
+    <div class="row container" style="border: solid;">
+        <div class="col-lg-4 container align-self-left w-100 ">
 
             {% for i in range(3,7)%}
 
               <div class="row w-100 card card-counter {{colors[i-3]}}">
                 <i class="fa fa-user-o"></i>
                   <div class="card-body">
-                      <h6 class="mbr-text text-white display-7 text-capitalize">{{ gettext(info[i][0]) }}: {{info[i][1]}}</h6>
+                      <h6 class="mbr-text text-white display-9 text-capitalize">{{ gettext(info[i][0]) }}: {{info[i][1]}}</h6>
                   </div>
               </div>
 
             {% endfor %}
-    </div>
+        </div>
 
 
-        <div class="col-lg-6 container align-self-left w-100 ">
+        <div class="col-lg-4 container align-self-left w-100 ">
 
             {% for i in range(7,11)%}
 
               <div class="row w-100 card card-counter {{colors[i-7]}}">
                 <i class="fa fa-book"></i>
                   <div class="card-body">
-                    <h6 class="mbr-text text-white display-7 text-capitalize">{{gettext(info[i][0])}}: {{info[i][1]}} </h6>
+                    <h6 class="mbr-text text-white display-9 text-capitalize">{{gettext(info[i][0])}}: {{info[i][1]}} </h6>
                   </div>
               </div>
 
             {% endfor %}
+        </div>
+
+        <div id="chart" class="col-lg-4 container"></div>
+
     </div>
 
-
+    <hr class="rounded">
       
     
       <body onload="draw('{{name}}')">
@@ -62,33 +78,21 @@
               
              <div class="col-md-7" style="margin-left: 20px!important;">
               <h4 class="mbr-text text-center text-white display-5" style="border: solid;">Professor & CoAuthors</h4>
-              <div style="border: solid; margin-left: 50px;" id="viz" ></div> </div> 
+              <div style="border: solid; height: 500px;" id="viz" ></div> </div>
              <div class="col"></div>
 
+            </div>
           </div>
         
-          </body>
-
-  
-
-</div>
-
-</div>
-
-
+      </body>
 
 
 <script>
   
   function draw(nm) {
-
-      
-  
               const d=nm;
               var config = {
-  
-  
-  
+
               container_id: "viz",
                server_url: "bolt://localhost:7687",
               server_user: "neo4j",
@@ -114,16 +118,35 @@
                               thickness:'num_publications',
                                   }
                               },
-  
-  
                               initial_cypher: 'MATCH (p:Professor {name:\"' +d+ '\"})-[r:cooperateWith]-(p2) RETURN *'
-  
-  
                           };
   
                           var viz = new NeoVis.default(config);
                           viz.render();
-                        }
-              </script>
+                }
+</script>
+
+ <script>
+        function drawChart() {
+            var years = ['2015','2016','2017','2018','2019','2020','2021']
+            var data = [['Year','Citations']]
+            var cit = {{(info[11])[1] |tojson}}
+            for (i = 0; i < years.length; i++) {
+                var index = cit.length-years.length+i
+                data.push([years[i],parseInt(cit[index])])
+            }
+            var elements = google.visualization.arrayToDataTable(data);
+            var options = {
+                title: 'Citations per year',
+                isStacked: true,
+                backgroundColor: { fill:'transparent' },
+                legend: {position: 'none'}
+            };
+            /* Instantiate and draw the chart.*/
+            var chart = new google.visualization.BarChart(document.getElementById('chart'));
+            chart.draw(elements, options);
+        };
+        google.charts.setOnLoadCallback(drawChart);
+ </script>
 
 {% endblock %}
