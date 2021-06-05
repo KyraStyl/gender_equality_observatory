@@ -29,6 +29,25 @@ def dictToList(diction):
         dictlist.append([item[0], value])
     return dictlist
 
+def loadStaticDataForGender():
+    cardHeaders = ['Average Number of Publications', 'Average Number Of Coauthors', 'Average Number Of Citations',
+                   'Average Number Of HIndex', 'Average Number Of I10Index', 'Average Degree Centrality',
+                   'Average Betweenness', 'Average PageRank Score', 'Average Closeness Centrality', 'Average Number of Triangles']
+    cardData = []
+    cardData.append(getAverageNumberOfPublicationsOfMaleAndFemaleProfessor())
+    cardData.append(dictToList(getAverageNumberOfCoauthorsOfMaleAndFemaleProfessor()))
+    cardData.append(getAverageNumberOfCitationsOfMaleAndFemaleProfessor())
+    cardData.append(getAverageNumberOfHIndexOfMaleAndFemaleProfessor())
+    cardData.append(getAverageNumberOfI10IndexOfMaleAndFemaleProfessor())
+    cardData.append(avgDegreeCentralityScoreOfFemaleAndMaleProfessor())
+    cardData.append(avgBetweenesScoreOfFemaleAndMaleProfessor())
+    cardData.append(avgPageRankScoreOfFemaleAndMaleProfessor())
+    cardData.append(avgClosenessCentralityOfFemaleAndMaleProfessor())
+    cardData.append(getAvgOfTrianglesForMaleAndFemaleProfessors())
+
+    return cardHeaders, cardData
+
+
 def create_app(test_config=None):
     """Create and configure an instance of the Flask application."""
     app = Flask(__name__)
@@ -88,19 +107,8 @@ def create_app(test_config=None):
                     titles.append('with the Highest Closeness Harmonic Centrality')
                     headers.append(['Name', 'Gender', 'Closeness Harmonic Centrality'])
                     data.append(topKProfessorsWithHighestClosenessHarmonicCentrality(num))
-                if request.form.get('spreadinf'):
-                    titles.append('with the Highest Spread Information Influence')
-                    headers.append(['Name', 'Gender', 'Spread Information Influence'])
-                    data.append(topKProfessorsWithHighestSpreadInformationInfluence(num))
             numFunc = len(titles)
-            cardData = []
-            cardHeaders = ['Average Number of Publications', 'Average Number Of Coauthors', 'Average Number Of Citations',
-                           'Average Number Of HIndex', 'Average Number Of I10Index']
-            cardData.append(getAverageNumberOfPublicationsOfMaleAndFemaleProfessor())
-            cardData.append(dictToList(getAverageNumberOfCoauthorsOfMaleAndFemaleProfessor()))
-            cardData.append(getAverageNumberOfCitationsOfMaleAndFemaleProfessor())
-            cardData.append(getAverageNumberOfHIndexOfMaleAndFemaleProfessor())
-            cardData.append(getAverageNumberOfI10IndexOfMaleAndFemaleProfessor())
+            cardHeaders, cardData = loadStaticDataForGender()
             return render_template("gender.html", size=len(cardHeaders), cardHeaders=cardHeaders, cardData=cardData, num=num, numFunc=numFunc, titles=titles, headers=headers, data=data)
         else:
             return render_template('error.html')

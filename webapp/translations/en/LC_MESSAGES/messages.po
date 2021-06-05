@@ -60,7 +60,7 @@ msgstr "Go to a safer place."
 
 #: templates/home.html:16
 msgid "title"
-msgstr "Welcome to Web Mining 2021"
+msgstr "Gender Equality in Academia"
 
 #: templates/home.html:21 templates/home.html:108
 msgid "University of Thessaloniki"
@@ -103,11 +103,7 @@ msgstr ""
 "opportunitiesand resources between women and men, and/or the equal "
 "representation of women and men.” In scienceand academia inequalities "
 "exist in different career stages from postgraduate level to top-tier "
-"academia.In this task, you will create an observatory of this phenomenon "
-"by exploring data from different sources thatreflect gender "
-"representation in science and academia (citations, university gender "
-"indices, official documentsrelated to gender ethics etc). Specifically, "
-"your tasks as a team include:"
+"academia."
 
 #: templates/home.html:213
 msgid "task1"

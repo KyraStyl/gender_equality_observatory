@@ -13,14 +13,13 @@
     <div class="col-md-2 text-left mx-2">
         <input type="checkbox" name="coauthors">Most Co-authors</input><br>
         <input type="checkbox" name="pagerank">PageRank Score</input><br>
-        <input type="checkbox" name="betweenness">Betweenness</input><br>
-        <input type="checkbox" name="degreecentr">Degree Centrality</input>
+        <input type="checkbox" name="betweenness">Betweenness</input>
     </div>
 
     <div class="col-md-4 text-left">
+        <input type="checkbox" name="degreecentr">Degree Centrality</input><br>
         <input type="checkbox" name="closenesscentr">Closeness Centrality<br>
         <input type="checkbox" name="closharmcentr">Closeness Harmonic Centrality<br>
-        <input type="checkbox" name="spreadinf">Spread Information Influence<br>
     </div>
 
     <button class="btn btn-info col-md-1 mx-2 rounded-pill font-weight-bold with-border">{{gettext('Submit')}}</button>
@@ -28,7 +27,7 @@
 </form>
 
     <div class="row container">
-        {% for i in range(0,size)%}
+        {% for i in range(0,5)%}
         {% set list = cardData[i]%}
         <div class="col w-25 card border-info mx-1 mb-3">
           <div class="card-header text-center"><i>{{cardHeaders[i]}}</i></div>
@@ -38,6 +37,20 @@
         </div>
         {% endfor%}
     </div>
+
+    <div class="row container">
+        {% for i in range(5,size)%}
+        {% set list = cardData[i]%}
+        <div class="col w-25 card border-danger mx-1 mb-3">
+          <div class="card-header text-center"><i>{{cardHeaders[i]}}</i></div>
+          <div class="card-body text-center text-info">
+            <h6 class="card-title text-center">{{gettext('males')}} | {{gettext('females')}}</h6><h6 class="card-text">{{"%.2f"|format((list[0])[1])}} | {{"%.2f"|format((list[1])[1])}}</h6>
+          </div>
+        </div>
+        {% endfor%}
+    </div>
+
+
     <div class="card container row align-self-center justify-content-center vertical-scrollable ">
         {% for i in range(0,numFunc) %}
 
@@ -60,7 +73,11 @@
             {% for prof in data[i] %}
             <tr>
                 {% for attr in prof%}
-                <td class="text-center">{{attr}}</td>
+                    {% if attr|int != 0 %}
+                        <td class="text-center">{{"%.2f"|format(attr)}}</td>
+                    {% else %}
+                        <td class="text-center">{{attr}}</td>
+                    {% endif %}
                 {% endfor %}
             </tr>
             {% endfor %}
