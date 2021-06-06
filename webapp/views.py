@@ -103,32 +103,32 @@ def create_app(test_config=None):
                 num = int(request.form["topk"])
                 if request.form.get('coauthors'):
                     d = getTopKProfessorsWithMostCoauthors(num)
-                    titles.append('with the Most Co-authors'+calc_percentages(d))
+                    titles.append(['with the Most Co-authors',calc_percentages(d)])
                     headers.append(['Name', 'Gender', 'Co-authors'])
                     data.append(d)
                 if request.form.get('pagerank'):
                     d = topKProfessorsWithHighestPageRankScore(num)
-                    titles.append('with Highest PageRank Score'+calc_percentages(d))
+                    titles.append(['with Highest PageRank Score',calc_percentages(d)])
                     headers.append(['Name', 'Gender', 'PageRank Score'])
                     data.append(d)
                 if request.form.get('betweenness'):
                     d = topKProfessorsWithHighestBetweenes(num)
-                    titles.append('with the Highest Betweenness'+calc_percentages(d))
+                    titles.append(['with the Highest Betweenness',calc_percentages(d)])
                     headers.append(['Name', 'Gender', 'Betweeness'])
                     data.append(d)
                 if request.form.get('degreecentr'):
                     d = topKProfessorsWithHighestDegreeCentrality(num)
-                    titles.append('with the Highest Degree Centrality'+calc_percentages(d))
+                    titles.append(['with the Highest Degree Centrality',calc_percentages(d)])
                     headers.append(['Name', 'Gender', 'Degree Centrality'])
                     data.append(d)
                 if request.form.get('closenesscentr'):
                     d = topKProfessorsWithHighestClosenessCentrality(num)
-                    titles.append('with the Highest Closeness Centrality'+calc_percentages(d))
+                    titles.append(['with the Highest Closeness Centrality',calc_percentages(d)])
                     headers.append(['Name', 'Gender', 'Closeness Centrality'])
                     data.append(d)
                 if request.form.get('closharmcentr'):
                     d = topKProfessorsWithHighestClosenessHarmonicCentrality(num)
-                    titles.append('with the Highest Closeness Harmonic Centrality'+calc_percentages(d))
+                    titles.append(['with the Highest Closeness Harmonic Centrality',calc_percentages(d)])
                     headers.append(['Name', 'Gender', 'Closeness Harmonic Centrality'])
                     data.append(d)
             numFunc = len(titles)

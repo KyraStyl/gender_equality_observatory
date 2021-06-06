@@ -12,15 +12,15 @@
     <input class="col-md-1 form-control" id="topk" name="topk" type="number" min="1" max="50" placeholder="5" required>
 
     <div class="col-md-2 text-left mx-2">
-        <input type="checkbox" name="coauthors"> Most Co-authors</input><br>
-        <input type="checkbox" name="pagerank"> PageRank Score</input><br>
-        <input type="checkbox" name="betweenness"> Betweenness</input>
+        <input type="checkbox" name="coauthors"> {{gettext('Most Co-authors')}}</input><br>
+        <input type="checkbox" name="pagerank"> {{gettext('PageRank Score')}}</input><br>
+        <input type="checkbox" name="betweenness"> {{gettext('Betweenness')}}</input>
     </div>
 
     <div class="col-md-4 text-left">
-        <input type="checkbox" name="degreecentr"> Degree Centrality</input><br>
-        <input type="checkbox" name="closenesscentr"> Closeness Centrality<br>
-        <input type="checkbox" name="closharmcentr"> Closeness Harmonic Centrality<br>
+        <input type="checkbox" name="degreecentr"> {{gettext('Degree Centrality')}}</input><br>
+        <input type="checkbox" name="closenesscentr"> {{gettext('Closeness Centrality')}}<br>
+        <input type="checkbox" name="closharmcentr"> {{gettext('Closeness Harmonic Centrality')}}<br>
     </div>
 
     <button class="btn btn-info col-md-1 mx-2 rounded-pill font-weight-bold with-border">{{gettext('Submit')}}</button>
@@ -31,7 +31,7 @@
         {% for i in range(0,5)%}
         {% set list = cardData[i]%}
         <div class="col w-25 card border-info mx-1 mb-3">
-          <div class="card-header text-center"><i>{{cardHeaders[i]}}</i></div>
+          <div class="card-header text-center"><i>{{gettext(cardHeaders[i])}}</i></div>
           <div class="card-body text-center text-info">
             <h6 class="card-title text-center">{{gettext('males')}} | {{gettext('females')}}</h6><h6 class="card-text">{{"%.2f"|format((list[0])[1])}} | {{"%.2f"|format((list[1])[1])}}</h6>
           </div>
@@ -43,7 +43,7 @@
         {% for i in range(5,size)%}
         {% set list = cardData[i]%}
         <div class="col w-25 card border-danger mx-1 mb-3">
-          <div class="card-header text-center"><i>{{cardHeaders[i]}}</i></div>
+          <div class="card-header text-center"><i>{{gettext(cardHeaders[i])}}</i></div>
           <div class="card-body text-center text-info">
             <h6 class="card-title text-center">{{gettext('males')}} | {{gettext('females')}}</h6><h6 class="card-text">{{"%.2f"|format((list[0])[1])}} | {{"%.2f"|format((list[1])[1])}}</h6>
           </div>
@@ -59,14 +59,14 @@
 
     <div class="card-title text-white bg-info rounded mx-3 my-2 p-2">
         <div class="h6 text-center my-2">
-            Top {{num}} Professors {{titles[i]}}
+            {{gettext('Top')}} {{num}} {{gettext('professors')}} {{gettext(titles[i][0])}} {{titles[i][1]}}
         </div>
     </div>
     <div class="container card-body" style="height:350px; overflow-y:auto;">
         <table style="align-items: center;" class="table table-striped">
           <thead class="thead-dark">
           {% for h in headers[i]%}
-            <th class="text-center">{{h}}</th>
+            <th class="text-center">{{gettext(h)}}</th>
           {% endfor %}
           </thead>
 

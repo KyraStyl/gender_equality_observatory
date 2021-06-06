@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-06-05 00:51+0300\n"
+"POT-Creation-Date: 2021-06-07 02:54+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,31 +17,31 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.8.0\n"
 
-#: templates/base.html:54
+#: templates/base.html:64
 msgid "Home"
 msgstr ""
 
-#: templates/base.html:57
-msgid "Top-K"
+#: templates/base.html:67
+msgid "Graph Info"
 msgstr ""
 
-#: templates/base.html:60
-msgid "Graph Metrics"
-msgstr ""
-
-#: templates/base.html:63
+#: templates/base.html:70 templates/home.html:93
 msgid "Universities"
 msgstr ""
 
-#: templates/base.html:70
+#: templates/base.html:73
+msgid "Gender Equality"
+msgstr ""
+
+#: templates/base.html:80
 msgid "Langtogreek"
 msgstr ""
 
-#: templates/base.html:76
+#: templates/base.html:86
 msgid "Langtoenglish"
 msgstr ""
 
-#: templates/base.html:92
+#: templates/base.html:102
 msgid "Footermsg"
 msgstr ""
 
@@ -57,92 +57,166 @@ msgstr ""
 msgid "Page not found link"
 msgstr ""
 
-#: templates/home.html:16
-msgid "title"
+#: templates/gender.html:8
+msgid "Gender Equality Metrics"
 msgstr ""
 
-#: templates/home.html:21 templates/home.html:108
-msgid "University of Thessaloniki"
-msgstr ""
-
-#: templates/home.html:31 templates/home.html:172
-msgid "University of Bordeaux"
-msgstr ""
-
-#: templates/home.html:41 templates/home.html:188
-msgid "University of Bochum"
-msgstr ""
-
-#: templates/home.html:51 templates/home.html:124
-msgid "University of Porto"
-msgstr ""
-
-#: templates/home.html:61 templates/home.html:156
-msgid "University of Lodz"
-msgstr ""
-
-#: templates/home.html:71 templates/home.html:140
-msgid "University of Oulu"
-msgstr ""
-
-#: templates/home.html:92
-msgid "Gallery"
-msgstr ""
-
-#: templates/home.html:209
-msgid "description_title"
-msgstr ""
-
-#: templates/home.html:210
-msgid "intro"
-msgstr ""
-
-#: templates/home.html:213
-msgid "task1"
-msgstr ""
-
-#: templates/home.html:214
-msgid "task2"
-msgstr ""
-
-#: templates/home.html:215
-msgid "task3"
-msgstr ""
-
-#: templates/home.html:230
-msgid "team"
-msgstr ""
-
-#: templates/home.html:246
-msgid "Giorgos"
-msgstr ""
-
-#: templates/home.html:251
-msgid "Stella"
-msgstr ""
-
-#: templates/home.html:252
-msgid "Kyrama"
-msgstr ""
-
-#: templates/home.html:258
-msgid "Dimitris"
-msgstr ""
-
-#: templates/home.html:264
-msgid "Vasilis"
-msgstr ""
-
-#: templates/profforuni.html:29
-msgid "professor"
-msgstr ""
-
-#: templates/topk.html:9
+#: templates/gender.html:11
 msgid "Specify number of results"
 msgstr ""
 
-#: templates/topk.html:25
+#: templates/gender.html:15
+msgid "Most Co-authors"
+msgstr ""
+
+#: templates/gender.html:16
+msgid "PageRank Score"
+msgstr ""
+
+#: templates/gender.html:17
+msgid "Betweenness"
+msgstr ""
+
+#: templates/gender.html:21
+msgid "Degree Centrality"
+msgstr ""
+
+#: templates/gender.html:22
+msgid "Closeness Centrality"
+msgstr ""
+
+#: templates/gender.html:23
+msgid "Closeness Harmonic Centrality"
+msgstr ""
+
+#: templates/gender.html:26
 msgid "Submit"
+msgstr ""
+
+#: templates/gender.html:36 templates/gender.html:48
+#: templates/universities.html:20
+msgid "males"
+msgstr ""
+
+#: templates/gender.html:36 templates/gender.html:48
+#: templates/universities.html:21
+msgid "females"
+msgstr ""
+
+#: templates/gender.html:62
+msgid "Top"
+msgstr ""
+
+#: templates/gender.html:62
+msgid "professors"
+msgstr ""
+
+#: templates/graphmtr.html:7
+msgid "General Info About the Graph"
+msgstr ""
+
+#: templates/graphmtr.html:11
+msgid "Number of"
+msgstr ""
+
+#: templates/graphmtr.html:14
+msgid "different"
+msgstr ""
+
+#: templates/graphmtr.html:169
+msgid "Professor Gender"
+msgstr ""
+
+#: templates/graphmtr.html:171 templates/graphmtr.html:177
+msgid "Male"
+msgstr ""
+
+#: templates/graphmtr.html:172 templates/graphmtr.html:178
+msgid "Female"
+msgstr ""
+
+#: templates/graphmtr.html:175
+msgid "CoAuthor Gender"
+msgstr ""
+
+#: templates/graphmtr.html:187
+msgid "Professors Department Universities"
+msgstr ""
+
+#: templates/graphmtr.html:188
+msgid "All CoAuthors"
+msgstr ""
+
+#: templates/graphmtr.html:189
+msgid "Professor-Gender-CoAuthor"
+msgstr ""
+
+#: templates/home.html:17
+msgid "title"
+msgstr ""
+
+#: templates/home.html:22 templates/home.html:110
+msgid "University of Thessaloniki"
+msgstr ""
+
+#: templates/home.html:32 templates/home.html:182
+msgid "University of Bordeaux"
+msgstr ""
+
+#: templates/home.html:42 templates/home.html:200
+msgid "University of Bochum"
+msgstr ""
+
+#: templates/home.html:52 templates/home.html:128
+msgid "University of Porto"
+msgstr ""
+
+#: templates/home.html:62 templates/home.html:164
+msgid "University of Lodz"
+msgstr ""
+
+#: templates/home.html:72 templates/home.html:146
+msgid "University of Oulu"
+msgstr ""
+
+#: templates/home.html:222
+msgid "description_title"
+msgstr ""
+
+#: templates/home.html:223
+msgid "intro"
+msgstr ""
+
+#: templates/home.html:236
+msgid "team"
+msgstr ""
+
+#: templates/home.html:252
+msgid "Giorgos"
+msgstr ""
+
+#: templates/home.html:252
+msgid "Michoulis"
+msgstr ""
+
+#: templates/home.html:257
+msgid "Stella"
+msgstr ""
+
+#: templates/home.html:258
+msgid "Kyrama"
+msgstr ""
+
+#: templates/home.html:264
+msgid "Dimitris"
+msgstr ""
+
+#: templates/home.html:270
+msgid "Vasilis"
+msgstr ""
+
+#: templates/profinfo.html:82
+msgid "Professor & CoAuthors"
 msgstr ""
 
 #: templates/universities.html:11
@@ -155,13 +229,5 @@ msgstr ""
 
 #: templates/universities.html:19
 msgid "departments"
-msgstr ""
-
-#: templates/universities.html:20
-msgid "males"
-msgstr ""
-
-#: templates/universities.html:21
-msgid "females"
 msgstr ""
 
