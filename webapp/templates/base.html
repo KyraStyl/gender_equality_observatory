@@ -63,14 +63,14 @@ body{
             <li class="nav-item {%- if request.endpoint == 'home' %} active{% endif %}">
                 <a class="nav-link nav-link-hover" href="{{ url_for('home') }}">{{ gettext("Home") }}</a>
             </li>
-            <li class="nav-item {%- if request.endpoint == 'gender' %} active{% endif %}">
-                <a class="nav-link nav-link-hover" href="{{ url_for('gender') }}">{{ gettext("Gender Balance") }}</a>
-            </li>
             <li class="nav-item {%- if request.endpoint == 'graphmtr' %} active{% endif %}">
                 <a class="nav-link nav-link-hover" href="{{ url_for('graphmtr') }}">{{ gettext("Graph Info") }}</a>
             </li>
             <li class="nav-item {%- if request.endpoint == 'universities' %} active{% endif %}">
                 <a class="nav-link nav-link-hover" href="{{ url_for('universities') }}">{{ gettext("Universities") }}</a>
+            </li>
+            <li class="nav-item {%- if request.endpoint == 'gender' %} active{% endif %}">
+                <a class="nav-link nav-link-hover" href="{{ url_for('gender') }}">{{ gettext("Gender Balance") }}</a>
             </li>
         </ul>
         <ul class="navbar-nav ml-auto h5 font-weight-normal">

@@ -181,13 +181,14 @@ def topKProfessorsWithHighestBetweenes(topK:int)-> list:
     """
 
     with driver.session() as session:
+        n = int(session.run("MATCH (p:Professor) RETURN count(p)").value()[0])
         topKProfessors = session.run("CALL gds.betweenness.stream('my-graph') \
                                     YIELD nodeId, score \
                                     WHERE labels(gds.util.asNode(nodeId)) = ['Professor'] \
-                                    RETURN gds.util.asNode(nodeId).name AS name, gds.util.asNode(nodeId).gender AS gender, score \
+                                    RETURN gds.util.asNode(nodeId).name AS name, gds.util.asNode(nodeId).gender AS gender, score/((($n-1)*($n-2))/2) \
                                     ORDER BY score DESC, gender \
                                     LIMIT $topK" \
-                                    ,topK=topK)
+                                    ,topK=topK, n=n)
         return topKProfessors.values()
 
 # Returns the average betweenes score for Female and male professors
@@ -199,11 +200,12 @@ def avgBetweenesScoreOfFemaleAndMaleProfessor()-> list:
     """
     
     with driver.session() as session:
+        n = int(session.run("MATCH (p:Professor) RETURN count(p)").value()[0])
         avgBetweenessScore = session.run("CALL gds.betweenness.stream('my-graph') \
                                     YIELD nodeId, score \
                                     WHERE labels(gds.util.asNode(nodeId)) = ['Professor'] \
-                                    RETURN gds.util.asNode(nodeId).gender, avg(score)" \
-                                    )
+                                    RETURN gds.util.asNode(nodeId).gender, avg(score/((($n-1)*($n-2))/2))" \
+                                    ,n=n)
 
         return avgBetweenessScore.values()
 
