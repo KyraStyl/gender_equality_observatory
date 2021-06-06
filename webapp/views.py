@@ -11,6 +11,15 @@ from .networkCharacteristicsQueries import *
 from .genderCharacteristicsQueries import *
 
 
+links_for_unis = {
+    'University of Oulu': "https://www.oulu.fi/"
+    ,'University of Bochum': "https://www.ruhr-uni-bochum.de/en"
+    ,'University of Porto': "https://www.up.pt/"
+    ,'University of Bordeaux': "http://www.univ-bordeaux.fr/"
+    ,'University of Lodz': "https://www.p.lodz.pl/"
+    ,'University of Thessaloniki': "https://www.auth.gr/"
+    }
+
 def flatmap(di):
     l = []
     for i in di.items():
@@ -139,7 +148,7 @@ def create_app(test_config=None):
     def profforuni(uni):
         if request.method == "GET":
             profs = dictToList(getAllProfessorsOfSpecificUniversity(uni))
-            return render_template("profforuni.html", uni=uni, profs=profs)
+            return render_template("profforuni.html", link=links_for_unis[uni], uni=uni, profs=profs)
         return render_template("error.html")
 
     @app.route("/profinfo/<prof>", methods=["GET"])
