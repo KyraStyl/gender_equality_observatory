@@ -116,12 +116,13 @@ def create_app(test_config=None):
     @app.route("/graphmtr", methods=['GET'])
     def graphmtr():
         if request.method == 'GET':
+            info = getAllInfo()
             louvain = int(getNumberOfCommunitiesLouvain())
             scc = int(getNumberOfCommunitiesSCC())
             wcc = int(getNumberOfCommunitiesWCC())
             modularity = int(getNumberOfCommunitiesModularityOptimization())
             triangles = int(getNumberOfTriangles())
-            return render_template("graphmtr.html", louvain=louvain, scc=scc, wcc=wcc, triangles=triangles, modularity=modularity)
+            return render_template("graphmtr.html", info=info, louvain=louvain, scc=scc, wcc=wcc, triangles=triangles, modularity=modularity)
         return render_template('error.html')
     # you can add more pages using @app.route("/page")
 

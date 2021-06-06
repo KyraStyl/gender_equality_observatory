@@ -1,6 +1,15 @@
 from neo4j import GraphDatabase
 from .models import *
 
+#returns basic information about the whole graph
+def getAllInfo()->list:
+    with driver.session() as session:
+        uni_count = int((session.run("MATCH (u:University) RETURN count(u)")).value()[0])
+        co_auth_count = int((session.run("MATCH (c: Coauthor) RETURN count(distinct(c))")).value()[0])
+        prof_count = int((session.run("MATCH (p: Professor) RETURN count(p) ")).value()[0])
+        return [["Universities", uni_count], ["Professors", prof_count], ["Co-authors", co_auth_count]]
+
+
 # returns all the universities and their departments
 def getAllUniversities()-> dict:
 
