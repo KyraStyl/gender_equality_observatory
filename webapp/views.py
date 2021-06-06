@@ -20,6 +20,15 @@ links_for_unis = {
     ,'University of Thessaloniki': "https://www.auth.gr/"
     }
 
+def calc_percentages(l):
+    f, m = 0,0
+    for item in l:
+        if item[1] == "F":
+            f+=1
+        else:
+            m+=1
+    return "  M: "+str((m/len(l))*100)+"%, F: "+str((f/len(l))*100)+"%"
+
 def flatmap(di):
     l = []
     for i in di.items():
@@ -93,29 +102,35 @@ def create_app(test_config=None):
             if request.method == 'POST':
                 num = int(request.form["topk"])
                 if request.form.get('coauthors'):
-                    titles.append('with the Most Co-authors')
-                    headers.append(['Name','Gender','Co-authors'])
-                    data.append(getTopKProfessorsWithMostCoauthors(num))
+                    d = getTopKProfessorsWithMostCoauthors(num)
+                    titles.append('with the Most Co-authors'+calc_percentages(d))
+                    headers.append(['Name', 'Gender', 'Co-authors'])
+                    data.append(d)
                 if request.form.get('pagerank'):
-                    titles.append('with Highest PageRank Score')
-                    headers.append(['Name','Gender','PageRank Score'])
-                    data.append(topKProfessorsWithHighestPageRankScore(num))
+                    d = topKProfessorsWithHighestPageRankScore(num)
+                    titles.append('with Highest PageRank Score'+calc_percentages(d))
+                    headers.append(['Name', 'Gender', 'PageRank Score'])
+                    data.append(d)
                 if request.form.get('betweenness'):
-                    titles.append('with the Highest Betweenness')
+                    d = topKProfessorsWithHighestBetweenes(num)
+                    titles.append('with the Highest Betweenness'+calc_percentages(d))
                     headers.append(['Name', 'Gender', 'Betweeness'])
-                    data.append(topKProfessorsWithHighestBetweenes(num))
+                    data.append(d)
                 if request.form.get('degreecentr'):
-                    titles.append('with the Highest Degree Centrality')
+                    d = topKProfessorsWithHighestDegreeCentrality(num)
+                    titles.append('with the Highest Degree Centrality'+calc_percentages(d))
                     headers.append(['Name', 'Gender', 'Degree Centrality'])
-                    data.append(topKProfessorsWithHighestDegreeCentrality(num))
+                    data.append(d)
                 if request.form.get('closenesscentr'):
-                    titles.append('with the Highest Closeness Centrality')
+                    d = topKProfessorsWithHighestClosenessCentrality(num)
+                    titles.append('with the Highest Closeness Centrality'+calc_percentages(d))
                     headers.append(['Name', 'Gender', 'Closeness Centrality'])
-                    data.append(topKProfessorsWithHighestClosenessCentrality(num))
+                    data.append(d)
                 if request.form.get('closharmcentr'):
-                    titles.append('with the Highest Closeness Harmonic Centrality')
+                    d = topKProfessorsWithHighestClosenessHarmonicCentrality(num)
+                    titles.append('with the Highest Closeness Harmonic Centrality'+calc_percentages(d))
                     headers.append(['Name', 'Gender', 'Closeness Harmonic Centrality'])
-                    data.append(topKProfessorsWithHighestClosenessHarmonicCentrality(num))
+                    data.append(d)
             numFunc = len(titles)
             cardHeaders, cardData = loadStaticDataForGender()
             return render_template("gender.html", size=len(cardHeaders), cardHeaders=cardHeaders, cardData=cardData, num=num, numFunc=numFunc, titles=titles, headers=headers, data=data)
@@ -127,11 +142,10 @@ def create_app(test_config=None):
         if request.method == 'GET':
             info = getAllInfo()
             louvain = int(getNumberOfCommunitiesLouvain())
-            scc = int(getNumberOfCommunitiesSCC())
             wcc = int(getNumberOfCommunitiesWCC())
             modularity = int(getNumberOfCommunitiesModularityOptimization())
             triangles = int(getNumberOfTriangles())
-            return render_template("graphmtr.html", info=info, louvain=louvain, scc=scc, wcc=wcc, triangles=triangles, modularity=modularity)
+            return render_template("graphmtr.html", info=info, louvain=louvain, wcc=wcc, triangles=triangles, modularity=modularity)
         return render_template('error.html')
     # you can add more pages using @app.route("/page")
 

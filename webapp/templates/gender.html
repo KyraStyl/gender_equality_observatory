@@ -4,22 +4,23 @@
 
 {% block content %}
 
-<div class="row container">
+<div class="row container justify-content-center">
+    <div class="card-header text-white h4 align-self-center w-75 justify-content-center text-center row rounded bg-secondary">{{gettext('Gender Equality Metrics')}}</div>
     <form class="container row w-100 text-center align-items-center my-3 align-self-center"
       action="{{ url_for('gender')}}" method="post">
     <label class="col-md-3 text-center h6" for="topk">{{gettext('Specify number of results')}}</label>
-    <input class="col-md-1 form-control" id="topk" name="topk" type="number" min="1" max="50" value="5" required> 
+    <input class="col-md-1 form-control" id="topk" name="topk" type="number" min="1" max="50" placeholder="5" required>
 
     <div class="col-md-2 text-left mx-2">
-        <input type="checkbox" name="coauthors">Most Co-authors</input><br>
-        <input type="checkbox" name="pagerank">PageRank Score</input><br>
-        <input type="checkbox" name="betweenness">Betweenness</input>
+        <input type="checkbox" name="coauthors"> Most Co-authors</input><br>
+        <input type="checkbox" name="pagerank"> PageRank Score</input><br>
+        <input type="checkbox" name="betweenness"> Betweenness</input>
     </div>
 
     <div class="col-md-4 text-left">
-        <input type="checkbox" name="degreecentr">Degree Centrality</input><br>
-        <input type="checkbox" name="closenesscentr">Closeness Centrality<br>
-        <input type="checkbox" name="closharmcentr">Closeness Harmonic Centrality<br>
+        <input type="checkbox" name="degreecentr"> Degree Centrality</input><br>
+        <input type="checkbox" name="closenesscentr"> Closeness Centrality<br>
+        <input type="checkbox" name="closharmcentr"> Closeness Harmonic Centrality<br>
     </div>
 
     <button class="btn btn-info col-md-1 mx-2 rounded-pill font-weight-bold with-border">{{gettext('Submit')}}</button>
