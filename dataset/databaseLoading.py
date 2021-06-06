@@ -5,8 +5,8 @@ import pandas as pd
 # The universities and their departments
 universities_departments = {
                "University of Oulu" : ["CSEE"], \
-               "University of Bochum": ["Faculty of Electrical Engineering and Information Technology", \
-                                        "Department of Civil and Enviromental Engineering"],
+               "University of Bochum": ["ECE-IT", \
+                                        "CEE"],
                "University of Porto" : ["ECE", \
                                         "CS"],
                "University of Bordeaux" : ["CS", \
