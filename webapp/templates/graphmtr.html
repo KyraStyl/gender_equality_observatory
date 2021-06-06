@@ -3,21 +3,21 @@
 {% block title %}Graph Metrics{% endblock %}
 
 {% block content %}
-
+<br>
 <div class="container" style="margin-left: 80px; ">
 
     <div class="row">
         <div class="col-md-2">
-          <div class="card-counter primary">
-            <i class="fa fa-code-fork"></i>
+          <div class="card-counter primary" title="dsadadasdasds" >
+            <i class="fa fa-users"></i>
             <span class="count-numbers">{{louvain}}</span>
-            <span class="count-name"> Louvain</span>
+            <span class="count-name" > Louvain</span>
           </div>
         </div>
 
         <div class="col-md-2">
           <div class="card-counter danger">
-            <i class="fa fa-code"></i>
+            <i class="fa fa-users"></i>
             <span class="count-numbers">{{scc}}</span>
             <span class="count-name">SCC</span>
           </div>
@@ -25,7 +25,7 @@
 
         <div class="col-md-2">
           <div class="card-counter success">
-            <i class="fa fa-database"></i>
+            <i class="fa fa-users"></i>
             <span class="count-numbers">{{wcc}}</span>
             <span class="count-name">WCC</span>
           </div>
@@ -33,14 +33,14 @@
 
         <div class="col-md-2">
           <div class="card-counter info">
-            <i class="fa fa-sitemap"></i>
+            <i class="fa fa-users"></i>
             <span class="count-numbers">{{triangles}}</span>
             <span class="count-name">Triangles</span>
           </div>
         </div>
         <div class="col-md-2">
             <div class="card-counter warning">
-              <i class="fa fa-sitemap"></i>
+              <i class="fa fa-users"></i>
               <span class="count-numbers">{{modularity}}</span>
               <span class="count-name">Modularity</span>
             </div>
@@ -68,7 +68,7 @@
               },
               "Professor": {
                   caption: "name",
-                  community:"gender",
+                  community:"genderFlag",
                   imageUrl: "url_picture",
                   
               },
@@ -112,7 +112,7 @@
               },
               "Professor": {
                   caption: "name",
-                  community:"role",
+                  community:"genderFlag",
                   imageUrl: "url_picture",
                   
               },
@@ -120,7 +120,7 @@
                     {
                         caption:"name",
                         size:"citedby",
-
+                        community:"genderFlag"
                     }
               
               
@@ -159,44 +159,105 @@
 <body onload="draw()">
 
   
+<br>
+<br>
+<div class="container" >
+  <div class="row" style="margin-left: 5em;">
+  <h5>Professor Gender:</h5>   <!-- press the radio buttons and then press the thrid tab-->
+  <div class="col">
+    <input type="radio" name="prof" value="M">Male</input>
+    <input type="radio" name="prof" value="F">Female</input>
+</div>
+
+<h5>CoAuthor Gender:</h5>
+<div class="col">
+  <input type="radio" name="coauthors" value="M">Male</input>
+  <input type="radio" name="coauthors" value="F">Female</input>
+</div>
+</div>
+</div>
+<br>
 <div class="container">
-  <div id="accordion">
-      
-      <div class="card">
-        <div class="card-header" id="headingTwo">
-          <h5 class="mb-0 text-center">
-            <p>We can find hubs, bridges, paths, etc.</p>
-            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-              All CoAuthors and the Professors
-            </button>
-          </h5>
-        </div>
-        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-          <div class="card-body">
-            <div id="viz1"  style="height: 500px!important; width: 100%!important;"></div>          </div>
-        </div>
-      </div>
-      <div class="card">
-        <div class="card-header" id="headingThree">
-          <h5 class="mb-0 text-center">
-            <button class="btn btn-link collapsed"  data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-              <p >Universities-Departments-Profiessors! </p>
-            </button>
-          </h5>
-        </div>
-        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-          <div class="card-body">
-              <div id="viz"  style="height: 500px!important; width: 100%!important;"></div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-
   
 
-
+    <div class="tab">
+      <button class="tablinks" onclick="openCity(event, 'London')">Professors Department Universities</button>
+      <button class="tablinks" onclick="openCity(event, 'Paris')">All CoAuthors </button>
+      <button class="tablinks" onclick="openCity(event, 'Tokyo'),ProGenderCoauthors();">Professor-Gender-CoAuthor</button>
+    </div>
+    
+    <div id="London" class="tabcontent">
+      
+        <div id="viz"  style="height: 500px!important; width: 100%!important;"></div>    
+    
+    </div>
+    
+    <div id="Paris" class="tabcontent">
+      <div id="viz1"  style="height: 500px!important; width: 100%!important;"></div>   
+    </div>
+    
+    <div id="Tokyo" class="tabcontent">
+      <div id="viz2"  style="height: 500px!important; width: 100%!important;"></div>
+    </div>
 </div>
+
+
+
+    <script>
+
+      function ProGenderCoauthors(){
+        var profg=document.querySelector('input[name = "prof"]:checked').value;
+        var cog=document.querySelector('input[name = "coauthors"]:checked').value;
+       
+        var config2 = {
+          container_id: "viz2",
+          server_url: "bolt://localhost:7687",
+          server_user: "neo4j",
+          server_password: "a",
+          labels: {
+              "Professor": {
+                  caption: "name",
+                  community:"genderFlag",
+                  imageUrl: "url_picture",
+                  
+              },
+              "Coauthor":
+                    {
+                        caption:"name",
+                        size:"citedby",
+                        community:"genderFlag"
+                    }              
+          },
+          
+          relationships: {
+              "cooperateWith": {
+                  caption: false,
+                  thickness:"citedby" 
+              }
+          },
+            initial_cypher: "MATCH (p1:Professor {gender:'"+profg+"'})-[r:cooperateWith]->(p2 {gender:'"+cog+"'}) RETURN *"
+      }
+
+      var viz2 = new NeoVis.default(config2);
+      viz2.render();
+
+      }
+    function openCity(evt, cityName) {
+      var i, tabcontent, tablinks;
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+      tablinks = document.getElementsByClassName("tablinks");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+      }
+      document.getElementById(cityName).style.display = "block";
+      evt.currentTarget.className += " active";
+    }
+    </script>
+
+
   <script>
       $('#myCollapsible').collapse({
 toggle: false

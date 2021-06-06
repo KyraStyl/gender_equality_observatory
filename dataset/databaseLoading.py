@@ -52,6 +52,7 @@ def storeProfessorInNeo4j(tx, professor):
     tx.run("CREATE (:Professor {name:$name, \
                                scholar_Id:$scholar_Id, \
                                gender:$gender, \
+                               genderFlag:$flag, \
                                role:$role, \
                                url_picture:$picture, \
                                citedby:$citedby, \
@@ -66,6 +67,7 @@ def storeProfessorInNeo4j(tx, professor):
                                name=professor["name"], \
                                scholar_Id=professor["scholar_id"], \
                                gender=professor["gender"], \
+                               flag= 1 if professor["gender"]=="F" else 0, \
                                role=professor["role"], \
                                picture=professor["url_picture"], \
                                citedby=professor["citedby"], \
@@ -90,6 +92,7 @@ def storeCoauthorInNeo4j(tx, coauthor):
     tx.run("CREATE (:Coauthor {name:$name, \
                                scholar_Id:$scholar_Id, \
                                gender:$gender, \
+                               genderFlag:$flag, \
                                affiliation:$affiliation, \
                                url_picture:$picture, \
                                citedby:$citedby, \
@@ -102,6 +105,7 @@ def storeCoauthorInNeo4j(tx, coauthor):
                                name=coauthor["name"], \
                                scholar_Id=coauthor["scholar_id"], \
                                gender=coauthor["gender"], \
+                               flag= 1 if coauthor["gender"] =="F" else 0, \
                                affiliation=coauthor["affiliation"], \
                                picture=coauthor["url_picture"], \
                                citedby=coauthor["citedby"], \
