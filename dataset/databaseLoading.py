@@ -20,15 +20,15 @@ universities_departments = {
 
 
 
-professors = pd.read_csv("web_data_mining_partB/dataset/professors.csv", header=0)
+professors = pd.read_csv("dataset/professors.csv", header=0)
 #professors = pd.read_csv("professors2.csv", header=0)
 
 
-coauthors = pd.read_csv("web_data_mining_partB/dataset/coauthors.csv", header=0)
+coauthors = pd.read_csv("dataset/coauthors.csv", header=0)
 #coauthors = pd.read_csv("co.csv", header=0)
 
 
-relations = pd.read_csv("web_data_mining_partB/dataset/relations.csv", header=0)
+relations = pd.read_csv("dataset/relations.csv", header=0)
 #relations = pd.read_csv("relations2.csv", header=0)
 
 
