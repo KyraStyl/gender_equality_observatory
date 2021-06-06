@@ -3,10 +3,21 @@
 {% block title %}Graph Metrics{% endblock %}
 
 {% block content %}
-<br>
-<div class="container" style="margin-left: 80px; ">
+<div class="container row w-100 justify-content-center">
+<div class="row container align-self-center w-75 mt-2">
+        {% for item in info%}
+        <div class="col w-25 card border-info mx-1 mb-3">
+          <div class="card-header h5 text-center"><b>Number of {{item[0]}}</b></div>
+          <div class="card-body text-center text-info">
+            <h3 class="card-title text-center">{{item[1]}}</h3>
+            <h6 class="card-text"><i>{{item[1]}} different {{item[0]}}</i></h6>
+          </div>
+        </div>
+        {% endfor%}
+</div>
+<div class="container mt-2 align-self-center justify-content-center">
 
-    <div class="row">
+    <div class="row justify-content-center">
         <div class="col-md-2">
           <div class="card-counter primary" title="dsadadasdasds" >
             <i class="fa fa-users"></i>
@@ -47,7 +58,7 @@
           </div>
       </div>
 </div>
-
+</div>
 
 <script>
   function draw() {
