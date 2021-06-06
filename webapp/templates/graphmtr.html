@@ -235,7 +235,7 @@
                   thickness:"citedby" 
               }
           },
-            initial_cypher: "MATCH (p1:Professor {gender:'"+profg+"'})-[r:cooperateWith]->(p2 {gender:'"+cog+"'}) RETURN *"
+            initial_cypher: "MATCH (p1:Professor {gender:'"+profg+"'})-[r:cooperateWith]->(c:Coauthor {gender:'"+cog+"'}) RETURN *"
       }
 
       var viz2 = new NeoVis.default(config2);
