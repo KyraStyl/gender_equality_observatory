@@ -1,0 +1,19 @@
+To run this flask app you need to 
+
+1) run docker image
+
+sudo docker run -it --rm --publish=7474:7474 --publish=7687:7687 --user="$(id -u):$(id -g)" -e NEO4J_AUTH=none --env NEO4JLABS_PLUGINS='["graph-data-science"]' neo4j:4.2
+
+2) install required libraries
+
+pip install -r webapp/requirements.txt
+
+3) load database
+
+python3 dataset/databaseLoading.py 
+
+4) run flask app 
+
+./start-flask-app.sh
+
+
