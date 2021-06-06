@@ -1,6 +1,6 @@
 {% extends 'base.html' %}
 
-{% block title %}Graph Metrics{% endblock %}
+{% block title %}Graph Info{% endblock %}
 
 {% block content %}
 <div class="container row w-100 justify-content-center">
@@ -173,7 +173,7 @@
 <br>
 <br>
 <div class="container" >
-  <div class="row" style="margin-left: 5em;">
+  <div class="row justify-content-center" style="margin-left: 5em;">
   <h5>Professor Gender:</h5>   <!-- press the radio buttons and then press the thrid tab-->
   <div class="col">
     <input type="radio" name="prof" value="M">Male</input>
@@ -191,10 +191,10 @@
 <div class="container">
   
 
-    <div class="tab">
-      <button class="tablinks" onclick="openCity(event, 'London')">Professors Department Universities</button>
-      <button class="tablinks" onclick="openCity(event, 'Paris')">All CoAuthors </button>
-      <button class="tablinks" onclick="openCity(event, 'Tokyo'),ProGenderCoauthors();">Professor-Gender-CoAuthor</button>
+    <div class="tab row justify-content-center">
+      <button class="tablinks col" onclick="openCity(event, 'London')">Professors Department Universities</button>
+      <button class="tablinks col" onclick="openCity(event, 'Paris')">All CoAuthors </button>
+      <button class="tablinks col" onclick="openCity(event, 'Tokyo'),ProGenderCoauthors();">Professor-Gender-CoAuthor</button>
     </div>
     
     <div id="London" class="tabcontent">
