@@ -328,3 +328,12 @@ msgstr "με το μεγαλύτερο closeness centrality"
 
 msgid "with the Highest Closeness Harmonic Centrality"
 msgstr "με το μεγαλύτερο closeness harmonic centralty"
+
+msgid "Professors"
+msgstr "Καθηγητές"
+
+msgid "Co-authors"
+msgstr "Συν-συγγραφείς"
+
+msgid "Triangles"
+msgstr "Τρίγωνα"
