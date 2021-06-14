@@ -20,24 +20,24 @@ This work aims to create a gender balance observatory on scientific research, by
 
 # How To Run Flask App
 
-##1. Run docker image of Neo4j with gds plugin
+## 1. Run docker image of Neo4j with gds plugin
 ```
 sudo docker run -it --rm --publish=7474:7474 --publish=7687:7687 --user="$(id -u):$(id -g)" -e NEO4J_AUTH=none --env NEO4JLABS_PLUGINS='["graph-data-science"]' neo4j:4.2
 ```
 
-##2. Install all the necessary libraries in python
+## 2. Install all the necessary libraries in python
 ```
 pip install -r webapp/requirements.txt
 ```
 
-##3. Load the Neo4j Database
+## 3. Load the Neo4j Database
 ```
 python 3 dataset/databaseLoading.py
 ```
 
-##4. Run the Flask App
+## 4. Run the Flask App
 ```
 ./start-flask-app.sh
 ```
 
-##5. Visit Web Application at http://127.0.0.1:5000/
+## 5. Visit Web Application at http://127.0.0.1:5000/
